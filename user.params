@@ -1,0 +1,3 @@
+server :
+  base-url = "https://app-testing.jitx.com"
+  url = "https://app-testing.jitx.com/api/"

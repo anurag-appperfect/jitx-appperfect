@@ -1,0 +1,40 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/c_1206pol :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern c_1206pol-lp :
+  pad p[1] : smd-pad(Rectangle(1.524, 2.032)) at loc(-1.4, 0.0, 0.0)
+  pad p[2] : smd-pad(Rectangle(1.524, 2.032)) at loc(1.4, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.5654, -0.762), Point(-2.54, -0.762) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.7432, -0.9398), Point(-2.7432, -0.9652) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.7432, -0.5588), Point(-2.7432, -0.9398) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.9464, -0.762), Point(-2.5654, -0.762) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.0, -1.2192), Point(0.0, 1.2192) ])
+  model3d = Model3D("chip_cms_pol.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(0.16, 0.16, 0.16),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+public pcb-component c_1206pol :
+  pin-properties :
+    [pin:Ref | pads:Int ...]
+    [p[1] | 1]
+    [p[2] | 2]
+  
+  make-box-symbol()
+  assign-landpattern(c_1206pol-lp)
+
+  name = "FSL-MINI:c_1206POL"

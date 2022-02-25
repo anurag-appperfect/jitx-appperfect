@@ -1,0 +1,1039 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/mk60fx512vlq15-rescue-ciaa_fsl_mini :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern lqfp144 :
+  pad p[1] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 8.75, 0.0)
+  pad p[2] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 8.25, 0.0)
+  pad p[3] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 7.75, 0.0)
+  pad p[4] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 7.25, 0.0)
+  pad p[5] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 6.75, 0.0)
+  pad p[6] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 6.25, 0.0)
+  pad p[7] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 5.75, 0.0)
+  pad p[8] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 5.25, 0.0)
+  pad p[9] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 4.75, 0.0)
+  pad p[10] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 4.25, 0.0)
+  pad p[11] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 3.75, 0.0)
+  pad p[12] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 3.25, 0.0)
+  pad p[13] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 2.75, 0.0)
+  pad p[14] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 2.25, 0.0)
+  pad p[15] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 1.75, 0.0)
+  pad p[16] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 1.25, 0.0)
+  pad p[17] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 0.75, 0.0)
+  pad p[18] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, 0.25, 0.0)
+  pad p[19] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -0.25, 0.0)
+  pad p[20] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -0.75, 0.0)
+  pad p[21] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -1.25, 0.0)
+  pad p[22] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -1.75, 0.0)
+  pad p[23] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -2.25, 0.0)
+  pad p[24] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -2.75, 0.0)
+  pad p[25] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -3.25, 0.0)
+  pad p[26] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -3.75, 0.0)
+  pad p[27] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -4.25, 0.0)
+  pad p[28] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -4.75, 0.0)
+  pad p[29] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -5.25, 0.0)
+  pad p[30] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -5.75, 0.0)
+  pad p[31] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -6.25, 0.0)
+  pad p[32] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -6.75, 0.0)
+  pad p[33] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -7.25, 0.0)
+  pad p[34] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -7.75, 0.0)
+  pad p[35] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -8.25, 0.0)
+  pad p[36] : smd-pad(Rectangle(1.5, 0.3)) at loc(-10.85, -8.75, 0.0)
+  pad p[37] : smd-pad(Rectangle(1.5, 0.3)) at loc(-8.75, -10.85, 90.0)
+  pad p[38] : smd-pad(Rectangle(1.5, 0.3)) at loc(-8.25, -10.85, 90.0)
+  pad p[39] : smd-pad(Rectangle(1.5, 0.3)) at loc(-7.75, -10.85, 90.0)
+  pad p[40] : smd-pad(Rectangle(1.5, 0.3)) at loc(-7.25, -10.85, 90.0)
+  pad p[41] : smd-pad(Rectangle(1.5, 0.3)) at loc(-6.75, -10.85, 90.0)
+  pad p[42] : smd-pad(Rectangle(1.5, 0.3)) at loc(-6.25, -10.85, 90.0)
+  pad p[43] : smd-pad(Rectangle(1.5, 0.3)) at loc(-5.75, -10.85, 90.0)
+  pad p[44] : smd-pad(Rectangle(1.5, 0.3)) at loc(-5.25, -10.85, 90.0)
+  pad p[45] : smd-pad(Rectangle(1.5, 0.3)) at loc(-4.75, -10.85, 90.0)
+  pad p[46] : smd-pad(Rectangle(1.5, 0.3)) at loc(-4.25, -10.85, 90.0)
+  pad p[47] : smd-pad(Rectangle(1.5, 0.3)) at loc(-3.75, -10.85, 90.0)
+  pad p[48] : smd-pad(Rectangle(1.5, 0.3)) at loc(-3.25, -10.85, 90.0)
+  pad p[49] : smd-pad(Rectangle(1.5, 0.3)) at loc(-2.75, -10.85, 90.0)
+  pad p[50] : smd-pad(Rectangle(1.5, 0.3)) at loc(-2.25, -10.85, 90.0)
+  pad p[51] : smd-pad(Rectangle(1.5, 0.3)) at loc(-1.75, -10.85, 90.0)
+  pad p[52] : smd-pad(Rectangle(1.5, 0.3)) at loc(-1.25, -10.85, 90.0)
+  pad p[53] : smd-pad(Rectangle(1.5, 0.3)) at loc(-0.75, -10.85, 90.0)
+  pad p[54] : smd-pad(Rectangle(1.5, 0.3)) at loc(-0.25, -10.85, 90.0)
+  pad p[55] : smd-pad(Rectangle(1.5, 0.3)) at loc(0.25, -10.85, 90.0)
+  pad p[56] : smd-pad(Rectangle(1.5, 0.3)) at loc(0.75, -10.85, 90.0)
+  pad p[57] : smd-pad(Rectangle(1.5, 0.3)) at loc(1.25, -10.85, 90.0)
+  pad p[58] : smd-pad(Rectangle(1.5, 0.3)) at loc(1.75, -10.85, 90.0)
+  pad p[59] : smd-pad(Rectangle(1.5, 0.3)) at loc(2.25, -10.85, 90.0)
+  pad p[60] : smd-pad(Rectangle(1.5, 0.3)) at loc(2.75, -10.85, 90.0)
+  pad p[61] : smd-pad(Rectangle(1.5, 0.3)) at loc(3.25, -10.85, 90.0)
+  pad p[62] : smd-pad(Rectangle(1.5, 0.3)) at loc(3.75, -10.85, 90.0)
+  pad p[63] : smd-pad(Rectangle(1.5, 0.3)) at loc(4.25, -10.85, 90.0)
+  pad p[64] : smd-pad(Rectangle(1.5, 0.3)) at loc(4.75, -10.85, 90.0)
+  pad p[65] : smd-pad(Rectangle(1.5, 0.3)) at loc(5.25, -10.85, 90.0)
+  pad p[66] : smd-pad(Rectangle(1.5, 0.3)) at loc(5.75, -10.85, 90.0)
+  pad p[67] : smd-pad(Rectangle(1.5, 0.3)) at loc(6.25, -10.85, 90.0)
+  pad p[68] : smd-pad(Rectangle(1.5, 0.3)) at loc(6.75, -10.85, 90.0)
+  pad p[69] : smd-pad(Rectangle(1.5, 0.3)) at loc(7.25, -10.85, 90.0)
+  pad p[70] : smd-pad(Rectangle(1.5, 0.3)) at loc(7.75, -10.85, 90.0)
+  pad p[71] : smd-pad(Rectangle(1.5, 0.3)) at loc(8.25, -10.85, 90.0)
+  pad p[72] : smd-pad(Rectangle(1.5, 0.3)) at loc(8.75, -10.85, 90.0)
+  pad p[73] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -8.75, 0.0)
+  pad p[74] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -8.25, 0.0)
+  pad p[75] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -7.75, 0.0)
+  pad p[76] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -7.25, 0.0)
+  pad p[77] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -6.75, 0.0)
+  pad p[78] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -6.25, 0.0)
+  pad p[79] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -5.75, 0.0)
+  pad p[80] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -5.25, 0.0)
+  pad p[81] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -4.75, 0.0)
+  pad p[82] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -4.25, 0.0)
+  pad p[83] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -3.75, 0.0)
+  pad p[84] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -3.25, 0.0)
+  pad p[85] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -2.75, 0.0)
+  pad p[86] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -2.25, 0.0)
+  pad p[87] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -1.75, 0.0)
+  pad p[88] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -1.25, 0.0)
+  pad p[89] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -0.75, 0.0)
+  pad p[90] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, -0.25, 0.0)
+  pad p[91] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 0.25, 0.0)
+  pad p[92] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 0.75, 0.0)
+  pad p[93] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 1.25, 0.0)
+  pad p[94] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 1.75, 0.0)
+  pad p[95] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 2.25, 0.0)
+  pad p[96] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 2.75, 0.0)
+  pad p[97] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 3.25, 0.0)
+  pad p[98] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 3.75, 0.0)
+  pad p[99] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 4.25, 0.0)
+  pad p[100] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 4.75, 0.0)
+  pad p[101] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 5.25, 0.0)
+  pad p[102] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 5.75, 0.0)
+  pad p[103] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 6.25, 0.0)
+  pad p[104] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 6.75, 0.0)
+  pad p[105] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 7.25, 0.0)
+  pad p[106] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 7.75, 0.0)
+  pad p[107] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 8.25, 0.0)
+  pad p[108] : smd-pad(Rectangle(1.5, 0.3)) at loc(10.85, 8.75, 0.0)
+  pad p[109] : smd-pad(Rectangle(1.5, 0.3)) at loc(8.75, 10.85, 90.0)
+  pad p[110] : smd-pad(Rectangle(1.5, 0.3)) at loc(8.25, 10.85, 90.0)
+  pad p[111] : smd-pad(Rectangle(1.5, 0.3)) at loc(7.75, 10.85, 90.0)
+  pad p[112] : smd-pad(Rectangle(1.5, 0.3)) at loc(7.25, 10.85, 90.0)
+  pad p[113] : smd-pad(Rectangle(1.5, 0.3)) at loc(6.75, 10.85, 90.0)
+  pad p[114] : smd-pad(Rectangle(1.5, 0.3)) at loc(6.25, 10.85, 90.0)
+  pad p[115] : smd-pad(Rectangle(1.5, 0.3)) at loc(5.75, 10.85, 90.0)
+  pad p[116] : smd-pad(Rectangle(1.5, 0.3)) at loc(5.25, 10.85, 90.0)
+  pad p[117] : smd-pad(Rectangle(1.5, 0.3)) at loc(4.75, 10.85, 90.0)
+  pad p[118] : smd-pad(Rectangle(1.5, 0.3)) at loc(4.25, 10.85, 90.0)
+  pad p[119] : smd-pad(Rectangle(1.5, 0.3)) at loc(3.75, 10.85, 90.0)
+  pad p[120] : smd-pad(Rectangle(1.5, 0.3)) at loc(3.25, 10.85, 90.0)
+  pad p[121] : smd-pad(Rectangle(1.5, 0.3)) at loc(2.75, 10.85, 90.0)
+  pad p[122] : smd-pad(Rectangle(1.5, 0.3)) at loc(2.25, 10.85, 90.0)
+  pad p[123] : smd-pad(Rectangle(1.5, 0.3)) at loc(1.75, 10.85, 90.0)
+  pad p[124] : smd-pad(Rectangle(1.5, 0.3)) at loc(1.25, 10.85, 90.0)
+  pad p[125] : smd-pad(Rectangle(1.5, 0.3)) at loc(0.75, 10.85, 90.0)
+  pad p[126] : smd-pad(Rectangle(1.5, 0.3)) at loc(0.25, 10.85, 90.0)
+  pad p[127] : smd-pad(Rectangle(1.5, 0.3)) at loc(-0.25, 10.85, 90.0)
+  pad p[128] : smd-pad(Rectangle(1.5, 0.3)) at loc(-0.75, 10.85, 90.0)
+  pad p[129] : smd-pad(Rectangle(1.5, 0.3)) at loc(-1.25, 10.85, 90.0)
+  pad p[130] : smd-pad(Rectangle(1.5, 0.3)) at loc(-1.75, 10.85, 90.0)
+  pad p[131] : smd-pad(Rectangle(1.5, 0.3)) at loc(-2.25, 10.85, 90.0)
+  pad p[132] : smd-pad(Rectangle(1.5, 0.3)) at loc(-2.75, 10.85, 90.0)
+  pad p[133] : smd-pad(Rectangle(1.5, 0.3)) at loc(-3.25, 10.85, 90.0)
+  pad p[134] : smd-pad(Rectangle(1.5, 0.3)) at loc(-3.75, 10.85, 90.0)
+  pad p[135] : smd-pad(Rectangle(1.5, 0.3)) at loc(-4.25, 10.85, 90.0)
+  pad p[136] : smd-pad(Rectangle(1.5, 0.3)) at loc(-4.75, 10.85, 90.0)
+  pad p[137] : smd-pad(Rectangle(1.5, 0.3)) at loc(-5.25, 10.85, 90.0)
+  pad p[138] : smd-pad(Rectangle(1.5, 0.3)) at loc(-5.75, 10.85, 90.0)
+  pad p[139] : smd-pad(Rectangle(1.5, 0.3)) at loc(-6.25, 10.85, 90.0)
+  pad p[140] : smd-pad(Rectangle(1.5, 0.3)) at loc(-6.75, 10.85, 90.0)
+  pad p[141] : smd-pad(Rectangle(1.5, 0.3)) at loc(-7.25, 10.85, 90.0)
+  pad p[142] : smd-pad(Rectangle(1.5, 0.3)) at loc(-7.75, 10.85, 90.0)
+  pad p[143] : smd-pad(Rectangle(1.5, 0.3)) at loc(-8.25, 10.85, 90.0)
+  pad p[144] : smd-pad(Rectangle(1.5, 0.3)) at loc(-8.75, 10.85, 90.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-10.85, 9.38784), 0.035)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(-10.0, 9.75), Point(-9.75, 10.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(-9.75, 10.0), Point(9.75, 10.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(9.75, 10.0), Point(10.0, 9.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(10.0, 9.75), Point(10.0, -9.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(10.0, -9.75), Point(9.75, -10.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(9.75, -10.0), Point(-9.75, -10.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(-9.75, -10.0), Point(-10.0, -9.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2, [ Point(-10.0, -9.75), Point(-10.0, 9.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-8.75, 8.75), 0.4)
+  model3d = Model3D("lqfp144.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(180.0, 0.0, -90.0))
+  ref-label()
+
+pcb-symbol mk60fx512vlq15-rescue-ciaa_fsl_mini-symbol :
+  pin PTE0SDHC0_D1 at Point(30.48, -82.55) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE1LLWU_P0SDHC0_D0 at Point(30.48, -85.09) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE2LLWU_P1SDHC0_DCLK at Point(30.48, -87.63) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE3SDHC0_CMD at Point(30.48, -90.17) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[0] at Point(-30.48, -19.05) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[0] at Point(-30.48, -44.45) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE4LLWU_P2SDHC0_D3 at Point(30.48, -92.71) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE5SDHC0_D2 at Point(30.48, -95.25) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE6 at Point(30.48, -97.79) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE7 at Point(30.48, -100.33) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin USB0_DM at Point(-30.48, -113.03) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA1_DM at Point(30.48, 31.75) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin XTAL32 at Point(-30.48, 49.53) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA0JTAG_TCLK at Point(-30.48, 6.35) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA8 at Point(-30.48, 74.929) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[1] at Point(-30.48, -29.21) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA29ADC2_SE12 at Point(30.48, 85.09) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB9~UART3_CTS at Point(30.48, 1.27) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE8UART5_TX at Point(-30.48, -3.81) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VOUT33 at Point(30.48, -115.57) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDDA at Point(30.48, 80.009) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin EXTAL32 at Point(-30.48, 52.07) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA1JTAG_TDI at Point(-30.48, 3.81) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA9 at Point(-30.48, 72.39) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[1] at Point(-30.48, -57.15) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB0LLWU_P5RMII0_MDIO at Point(-30.48, 21.59) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB10UART3_RX at Point(30.48, -1.27) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE9UART5_RX at Point(-30.48, -6.35) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VREGIN at Point(30.48, -118.11) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VREFH at Point(30.48, 77.47) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VBAT at Point(30.48, -77.47) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA2JTAG_TDO at Point(-30.48, 1.27) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA10 at Point(-30.48, 69.85) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA18EXTAL0 at Point(-30.48, 26.669) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB1RMII0_MDC at Point(-30.48, 19.05) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB11UART3_TX at Point(30.48, -3.81) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE10 at Point(30.48, -105.41) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA2_DP at Point(30.48, 24.13) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VREFL at Point(30.48, 74.929) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[2] at Point(-30.48, -24.13) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA3JTAG_TMS at Point(-30.48, -1.27) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA11 at Point(-30.48, 67.31) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA19 at Point(-30.48, 24.13) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB2ADC0_SE12 at Point(-30.48, 92.71) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[2] at Point(-30.48, -59.69) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE11 at Point(30.48, -107.95) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA2_DM at Point(30.48, 26.669) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSSA at Point(30.48, 69.85) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[3] at Point(-30.48, -52.07) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA4LLWU_P3 at Point(30.48, 16.509) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA12RMII0_RXD1 at Point(-30.48, 41.91) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin nRESET at Point(30.48, -72.39) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB3ADC0_SE13 at Point(-30.48, 90.17) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[3] at Point(-30.48, -31.75) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE12 at Point(30.48, -110.49) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA3_DP at Point(30.48, 19.05) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin ADC1_SE16 at Point(-30.48, -13.97) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE24EXTAL1 at Point(30.48, 52.07) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA5RMII0_RXER at Point(-30.48, 44.449) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA13RMII0_RXD0 at Point(-30.48, 39.37) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA24 at Point(30.48, 13.969) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB4ADC1_SE10 at Point(-30.48, 87.63) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB16 at Point(30.48, -6.35) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[4] at Point(-30.48, -21.59) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA3_DM at Point(30.48, 21.59) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin ADC0_SE16 at Point(-30.48, -11.43) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE25XTAL1ADC0_SE18 at Point(30.48, 49.53) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[5] at Point(-30.48, -26.67) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA14RMII0_CRS_DV at Point(-30.48, 36.83) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA25 at Point(30.48, 11.43) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB5ADC1_SE11 at Point(-30.48, 85.09) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB17 at Point(30.48, -8.89) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[4] at Point(-30.48, -46.99) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA0_DP at Point(30.48, 34.29) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VREF_OUT at Point(30.48, 72.39) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE26 at Point(30.48, -62.23) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[5] at Point(-30.48, -54.61) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA15RMII0_TXEN at Point(-30.48, 34.29) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA26ADC2_SE15 at Point(30.48, 92.71) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB6 at Point(30.48, 8.889) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB18CAN0_TX at Point(30.48, -11.43) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[6] at Point(-30.48, -49.53) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA0_DM at Point(30.48, 36.83) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin DAC0_OUT at Point(30.48, 44.449) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE27 at Point(30.48, -64.77) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA6 at Point(-30.48, 80.009) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA16RMII0_TXD0 at Point(-30.48, 31.75) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA27ADC2_SE14 at Point(30.48, 90.17) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB7 at Point(30.48, 6.35) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB19CAN0_RX at Point(30.48, -13.97) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin USB0_DP at Point(-30.48, -115.57) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PGA1_DP at Point(30.48, 29.209) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin DAC1_OUTADC1_SE23 at Point(30.48, 41.91) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTE28 at Point(30.48, -67.31) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA7 at Point(-30.48, 77.47) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA17RMII0_TXD1 at Point(-30.48, 29.209) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTA28ADC2_SE13 at Point(30.48, 87.63) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB8~UART3_RTS at Point(30.48, 3.81) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB20 at Point(30.48, -16.51) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB21 at Point(30.48, -19.05) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC5LLWU_P9 at Point(30.48, -39.37) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC15 at Point(-30.48, -107.95) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD3SPI0_SINUART2_TX at Point(30.48, 57.15) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD11SPI2_PCS0 at Point(-30.48, -85.09) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB22 at Point(30.48, -21.59) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC6LLWU_P10 at Point(30.48, -41.91) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[7] at Point(-30.48, -64.77) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD4LLWU_P14 at Point(-30.48, -72.39) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD12SPI2_SCK at Point(-30.48, -87.63) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTB23 at Point(30.48, -24.13) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC7 at Point(30.48, -44.45) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[6] at Point(-30.48, -36.83) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD5 at Point(30.48, -59.69) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD13SPI2_SOUT at Point(-30.48, -90.17) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC0 at Point(30.48, -26.67) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC8 at Point(30.48, -46.99) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC16 at Point(-30.48, 62.23) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD6LLWU_P15UART0_RX at Point(-30.48, -74.93) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD14SPI2_SIN at Point(-30.48, -92.71) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC1LLWU_P6 at Point(30.48, -29.21) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC9 at Point(30.48, -49.53) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC17 at Point(-30.48, 59.69) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[8] at Point(-30.48, -67.31) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD15SPI2_PCS1 at Point(-30.48, -95.25) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC2 at Point(30.48, -31.75) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC10 at Point(30.48, -52.07) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC18 at Point(-30.48, 57.15) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[7] at Point(-30.48, -39.37) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC3LLWU_P7 at Point(30.48, -34.29) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC11LLWU_P11 at Point(30.48, -54.61) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC19 at Point(30.48, -57.15) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD7UART0_TX at Point(-30.48, -77.47) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VSS[9] at Point(-30.48, -62.23) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC12 at Point(-30.48, -100.33) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD0LLWU_P12SPI0_PCS0~UART2_RTS at Point(30.48, 64.769) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD8I2C0_SCL at Point(-30.48, 13.969) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD[8] at Point(-30.48, -34.29) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC13 at Point(-30.48, -102.87) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD1SPI0_SCK~UART2_CTS at Point(30.48, 62.23) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD9I2C0_SDA at Point(-30.48, 11.43) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC4LLWU_P8 at Point(30.48, -36.83) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTC14 at Point(-30.48, -105.41) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD2LLWU_P13SPI0_SOUTUART2_RX at Point(30.48, 59.69) with :
+    direction = Right
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+  pin PTD10 at Point(-30.48, -82.55) with :
+    direction = Left
+    length = 10.16
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Rectangle(60.96, 214.63, loc(0.0, -12.065))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-30.48, 95.55))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-30.48, 96.612))
+
+public pcb-component mk60fx512vlq15-rescue-ciaa_fsl_mini :
+  pin PTE0SDHC0_D1
+  pin PTE1LLWU_P0SDHC0_D0
+  pin PTE2LLWU_P1SDHC0_DCLK
+  pin PTE3SDHC0_CMD
+  pin PTE4LLWU_P2SDHC0_D3
+  pin PTE5SDHC0_D2
+  pin PTE6
+  pin PTE7
+  pin PTE8UART5_TX
+  pin PTE9UART5_RX
+  pin PTE10
+  pin PTE11
+  pin PTE12
+  pin USB0_DP
+  pin USB0_DM
+  pin VOUT33
+  pin VREGIN
+  pin PGA2_DP
+  pin PGA2_DM
+  pin PGA3_DP
+  pin PGA3_DM
+  pin PGA0_DP
+  pin PGA0_DM
+  pin PGA1_DP
+  pin PGA1_DM
+  pin VDDA
+  pin VREFH
+  pin VREFL
+  pin VSSA
+  pin ADC1_SE16
+  pin ADC0_SE16
+  pin VREF_OUT
+  pin DAC0_OUT
+  pin DAC1_OUTADC1_SE23
+  pin XTAL32
+  pin EXTAL32
+  pin VBAT
+  pin PTE24EXTAL1
+  pin PTE25XTAL1ADC0_SE18
+  pin PTE26
+  pin PTE27
+  pin PTE28
+  pin PTA0JTAG_TCLK
+  pin PTA1JTAG_TDI
+  pin PTA2JTAG_TDO
+  pin PTA3JTAG_TMS
+  pin PTA4LLWU_P3
+  pin PTA5RMII0_RXER
+  pin PTA6
+  pin PTA7
+  pin PTA8
+  pin PTA9
+  pin PTA10
+  pin PTA11
+  pin PTA12RMII0_RXD1
+  pin PTA13RMII0_RXD0
+  pin PTA14RMII0_CRS_DV
+  pin PTA15RMII0_TXEN
+  pin PTA16RMII0_TXD0
+  pin PTA17RMII0_TXD1
+  pin PTA18EXTAL0
+  pin PTA19
+  pin nRESET
+  pin PTA24
+  pin PTA25
+  pin PTA26ADC2_SE15
+  pin PTA27ADC2_SE14
+  pin PTA28ADC2_SE13
+  pin PTA29ADC2_SE12
+  pin PTB0LLWU_P5RMII0_MDIO
+  pin PTB1RMII0_MDC
+  pin PTB2ADC0_SE12
+  pin PTB3ADC0_SE13
+  pin PTB4ADC1_SE10
+  pin PTB5ADC1_SE11
+  pin PTB6
+  pin PTB7
+  pin PTB8~UART3_RTS
+  pin PTB9~UART3_CTS
+  pin PTB10UART3_RX
+  pin PTB11UART3_TX
+  pin PTB16
+  pin PTB17
+  pin PTB18CAN0_TX
+  pin PTB19CAN0_RX
+  pin PTB20
+  pin PTB21
+  pin PTB22
+  pin PTB23
+  pin PTC0
+  pin PTC1LLWU_P6
+  pin PTC2
+  pin PTC3LLWU_P7
+  pin PTC4LLWU_P8
+  pin PTC5LLWU_P9
+  pin PTC6LLWU_P10
+  pin PTC7
+  pin PTC8
+  pin PTC9
+  pin PTC10
+  pin PTC11LLWU_P11
+  pin PTC12
+  pin PTC13
+  pin PTC14
+  pin PTC15
+  pin PTC16
+  pin PTC17
+  pin PTC18
+  pin PTC19
+  pin PTD0LLWU_P12SPI0_PCS0~UART2_RTS
+  pin PTD1SPI0_SCK~UART2_CTS
+  pin PTD2LLWU_P13SPI0_SOUTUART2_RX
+  pin PTD3SPI0_SINUART2_TX
+  pin PTD4LLWU_P14
+  pin PTD5
+  pin PTD6LLWU_P15UART0_RX
+  pin PTD7UART0_TX
+  pin PTD8I2C0_SCL
+  pin PTD9I2C0_SDA
+  pin PTD10
+  pin PTD11SPI2_PCS0
+  pin PTD12SPI2_SCK
+  pin PTD13SPI2_SOUT
+  pin PTD14SPI2_SIN
+  pin PTD15SPI2_PCS1
+  port VDD : pin[9]
+  port VSS : pin[10]
+  val lp = lqfp144
+  val sym = mk60fx512vlq15-rescue-ciaa_fsl_mini-symbol
+  landpattern = lp(PTE0SDHC0_D1 => lp.p[1], PTE1LLWU_P0SDHC0_D0 => lp.p[2], PTE2LLWU_P1SDHC0_DCLK => lp.p[3], PTE3SDHC0_CMD => lp.p[4], VDD[0] => lp.p[5], VSS[0] => lp.p[6], PTE4LLWU_P2SDHC0_D3 => lp.p[7], PTE5SDHC0_D2 => lp.p[8], PTE6 => lp.p[9], PTE7 => lp.p[10], PTE8UART5_TX => lp.p[11], PTE9UART5_RX => lp.p[12], PTE10 => lp.p[13], PTE11 => lp.p[14], PTE12 => lp.p[15], VDD[4] => lp.p[16], VSS[4] => lp.p[17], VSS[6] => lp.p[18], USB0_DP => lp.p[19], USB0_DM => lp.p[20], VOUT33 => lp.p[21], VREGIN => lp.p[22], PGA2_DP => lp.p[23], PGA2_DM => lp.p[24], PGA3_DP => lp.p[25], PGA3_DM => lp.p[26], PGA0_DP => lp.p[27], PGA0_DM => lp.p[28], PGA1_DP => lp.p[29], PGA1_DM => lp.p[30], VDDA => lp.p[31], VREFH => lp.p[32], VREFL => lp.p[33], VSSA => lp.p[34], ADC1_SE16 => lp.p[35], ADC0_SE16 => lp.p[36], VREF_OUT => lp.p[37], DAC0_OUT => lp.p[38], DAC1_OUTADC1_SE23 => lp.p[39], XTAL32 => lp.p[40], EXTAL32 => lp.p[41], VBAT => lp.p[42], VDD[2] => lp.p[43], VSS[3] => lp.p[44], PTE24EXTAL1 => lp.p[45], PTE25XTAL1ADC0_SE18 => lp.p[46], PTE26 => lp.p[47], PTE27 => lp.p[48], PTE28 => lp.p[49], PTA0JTAG_TCLK => lp.p[50], PTA1JTAG_TDI => lp.p[51], PTA2JTAG_TDO => lp.p[52], PTA3JTAG_TMS => lp.p[53], PTA4LLWU_P3 => lp.p[54], PTA5RMII0_RXER => lp.p[55], VDD[5] => lp.p[56], VSS[5] => lp.p[57], PTA6 => lp.p[58], PTA7 => lp.p[59], PTA8 => lp.p[60], PTA9 => lp.p[61], PTA10 => lp.p[62], PTA11 => lp.p[63], PTA12RMII0_RXD1 => lp.p[64], PTA13RMII0_RXD0 => lp.p[65], PTA14RMII0_CRS_DV => lp.p[66], PTA15RMII0_TXEN => lp.p[67], PTA16RMII0_TXD0 => lp.p[68], PTA17RMII0_TXD1 => lp.p[69], VDD[1] => lp.p[70], VSS[1] => lp.p[71], PTA18EXTAL0 => lp.p[72], PTA19 => lp.p[73], nRESET => lp.p[74], PTA24 => lp.p[75], PTA25 => lp.p[76], PTA26ADC2_SE15 => lp.p[77], PTA27ADC2_SE14 => lp.p[78], PTA28ADC2_SE13 => lp.p[79], PTA29ADC2_SE12 => lp.p[80], PTB0LLWU_P5RMII0_MDIO => lp.p[81], PTB1RMII0_MDC => lp.p[82], PTB2ADC0_SE12 => lp.p[83], PTB3ADC0_SE13 => lp.p[84], PTB4ADC1_SE10 => lp.p[85], PTB5ADC1_SE11 => lp.p[86], PTB6 => lp.p[87], PTB7 => lp.p[88], PTB8~UART3_RTS => lp.p[89], PTB9~UART3_CTS => lp.p[90], PTB10UART3_RX => lp.p[91], PTB11UART3_TX => lp.p[92], VSS[2] => lp.p[93], VDD[3] => lp.p[94], PTB16 => lp.p[95], PTB17 => lp.p[96], PTB18CAN0_TX => lp.p[97], PTB19CAN0_RX => lp.p[98], PTB20 => lp.p[99], PTB21 => lp.p[100], PTB22 => lp.p[101], PTB23 => lp.p[102], PTC0 => lp.p[103], PTC1LLWU_P6 => lp.p[104], PTC2 => lp.p[105], PTC3LLWU_P7 => lp.p[106], VSS[9] => lp.p[107], VDD[8] => lp.p[108], PTC4LLWU_P8 => lp.p[109], PTC5LLWU_P9 => lp.p[110], PTC6LLWU_P10 => lp.p[111], PTC7 => lp.p[112], PTC8 => lp.p[113], PTC9 => lp.p[114], PTC10 => lp.p[115], PTC11LLWU_P11 => lp.p[116], PTC12 => lp.p[117], PTC13 => lp.p[118], PTC14 => lp.p[119], PTC15 => lp.p[120], VSS[7] => lp.p[121], VDD[6] => lp.p[122], PTC16 => lp.p[123], PTC17 => lp.p[124], PTC18 => lp.p[125], PTC19 => lp.p[126], PTD0LLWU_P12SPI0_PCS0~UART2_RTS => lp.p[127], PTD1SPI0_SCK~UART2_CTS => lp.p[128], PTD2LLWU_P13SPI0_SOUTUART2_RX => lp.p[129], PTD3SPI0_SINUART2_TX => lp.p[130], PTD4LLWU_P14 => lp.p[131], PTD5 => lp.p[132], PTD6LLWU_P15UART0_RX => lp.p[133], VSS[8] => lp.p[134], VDD[7] => lp.p[135], PTD7UART0_TX => lp.p[136], PTD8I2C0_SCL => lp.p[137], PTD9I2C0_SDA => lp.p[138], PTD10 => lp.p[139], PTD11SPI2_PCS0 => lp.p[140], PTD12SPI2_SCK => lp.p[141], PTD13SPI2_SOUT => lp.p[142], PTD14SPI2_SIN => lp.p[143], PTD15SPI2_PCS1 => lp.p[144])
+  symbol = sym(PTE0SDHC0_D1 => sym.PTE0SDHC0_D1, PTE1LLWU_P0SDHC0_D0 => sym.PTE1LLWU_P0SDHC0_D0, PTE2LLWU_P1SDHC0_DCLK => sym.PTE2LLWU_P1SDHC0_DCLK, PTE3SDHC0_CMD => sym.PTE3SDHC0_CMD, VDD[0] => sym.VDD[0], VSS[0] => sym.VSS[0], PTE4LLWU_P2SDHC0_D3 => sym.PTE4LLWU_P2SDHC0_D3, PTE5SDHC0_D2 => sym.PTE5SDHC0_D2, PTE6 => sym.PTE6, PTE7 => sym.PTE7, PTE8UART5_TX => sym.PTE8UART5_TX, PTE9UART5_RX => sym.PTE9UART5_RX, PTE10 => sym.PTE10, PTE11 => sym.PTE11, PTE12 => sym.PTE12, VDD[4] => sym.VDD[4], VSS[4] => sym.VSS[4], VSS[6] => sym.VSS[6], USB0_DP => sym.USB0_DP, USB0_DM => sym.USB0_DM, VOUT33 => sym.VOUT33, VREGIN => sym.VREGIN, PGA2_DP => sym.PGA2_DP, PGA2_DM => sym.PGA2_DM, PGA3_DP => sym.PGA3_DP, PGA3_DM => sym.PGA3_DM, PGA0_DP => sym.PGA0_DP, PGA0_DM => sym.PGA0_DM, PGA1_DP => sym.PGA1_DP, PGA1_DM => sym.PGA1_DM, VDDA => sym.VDDA, VREFH => sym.VREFH, VREFL => sym.VREFL, VSSA => sym.VSSA, ADC1_SE16 => sym.ADC1_SE16, ADC0_SE16 => sym.ADC0_SE16, VREF_OUT => sym.VREF_OUT, DAC0_OUT => sym.DAC0_OUT, DAC1_OUTADC1_SE23 => sym.DAC1_OUTADC1_SE23, XTAL32 => sym.XTAL32, EXTAL32 => sym.EXTAL32, VBAT => sym.VBAT, VDD[2] => sym.VDD[2], VSS[3] => sym.VSS[3], PTE24EXTAL1 => sym.PTE24EXTAL1, PTE25XTAL1ADC0_SE18 => sym.PTE25XTAL1ADC0_SE18, PTE26 => sym.PTE26, PTE27 => sym.PTE27, PTE28 => sym.PTE28, PTA0JTAG_TCLK => sym.PTA0JTAG_TCLK, PTA1JTAG_TDI => sym.PTA1JTAG_TDI, PTA2JTAG_TDO => sym.PTA2JTAG_TDO, PTA3JTAG_TMS => sym.PTA3JTAG_TMS, PTA4LLWU_P3 => sym.PTA4LLWU_P3, PTA5RMII0_RXER => sym.PTA5RMII0_RXER, VDD[5] => sym.VDD[5], VSS[5] => sym.VSS[5], PTA6 => sym.PTA6, PTA7 => sym.PTA7, PTA8 => sym.PTA8, PTA9 => sym.PTA9, PTA10 => sym.PTA10, PTA11 => sym.PTA11, PTA12RMII0_RXD1 => sym.PTA12RMII0_RXD1, PTA13RMII0_RXD0 => sym.PTA13RMII0_RXD0, PTA14RMII0_CRS_DV => sym.PTA14RMII0_CRS_DV, PTA15RMII0_TXEN => sym.PTA15RMII0_TXEN, PTA16RMII0_TXD0 => sym.PTA16RMII0_TXD0, PTA17RMII0_TXD1 => sym.PTA17RMII0_TXD1, VDD[1] => sym.VDD[1], VSS[1] => sym.VSS[1], PTA18EXTAL0 => sym.PTA18EXTAL0, PTA19 => sym.PTA19, nRESET => sym.nRESET, PTA24 => sym.PTA24, PTA25 => sym.PTA25, PTA26ADC2_SE15 => sym.PTA26ADC2_SE15, PTA27ADC2_SE14 => sym.PTA27ADC2_SE14, PTA28ADC2_SE13 => sym.PTA28ADC2_SE13, PTA29ADC2_SE12 => sym.PTA29ADC2_SE12, PTB0LLWU_P5RMII0_MDIO => sym.PTB0LLWU_P5RMII0_MDIO, PTB1RMII0_MDC => sym.PTB1RMII0_MDC, PTB2ADC0_SE12 => sym.PTB2ADC0_SE12, PTB3ADC0_SE13 => sym.PTB3ADC0_SE13, PTB4ADC1_SE10 => sym.PTB4ADC1_SE10, PTB5ADC1_SE11 => sym.PTB5ADC1_SE11, PTB6 => sym.PTB6, PTB7 => sym.PTB7, PTB8~UART3_RTS => sym.PTB8~UART3_RTS, PTB9~UART3_CTS => sym.PTB9~UART3_CTS, PTB10UART3_RX => sym.PTB10UART3_RX, PTB11UART3_TX => sym.PTB11UART3_TX, VSS[2] => sym.VSS[2], VDD[3] => sym.VDD[3], PTB16 => sym.PTB16, PTB17 => sym.PTB17, PTB18CAN0_TX => sym.PTB18CAN0_TX, PTB19CAN0_RX => sym.PTB19CAN0_RX, PTB20 => sym.PTB20, PTB21 => sym.PTB21, PTB22 => sym.PTB22, PTB23 => sym.PTB23, PTC0 => sym.PTC0, PTC1LLWU_P6 => sym.PTC1LLWU_P6, PTC2 => sym.PTC2, PTC3LLWU_P7 => sym.PTC3LLWU_P7, VSS[9] => sym.VSS[9], VDD[8] => sym.VDD[8], PTC4LLWU_P8 => sym.PTC4LLWU_P8, PTC5LLWU_P9 => sym.PTC5LLWU_P9, PTC6LLWU_P10 => sym.PTC6LLWU_P10, PTC7 => sym.PTC7, PTC8 => sym.PTC8, PTC9 => sym.PTC9, PTC10 => sym.PTC10, PTC11LLWU_P11 => sym.PTC11LLWU_P11, PTC12 => sym.PTC12, PTC13 => sym.PTC13, PTC14 => sym.PTC14, PTC15 => sym.PTC15, VSS[7] => sym.VSS[7], VDD[6] => sym.VDD[6], PTC16 => sym.PTC16, PTC17 => sym.PTC17, PTC18 => sym.PTC18, PTC19 => sym.PTC19, PTD0LLWU_P12SPI0_PCS0~UART2_RTS => sym.PTD0LLWU_P12SPI0_PCS0~UART2_RTS, PTD1SPI0_SCK~UART2_CTS => sym.PTD1SPI0_SCK~UART2_CTS, PTD2LLWU_P13SPI0_SOUTUART2_RX => sym.PTD2LLWU_P13SPI0_SOUTUART2_RX, PTD3SPI0_SINUART2_TX => sym.PTD3SPI0_SINUART2_TX, PTD4LLWU_P14 => sym.PTD4LLWU_P14, PTD5 => sym.PTD5, PTD6LLWU_P15UART0_RX => sym.PTD6LLWU_P15UART0_RX, VSS[8] => sym.VSS[8], VDD[7] => sym.VDD[7], PTD7UART0_TX => sym.PTD7UART0_TX, PTD8I2C0_SCL => sym.PTD8I2C0_SCL, PTD9I2C0_SDA => sym.PTD9I2C0_SDA, PTD10 => sym.PTD10, PTD11SPI2_PCS0 => sym.PTD11SPI2_PCS0, PTD12SPI2_SCK => sym.PTD12SPI2_SCK, PTD13SPI2_SOUT => sym.PTD13SPI2_SOUT, PTD14SPI2_SIN => sym.PTD14SPI2_SIN, PTD15SPI2_PCS1 => sym.PTD15SPI2_PCS1)
+  
+  name = "FSL-MINI:LQFP144"
+  reference-prefix = "U"
+  mpn = "MK60FX512VLQ15-RESCUE-CIAA_FSL_MINI"

@@ -1,0 +1,40 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/inductor_small-device :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern l_1210_3225metric :
+  pad p[1] : smd-pad(RoundedRectangle(1.25, 2.65, 0.125)) at loc(-1.4, 0.0, 0.0)
+  pad p[2] : smd-pad(RoundedRectangle(1.25, 2.65, 0.125)) at loc(1.4, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-0.602064, 1.36), Point(0.602064, 1.36) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-0.602064, -1.36), Point(0.602064, -1.36) ])
+  model3d = Model3D("L_1210_3225Metric.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+public pcb-component inductor_small-device :
+  pin-properties :
+    [pin:Ref | pads:Int ... | side:Dir]
+    [p[1] | 1 | Left]
+    [p[2] | 2 | Right]
+  
+  make-box-symbol()
+  assign-landpattern(l_1210_3225metric)
+
+  name = "Inductor_SMD:L_1210_3225Metric"
+  description = "Inductor SMD 1210 (3225 Metric"
+  reference-prefix = "L"
+  mpn = "INDUCTOR_SMALL-device"

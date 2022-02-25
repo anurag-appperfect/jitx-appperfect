@@ -1,0 +1,291 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/conn_01x30 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern pin_header_straight_1x30 :
+  pad p[1] : pth-pad(Rectangle(2.032, 1.7272), Circle(0.508)) at loc(0.0, 0.0, 0.0)
+  pad p[2] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -2.54, 0.0)
+  pad p[3] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -5.08, 0.0)
+  pad p[4] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -7.62, 0.0)
+  pad p[5] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -10.16, 0.0)
+  pad p[6] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -12.7, 0.0)
+  pad p[7] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -15.24, 0.0)
+  pad p[8] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -17.78, 0.0)
+  pad p[9] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -20.32, 0.0)
+  pad p[10] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -22.86, 0.0)
+  pad p[11] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -25.4, 0.0)
+  pad p[12] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -27.94, 0.0)
+  pad p[13] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -30.48, 0.0)
+  pad p[14] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -33.02, 0.0)
+  pad p[15] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -35.56, 0.0)
+  pad p[16] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -38.1, 0.0)
+  pad p[17] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -40.64, 0.0)
+  pad p[18] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -43.18, 0.0)
+  pad p[19] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -45.72, 0.0)
+  pad p[20] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -48.26, 0.0)
+  pad p[21] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -50.8, 0.0)
+  pad p[22] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -53.34, 0.0)
+  pad p[23] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -55.88, 0.0)
+  pad p[24] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -58.42, 0.0)
+  pad p[25] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -60.96, 0.0)
+  pad p[26] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -63.5, 0.0)
+  pad p[27] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -66.04, 0.0)
+  pad p[28] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -68.58, 0.0)
+  pad p[29] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -71.12, 0.0)
+  pad p[30] : pth-pad(Capsule(2.032, 1.7272), Circle(0.508)) at loc(0.0, -73.66, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.27, -1.27), Point(-1.27, -74.93) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.27, -74.93), Point(1.27, -74.93) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(1.27, -74.93), Point(1.27, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(1.55, 1.55), Point(1.55, 0.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(1.27, -1.27), Point(-1.27, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.55, 0.0), Point(-1.55, 1.55) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.55, 1.55), Point(1.55, 1.55) ])
+  model3d = Model3D("Socket_Strip_Straight_1x30_Pitch2.54mm.wrl",
+    Vec3D(0.0, -1.45, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 90.0))
+  
+  model3d = Model3D("Socket_Strip_Straight_1x30.wrl",
+    Vec3D(0.0, -1.45, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 90.0))
+  ref-label()
+
+pcb-symbol conn_01x30-symbol :
+  pin P1 at Point(-1.27, 36.83) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P2 at Point(-1.27, 34.29) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P3 at Point(-1.27, 31.75) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P4 at Point(-1.27, 29.209) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P5 at Point(-1.27, 26.669) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P6 at Point(-1.27, 24.13) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P7 at Point(-1.27, 21.59) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P8 at Point(-1.27, 19.05) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P9 at Point(-1.27, 16.509) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P10 at Point(-1.27, 13.969) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P20 at Point(-1.27, -11.43) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P30 at Point(-1.27, -36.83) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P11 at Point(-1.27, 11.43) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P21 at Point(-1.27, -13.97) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P12 at Point(-1.27, 8.889) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P22 at Point(-1.27, -16.51) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P13 at Point(-1.27, 6.35) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P23 at Point(-1.27, -19.05) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P14 at Point(-1.27, 3.81) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P24 at Point(-1.27, -21.59) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P15 at Point(-1.27, 1.27) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P25 at Point(-1.27, -24.13) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P16 at Point(-1.27, -1.27) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P26 at Point(-1.27, -26.67) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P17 at Point(-1.27, -3.81) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P27 at Point(-1.27, -29.21) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P18 at Point(-1.27, -6.35) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P28 at Point(-1.27, -31.75) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P19 at Point(-1.27, -8.89) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin P29 at Point(-1.27, -34.29) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(2.54, 76.2, loc(0.0, 0.0))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -36.83))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -34.29))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -31.75))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -29.21))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -26.67))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -24.13))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -21.59))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -19.05))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -16.51))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -13.97))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -11.43))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -8.89))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -6.35))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -3.81))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, -1.27))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 1.27))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 3.81))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 6.35))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 8.889))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 11.43))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 13.969))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 16.509))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 19.05))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 21.59))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 24.13))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 26.669))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 29.209))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 31.75))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 34.29))
+  layer("foreground") = Rectangle(1.524, 0.254, loc(-0.508, 36.83))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 38.4))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 39.462))
+
+public pcb-component conn_01x30 :
+  pin P1
+  pin P2
+  pin P3
+  pin P4
+  pin P5
+  pin P6
+  pin P7
+  pin P8
+  pin P9
+  pin P10
+  pin P11
+  pin P12
+  pin P13
+  pin P14
+  pin P15
+  pin P16
+  pin P17
+  pin P18
+  pin P19
+  pin P20
+  pin P21
+  pin P22
+  pin P23
+  pin P24
+  pin P25
+  pin P26
+  pin P27
+  pin P28
+  pin P29
+  pin P30
+  val lp = pin_header_straight_1x30
+  val sym = conn_01x30-symbol
+  landpattern = lp(P1 => lp.p[1], P2 => lp.p[2], P3 => lp.p[3], P4 => lp.p[4], P5 => lp.p[5], P6 => lp.p[6], P7 => lp.p[7], P8 => lp.p[8], P9 => lp.p[9], P10 => lp.p[10], P11 => lp.p[11], P12 => lp.p[12], P13 => lp.p[13], P14 => lp.p[14], P15 => lp.p[15], P16 => lp.p[16], P17 => lp.p[17], P18 => lp.p[18], P19 => lp.p[19], P20 => lp.p[20], P21 => lp.p[21], P22 => lp.p[22], P23 => lp.p[23], P24 => lp.p[24], P25 => lp.p[25], P26 => lp.p[26], P27 => lp.p[27], P28 => lp.p[28], P29 => lp.p[29], P30 => lp.p[30])
+  symbol = sym(P1 => sym.P1, P2 => sym.P2, P3 => sym.P3, P4 => sym.P4, P5 => sym.P5, P6 => sym.P6, P7 => sym.P7, P8 => sym.P8, P9 => sym.P9, P10 => sym.P10, P11 => sym.P11, P12 => sym.P12, P13 => sym.P13, P14 => sym.P14, P15 => sym.P15, P16 => sym.P16, P17 => sym.P17, P18 => sym.P18, P19 => sym.P19, P20 => sym.P20, P21 => sym.P21, P22 => sym.P22, P23 => sym.P23, P24 => sym.P24, P25 => sym.P25, P26 => sym.P26, P27 => sym.P27, P28 => sym.P28, P29 => sym.P29, P30 => sym.P30)
+  
+  name = "Pin_Headers:Pin_Header_Straight_1x30"
+  description = "Through hole pin header"
+  reference-prefix = "J"
+  mpn = "CONN_01X30"

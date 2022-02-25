@@ -1,0 +1,248 @@
+SELECCIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES.
+
+Debido a la variedad de herramientas de software y fórmulas posibles para el cálculo de
+impedancias de lineas acopladas microstrip diferencial con plano de masa, es que se decide hallar
+la dispersión del conjunto de soluciones dado por estas herramientas y fórmulas.
+
+Para esto se considerarán un conjunto de dimensiones y características del PCB, en las que
+se ensayarán cada una de las herramientas a evaluar.
+
+*Archivos generados por algunos de los programas aqui ensayados, y otros archivos auxiliares
+para la creación de este documento, están guardados en la carpeta oculta ".impedancias".
+
+
+CARACTERÍSTICAS Y DIMENSIONES PARA ENSAYO:
+
+Las características y algunas dimensiones son propias de los materiales a ensayar.  Se tomarán
+aquellos que han sido detallados en la versión FSL de la CIAA.
+El sustrato esta formado de 2 capas de DURAVER-E-Cu quality 104 ML en su presentación 7628 AT05 
+de 0.2 mm de espesor, resultando 0.4mm de espesor total.  La máscara antisoldante es 
+Lackwerke Peters SD 2467 SM-YG.
+
+a)Dimensiones:
+
+W (ancho de pista) = 14mils | 0,3556 mm
+S (separación entre pistas) = 8mils | 0,2032 mm
+Wcu (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
+Ws (espesor sustrato) = 15,75 mils | 0,4 mm
+Wm (espesor máscara antisoldante) = 1mils | 0,0254 mm
+
+b) Características de los materiales:
+
+RESs (contenido de resina del sustrato) = 43,8 %
+ERs (permitividad relativa sustrato) @ 100Mhz = 4,47 aprox.
+TGs (tangente de perdida sustrato) = 0,0195 
+ERm (permitividad relativa mascara) = 3,7
+TGm (tangente de perdida mascara) = 0,029
+
+
+
+HERRAMIENTAS ENSAYADAS:
+
+a) Set de fórmulas 1.
+Se trata de un conjunto de fòrmulas bastante difundida entre notas de aplicaciòn sobre diseño
+de PCB y applets o aplicaciones web.  Esta forma parte de la norma IPC 2141, a la que también 
+hace referencia un artículo de Polar Instruments 
+(http://www.polarinstruments.com/support/cits/IPC1999.pdf), empresa dedicada al desarrollo de
+software aplicable al diseño electrónico.
+Con estas fórmulas se calcula primero la impedancia característica de una linea (Zo), y luego
+con Zo se calcula Zdiff. Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
+
+          87           /   5.98 Ws   \ 
+Zo = ------------ x ln | ----------- | 	(1)
+       __________      \ 0.8 W + Wcu / 
+     \/ERs + 1.41                                    
+
+
+                 /         /  /        S  \ \ \ 
+                 |         |  | - 0.96 -- | | | 
+                 |         |  \        Ws / | |
+Zdiff = 2 x Zo x |1 - 0.48 | e              | | 	(2)
+                 \         \                / /
+
+
+b) Set de fórmulas 2.
+Similar al set de fórmulas "a)" anterior, pero con una pequeña diferencia de valores en el
+cálculo de Zo.
+
+         88.75         /   5.97 Ws   \ 
+Zo = ------------ x ln | ----------- | 
+       __________      \ 0.8 W + Wcu / 
+     |/ERs + 1.47                    
+
+
+c) Set de fórmulas 3.
+Una nueva variación del set de fórmulas "a)" en el cálculo de Zo. Para este caso se hace la
+aclaración de que W <= 2Ws.
+
+             60              /        4 Ws        \ 
+Zo = ------------------ x ln | ------------------ | 
+       ________________      \ 0.67 (0.8 W + Wcu) / 
+     |/0.475 ERs + 0.67      
+
+
+d) Programa de cálculo de KiCAD
+Kicad posee herramientas para el cálculo de lineas de transmisión.  Entre estas lo hay para lineas
+microstrip acopladas.  Las ecuaciones que la herramienta utiliza fueron tomadas de varias
+fuentes bibliográficas, las cuales son citadas dentro del archivo .c del código fuente que
+realiza el trabajo de cómputo
+(https://github.com/KiCad/kicad-source-mirror/blob/master/pcb_calculator/transline/c_microstrip.cpp).
+En esta herramienta se cálcula las impedancias diferenciales (Zodd) y comunes (Zeven)
+de las lineas apareadas, y posteriormente con Zodd puede calcularse Zdiff como:
+
+Zdiff = 2 x Zodd
+
+Esta herramienta de cálculo requiere de los datos ERs, TGs, Ws, Wcu, W, S, y ancho de banda (WB).
+Para la obtensión del ancho de banda se parte de los tiempos rise y fail del phy en sus lineas de
+datos complementarias.  Para el caso (LAN8720A) este tiempo es de 5 nseg.  Luego el ancho de banda
+se calcula como:
+
+WB = 0.35 / Tr = 0.35 / 5e-9 = 70 Mhz.
+
+La herramienta requiere otros parametros además de los especificados, pero estos no influyen
+o son insignificantes en el resultado si se mantienen sus valores por defecto.
+
+
+e) Programa de cálculo Saturn PCB Design.
+Saturn PCB Design (https://www.saturnpcb.com/pcb_toolkit.htm) es una suite de herramientas de 
+cálculo para diseño de PCB bastante referenciada y aconsejada por usuarios de foros y sitios web
+dedicados a la electrónica.  El programa hace referencia a las normas IPC, y bibliografía y 
+publicaciones varias de donde obtiene las fórmulas con que trabaja.
+Los datos requerídos por esta herramienta son W, S, Ws, Wcu, ERs, temperatura (supuesta en 20ºC).
+El programa hace aclaraciones sobre ciertos rangos constructivos necesarios para que el cómputo 
+sea válido.
+
+
+f) Programa de cálculo Microwave Impedance Calculator (MWI-2016).
+Este es un programa de cálculo ofrecido por el fabricante de materiales para PCB Rogers Corp
+(http://www.rogerscorp.com/index.aspx), que puede ser descargado del sitio, registración previa.
+El programa hace referencia a la bibliografía de la obtiene las fórmulas con las que trabaja.
+El programa incluye un listado de los materiales que fabrica, que llenarán varios de los datos
+necesarios para el cálculo, correspondiente con la selección de alguno de la lista.  Sin embargo,
+el programa permite la modifiación manual y personalizada de estos valores.
+
+
+g) Programa Arbitrary Transmission Line Calculator (atlc)
+Esta aplicación (http://atlc.sourceforge.net/), a diferencia de las anteriores, no realiza los
+cálculos partiendo de fórmulas.  Por el contrario, resuelve el problema mediante la busqueda de 
+la solución del sistema electromagnético, haciendo uso de las ec. de Mawell, analizando el
+problema mediante la teoría de campos.  Esto le permite calcular impedancias para cualquier
+forma posible de la sección de la linea de transmisión, sea microstrip, coaxil, etc., o
+completamente arbitraria.
+El programa toma como dato una imagen bmp no comprimida que describa la sección de la linea de
+transmisión.  Esta imagen debe guardar proporcionalidad con el problema real.  En ella, un pixel 
+cuadrado equivale a 0.1 mils cuadrados.
+Los colores usados para definir la formas de la sección son críticos, ya que el color es tomado
+por el programa como definición de cual zona es conductor, cual aislante, cual señal de entrada y
+cual de salida en el cálculo de una impedancia diferencial, etc.  Aun más, cada color
+predefinidamente representa valores de parámetros del material, como la Er.  Es posible usar otros
+colores para definir parámetros personalizados, pero para esto es necesario agregar los 
+parámetros necesarios en la linea de comandos que llama al programa, con las aclaraciónes sobre
+estas características personalizadas de los colores que escapan a los predefinidos.
+
+El programa es un programa de consola, invocado por linea de comando.  Existe, sin embargo, una
+aplicación orientada a lineas de transmición en pcb que internamente hace uso de atlc.  Este
+es "Multiple dielectric transmission line calculator" (mdtlc, http://mdtlc.sourceforge.net/).
+El programa facilita la definición de la linea de transmición, generando automaticamente la
+imagen bmp requerida, y permitiendo la fácil especificación de materiales personalizados.  Además,
+ya que atlc resuelve un sistema arbitrario, es posible considerar en la definición la presencia
+de varios sustratos diferentes, e inclusive de máscara antisoldante.
+
+Los datos usados con esta herramienta son, W, S, Wcu, Ws, Wm, RESs, ERs, TGs, ERm, TGm.
+
+
+
+RESULTADOS DE LAS HERRAMIENTAS ENSAYADAS:
+
+La siguiente tabla muestra los distintos resulados dados por las herramientas ensayadas:
+
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+|       |   Set1  |  Set2  |   Set3  |   KiCAD  | SaturnPCB | MWI(1) | atlc(mdtlc) |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zo    | 72.2341 |  73.25 | 72.2191 |     -    |    68.391 |  318.2 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zodd  |    -    |    -   |    -    |  54.1297 |     -     |  38.42 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zeven |    -    |    -   |    -    |  92.8316 |     -     |   1493 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zdiff |  101.88 | 103.31 | 101.863 | 108.2594 |    96.464 |   1199 |       96.89 |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zcomm |    -    |    -   |    -    |     -    |     -     |    -   |      40.944 |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+*Valores expresados en ohms.
+
+(1)no admite menos de 1Ghz de frecuencia para el cálculo
+
+Excepto MWI, el resto de las herramientas y/o set de fórmulas muestran valores bastante cercanos 
+entre si, y dentro del margen esperado, dado que el ejemplo es sobre el supuesto del cálculo de
+un par diferencial de norma 100base-T, que requiere una impedancia diferencial de 100 +-10% ohm.
+
+
+
+HERRAMIENTA SELECCIONADA PARA EL CÁCULO Y CRITERIO DE SELECCIÓN.
+
+La herramienta atlc es particularmente interesante.  Mientras que el resto realiza el cálculo
+partiendo de fórmulas que resultan aproximaciones al problema de lineas microstrip diferenciales,
+aproximaciones debidas a condicionamientos impuestos, fundamentalmente relaciones entre tamaños
+de las partes que describen el problema, atlc no hace uso de expresiones dedicadas al
+problema.  atlc, por el contrario, analiza el problema desde el punto de vista del sistema
+electromagnético propuesto, utilizando ecuaciones de campo, pudiendo librarse de los
+condicionamientos a las que están sujetas las otras herramientas.  Mientras que las otras
+herramientas pudieron haber derivado de una simplificación del problema partiendo de un analisis
+de campo del sistema, atlc llega a su resultado operando directamente desde el analisis de campo.
+Esto hace a atlc tentadoramente más confiable.
+Es por esto que se decide utilizar atlc (o más precisamente mdtlc, su versión gráfica) para el
+cálculo de las impedancias de aquellos circuitos en el PCB que lo requieran para su diseño.
+
+
+
+CÁLCULO DE IMPEDANCIA DE LÍNEAS DIFERENCIALES ETHERNET.
+
+La norma de capa física ethernet 100BASE-T impone una impedancia diferencial característica de
+100 +-10% ohm.  Los datos usados para el anterior ensayo de herramientas de cálculo de impedancias
+diferenciales se corresponden con los del problema real para las líneas de ethernet.
+Recordando aquellos datos:
+
+a)El sustrato esta formado de 2 capas de DURAVER-E-Cu quality 104 ML en su presentación 7628 AT05
+de 0.2 mm de espesor, resultando 0.4mm de espesor total.  La máscara antisoldante es
+Lackwerke Peters SD 2467 SM-YG.
+
+b)Dimensiones:
+
+W (ancho de pista) = 14mils | 0,3556 mm
+S (separación entre pistas) = 8mils | 0,2032 mm
+Wcu (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
+Ws (espesor sustrato) = 15,75 mils | 0,4 mm
+Wm (espesor máscara antisoldante) = 1mils | 0,0254 mm
+
+c) Características de los materiales:
+
+RESs (contenido de resina del sustrato) = 43,8 %
+ERs (permitividad relativa sustrato) @ 100Mhz = 4,47 aprox.
+TGs (tangente de perdida sustrato) = 0,0195
+ERm (permitividad relativa mascara) = 3,7
+TGm (tangente de perdida mascara) = 0,029
+
+Computando con atlc, la impedancia Zdiff obtenida es 96.89 ohm.  Se decide mantenerse bajo el
+valor nominal requerido (100 ohm) ya que los extremos de las lineas, al acercarse a los componentes
+que conectan, deformarán el apareamiento del trazado, resultando en un aumento de la impedancia
+de las líneas.  Con esta impedancia asumida por debajo de la nominal, se pretende compensar el
+aumento de la impedancia que se producirá en los extremos mensionados.
+
+
+
+CÁLCULO DE IMPEDANCIAS PARA LINEAS DIFERENCIALES USB.
+
+La norma USB impone una impedancia diferencial característica de 90 +-15% ohm.  El cálculo se
+realiza sobre las características de los materiales ya mensionados.
+
+Dimensiones calculadas:
+
+W (ancho de pista) = 17mils | 0,4318 mm
+S (separación entre pistas) = 7mils | 0,1778 mm
+
+Computando con atlc, la impedancia Zdiff obtenida es 96.89 ohm.  Se decide mantenerse bajo el
+valor nominal requerido (87.276 ohm) ya que los extremos de las lineas, al acercarse a los
+componentes que conectan, deformarán el apareamiento del trazado, resultando en un aumento de la
+impedancia de las líneas.  Con esta impedancia asumida por debajo de la nominal, se pretende
+compensar el aumento de la impedancia que se producirá en los extremos mensionados.

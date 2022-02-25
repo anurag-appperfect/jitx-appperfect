@@ -1,0 +1,25 @@
+#use-added-syntax(jitx)
+defpackage microcontroller-design :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/land-patterns
+  import ocdb/defaults
+  import ocdb/micro-controllers
+
+pcb-module mcu-module :
+  inst mcu : micro-controller(["mpn" => "STM32L083V8T6"])([])
+  inst c : default-component(soic127p-landpattern(10))
+
+  net (mcu.mcu.PB[4], c.p[1])
+  net (mcu.mcu.PE[1], c.p[2])
+  net (mcu.mcu.VREF+, c.p[3])
+
+make-default-board(mcu-module, 4, Rectangle(30.0, 30.0))
+;view-board()
+;view-schematic()
+export-cad()
+save-to-svg("replaced-board.svg")
+save-schematic-to-svg("replaced-schematic.svg")
+

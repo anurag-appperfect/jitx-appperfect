@@ -1,0 +1,971 @@
+
+pcb-symbol _+36V-power :
+  pin p+36V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Circle(Point(0.0, 1.524), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.332))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.394))
+
+pcb-symbol Driverino-Shield-rescue_Conn_01x01-Connector_Generic :
+  pin Pin_1 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(2.54, 2.54, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+pcb-symbol Driverino-Shield-rescue_CONN_8-conn :
+  pin P1 at Point(-2.54, 8.889) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P2 at Point(-2.54, 6.35) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P3 at Point(-2.54, 3.81) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P4 at Point(-2.54, 1.27) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P5 at Point(-2.54, -1.27) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P6 at Point(-2.54, -3.81) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P7 at Point(-2.54, -6.35) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin P8 at Point(-2.54, -8.89) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(5.08, 20.32, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-2.54, 10.46))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-2.54, 11.522))
+
+pcb-symbol _+33V-power :
+  pin p+33V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Circle(Point(0.0, 1.524), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.332))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.394))
+
+pcb-symbol Driverino-Shield-rescue_+5V-power :
+  pin p+5V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Line(0.15, [Point(-0.762, 1.27), Point(0.0, 2.54)])
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 2.54)])
+  layer("foreground") = Line(0.15, [Point(0.0, 2.54), Point(0.762, 1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.762, 2.84))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.762, 3.902))
+
+pcb-symbol Driverino-Shield-rescue_GND-power :
+  pin GND at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Line(0.15, [Point(-1.27, 0.0), Point(0.0, -1.27)])
+  layer("foreground") = Line(0.15, [Point(0.0, -1.27), Point(1.27, 0.0)])
+  layer("foreground") = Line(0.15, [Point(1.27, 0.0), Point(-1.27, 0.0)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 1.362))
+
+pcb-symbol Driverino-Shield-rescue_+36V-power :
+  pin p+36V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Circle(Point(0.0, 1.524), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.332))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.394))
+
+pcb-symbol Driverino-Shield-rescue_C-device :
+  pin p[1] at Point(0.0, 0.762) with :
+    direction = Up
+    length = 4.318
+    number-size = 0.609
+    name-size = 0.609
+  pin p[2] at Point(0.0, -0.762) with :
+    direction = Down
+    length = 4.318
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Line(0.508, [Point(-2.032, -0.762), Point(2.032, -0.762)])
+  layer("foreground") = Line(0.508, [Point(-2.032, 0.762), Point(2.032, 0.762)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-2.032, 1.062))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-2.032, 2.124))
+
+pcb-symbol _+5V-power :
+  pin p+5V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Line(0.15, [Point(-0.762, 1.27), Point(0.0, 2.54)])
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 2.54)])
+  layer("foreground") = Line(0.15, [Point(0.0, 2.54), Point(0.762, 1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.762, 2.84))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.762, 3.902))
+
+pcb-symbol Driverino-Shield-rescue_R-device :
+  pin p[1] at Point(0.0, 3.81) with :
+    direction = Up
+    length = 2.54
+    number-size = 0.914
+    name-size = 0.914
+  pin p[2] at Point(0.0, -3.81) with :
+    direction = Down
+    length = 2.54
+    number-size = 0.914
+    name-size = 0.914
+
+  layer("foreground") = Rectangle(2.032, 7.62, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.016, 4.11))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.016, 5.172))
+
+pcb-symbol Driverino-Shield-rescue_Conn_01x06-Connector_Generic :
+  pin Pin_1 at Point(-1.27, 5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_2 at Point(-1.27, 2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_3 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_4 at Point(-1.27, -2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_5 at Point(-1.27, -5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_6 at Point(-1.27, -7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -7.62))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 5.08))
+  layer("foreground") = Rectangle(2.54, 15.24, loc(0.0, -1.27))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 6.65))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 7.712))
+
+pcb-symbol GND-power :
+  pin GND at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Line(0.15, [Point(-1.27, 0.0), Point(0.0, -1.27)])
+  layer("foreground") = Line(0.15, [Point(0.0, -1.27), Point(1.27, 0.0)])
+  layer("foreground") = Line(0.15, [Point(1.27, 0.0), Point(-1.27, 0.0)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 1.362))
+
+pcb-symbol Driverino-Shield-rescue_Jumper-Device :
+  pin p[1] at Point(-3.429, 0.0) with :
+    direction = Left
+    length = 4.191
+    number-size = 0.762
+    name-size = 0.762
+  pin p[2] at Point(3.429, 0.0) with :
+    direction = Right
+    length = 4.191
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Circle(Point(-2.54, 0.0), 0.889)
+  layer("foreground") = Circle(Point(2.54, 0.0), 0.889)
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-3.429, 1.189))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-3.429, 2.251))
+
+pcb-symbol Driverino-Shield-rescue_MCT8316Z-texas2-Driverino-Shield-rescue :
+  pin NC[0] at Point(-15.875, 13.969) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[0] at Point(-15.875, -8.89) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[1] at Point(-15.875, -11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[0] at Point(-15.875, -13.97) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[0] at Point(-8.89, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[1] at Point(-6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[1] at Point(-3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[0] at Point(-1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[1] at Point(1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[2] at Point(3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[0] at Point(6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[0] at Point(-15.875, 11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[1] at Point(8.889, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin DRVOFF at Point(15.875, -13.97) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nFAULT at Point(15.875, -11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSLEEP at Point(15.875, -8.89) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin NC[1] at Point(15.875, -6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AVDD at Point(15.875, -3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[1] at Point(15.875, -1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPA at Point(15.875, 1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNA at Point(15.875, 3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPB at Point(15.875, 6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FB_BK at Point(-15.875, 8.889) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNB at Point(15.875, 8.889) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPC at Point(15.875, 11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNC at Point(15.875, 13.969) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDO at Point(8.889, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDI at Point(6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SCLK at Point(3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSCS at Point(1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin ILIM at Point(-1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin BRAKE at Point(-3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PWM at Point(-6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND_BK at Point(-15.875, 6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FGOUT at Point(-8.89, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND at Point(-15.875, 20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SW_BK at Point(-15.875, 3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPL at Point(-15.875, 1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPH at Point(-15.875, -1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CP at Point(-15.875, -3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[2] at Point(-15.875, -6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(31.75, 46.989, loc(0.0, -0.635))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-15.875, 23.1595))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-15.875, 24.2215))
+
+pcb-symbol Driverino-Shield-rescue_CONN_3-conn :
+  pin P1 at Point(-2.54, 2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.914
+    name-size = 0.914
+  pin PM at Point(-2.54, 0.0) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.914
+    name-size = 0.914
+  pin P3 at Point(-2.54, -2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.914
+    name-size = 0.914
+
+  layer("foreground") = Rectangle(5.08, 7.62, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-2.54, 4.11))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-2.54, 5.172))
+
+pcb-symbol GNDPWR-power :
+  pin GNDPWR at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Line(0.203, [Point(-1.016, 0.0), Point(-1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-1.27, -0.762), Point(-1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.508, 0.0), Point(-0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.762, -0.762), Point(-0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.0, 0.0), Point(-0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.254, -0.762), Point(-0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.508, 0.0), Point(0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.254, -0.762), Point(0.254, -0.762)])
+  layer("foreground") = Line(0.254, [Point(1.016, 0.0), Point(-1.016, 0.0)])
+  layer("foreground") = Line(0.254, [Point(-1.016, 0.0), Point(-1.016, 0.0)])
+  layer("foreground") = Line(0.203, [Point(1.016, 0.0), Point(0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.762, -0.762), Point(0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.762, -0.762), Point(0.762, -0.762)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 1.362))
+
+pcb-symbol Driverino-Shield-rescue_ZENER-device :
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(1.27, 0.0), Point(-1.27, 1.27), Point(-1.27, -1.27), Point(1.27, 0.0), Point(1.27, 0.0)])
+  layer("foreground") = Line(0.203, [Point(1.778, 1.27), Point(1.27, 0.762)])
+  layer("foreground") = Line(0.203, [Point(1.27, 0.762), Point(1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(1.27, -0.762), Point(0.762, -1.27)])
+  layer("foreground") = Line(0.203, [Point(0.762, -1.27), Point(0.762, -1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+pcb-symbol Driverino-Shield-rescue_CONN_2-conn :
+  pin P1 at Point(-2.54, 2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.914
+    name-size = 0.914
+  pin PM at Point(-2.54, -2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.914
+    name-size = 0.914
+
+  layer("foreground") = Rectangle(5.08, 7.62, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-2.54, 4.11))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-2.54, 5.172))
+
+pcb-symbol Driverino-Shield-rescue_Conn_01x08-Connector_Generic :
+  pin Pin_1 at Point(-1.27, 7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_2 at Point(-1.27, 5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_3 at Point(-1.27, 2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_4 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_5 at Point(-1.27, -2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_6 at Point(-1.27, -5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_7 at Point(-1.27, -7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_8 at Point(-1.27, -10.16) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -10.16))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -7.62))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 7.62))
+  layer("foreground") = Rectangle(2.54, 20.32, loc(0.0, -1.27))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 9.19))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 10.252))
+
+pcb-symbol Driverino-Shield-rescue_GNDPWR-power :
+  pin GNDPWR at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Line(0.203, [Point(-1.016, 0.0), Point(-1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-1.27, -0.762), Point(-1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.508, 0.0), Point(-0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.762, -0.762), Point(-0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.0, 0.0), Point(-0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(-0.254, -0.762), Point(-0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.508, 0.0), Point(0.254, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.254, -0.762), Point(0.254, -0.762)])
+  layer("foreground") = Line(0.254, [Point(1.016, 0.0), Point(-1.016, 0.0)])
+  layer("foreground") = Line(0.254, [Point(-1.016, 0.0), Point(-1.016, 0.0)])
+  layer("foreground") = Line(0.203, [Point(1.016, 0.0), Point(0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.762, -0.762), Point(0.762, -0.762)])
+  layer("foreground") = Line(0.203, [Point(0.762, -0.762), Point(0.762, -0.762)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 1.362))
+
+pcb-symbol MCT8316Z-texas2 :
+  pin NC[0] at Point(-15.875, 13.969) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[0] at Point(-15.875, -8.89) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[1] at Point(-15.875, -11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[0] at Point(-15.875, -13.97) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[0] at Point(-8.89, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[1] at Point(-6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[1] at Point(-3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[0] at Point(-1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[1] at Point(1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[2] at Point(3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[0] at Point(6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[0] at Point(-15.875, 11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[1] at Point(8.889, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin DRVOFF at Point(15.875, -13.97) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nFAULT at Point(15.875, -11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSLEEP at Point(15.875, -8.89) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin NC[1] at Point(15.875, -6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AVDD at Point(15.875, -3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[1] at Point(15.875, -1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPA at Point(15.875, 1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNA at Point(15.875, 3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPB at Point(15.875, 6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FB_BK at Point(-15.875, 8.889) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNB at Point(15.875, 8.889) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPC at Point(15.875, 11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNC at Point(15.875, 13.969) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDO at Point(8.889, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDI at Point(6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SCLK at Point(3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSCS at Point(1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin ILIM at Point(-1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin BRAKE at Point(-3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PWM at Point(-6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND_BK at Point(-15.875, 6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FGOUT at Point(-8.89, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND at Point(-15.875, 20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SW_BK at Point(-15.875, 3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPL at Point(-15.875, 1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPH at Point(-15.875, -1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CP at Point(-15.875, -3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[2] at Point(-15.875, -6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(31.75, 46.989, loc(0.0, -0.635))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-15.875, 23.1595))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-15.875, 24.2215))
+
+pcb-symbol Driverino-Shield-rescue_VCC-power :
+  pin VCC at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.304
+    name-size = 0.304
+
+  layer("foreground") = Circle(Point(0.0, 1.27), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 0.762)])
+  layer("foreground") = Line(0.15, [Point(0.0, 0.762), Point(0.0, 0.762)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.078))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.14))
+
+pcb-symbol Driverino-Shield-rescue_LED-device :
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(-1.27, 1.27), Point(1.27, 0.0), Point(-1.27, -1.27)])
+  layer("foreground") = Line(0.15, [Point(1.651, -1.016), Point(2.794, -2.032)])
+  layer("foreground") = Line(0.15, [Point(2.794, -2.032), Point(2.667, -1.397)])
+  layer("foreground") = Line(0.15, [Point(2.032, -0.635), Point(3.175, -1.651)])
+  layer("foreground") = Line(0.15, [Point(3.175, -1.651), Point(3.048, -1.016)])
+  layer("foreground") = Line(0.15, [Point(1.27, 1.27), Point(1.27, -1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+pcb-symbol Driverino-Shield-rescue_Conn_01x10-Connector_Generic :
+  pin Pin_1 at Point(-1.27, 10.16) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_10 at Point(-1.27, -12.7) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_2 at Point(-1.27, 7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_3 at Point(-1.27, 5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_4 at Point(-1.27, 2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_5 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_6 at Point(-1.27, -2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_7 at Point(-1.27, -5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_8 at Point(-1.27, -7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_9 at Point(-1.27, -10.16) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -12.7))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -10.16))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -7.62))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 7.62))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 10.16))
+  layer("foreground") = Rectangle(2.54, 25.4, loc(0.0, -1.27))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 11.73))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 12.792))
+
+pcb-symbol VCC-power :
+  pin VCC at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.304
+    name-size = 0.304
+
+  layer("foreground") = Circle(Point(0.0, 1.27), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 0.762)])
+  layer("foreground") = Line(0.15, [Point(0.0, 0.762), Point(0.0, 0.762)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.078))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.14))
+
+pcb-symbol Driverino-Shield-rescue_JUMPER3-device :
+  pin p[1] at Point(-3.937, 0.0) with :
+    direction = Left
+    length = 2.413
+    number-size = 0.609
+    name-size = 0.609
+  pin p[2] at Point(0.0, -1.016) with :
+    direction = Down
+    length = 1.524
+    number-size = 0.609
+    name-size = 0.609
+  pin p[3] at Point(3.937, 0.0) with :
+    direction = Right
+    length = 2.413
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Circle(Point(-3.048, 0.0), 0.889)
+  layer("foreground") = Circle(Point(0.0, 0.0), 0.914)
+  layer("foreground") = Circle(Point(3.048, 0.0), 0.889)
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-3.937, 1.214))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-3.937, 2.276))
+
+pcb-symbol Driverino-Shield-rescue_+33V-power :
+  pin p+33V at Point(0.0, 0.0) with :
+    direction = Down
+    length = 0.0
+    number-size = 0.457
+    name-size = 0.457
+
+  layer("foreground") = Circle(Point(0.0, 1.524), 0.508)
+  layer("foreground") = Line(0.15, [Point(0.0, 0.0), Point(0.0, 1.016)])
+  layer("foreground") = Line(0.15, [Point(0.0, 1.016), Point(0.0, 1.016)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-0.508, 2.332))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-0.508, 3.394))

@@ -1,0 +1,66 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/ncp1117st50t3g :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern sot-223 :
+  pad p[1] : smd-pad(Rectangle(1.2, 1.6)) at loc(-2.3, -3.2, 0.0)
+  pad p[2] : smd-pad(Rectangle(3.3, 1.6)) at loc(0.0, 3.2, 0.0)
+  pad p[3] : smd-pad(Rectangle(1.2, 1.6)) at loc(2.3, -3.2, 0.0)
+  pad p[4] : smd-pad(Rectangle(1.2, 1.6)) at loc(0.0, -3.2, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-3.5, -3.2), 0.1)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(3.25, 1.75), Point(-3.25, 1.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-3.25, 1.75), Point(-3.25, -1.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-3.25, -1.75), Point(3.25, -1.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(3.25, -1.75), Point(3.25, 1.75) ])
+  model3d = Model3D("sot223.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol ncp1117st50t3g-symbol :
+  pin GND at Point(0.0, -3.81) with :
+    direction = Down
+    length = 2.54
+    number-size = 0.609
+    name-size = 0.609
+  pin VO at Point(6.35, 1.27) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin VI at Point(-6.35, 1.27) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Rectangle(12.7, 7.62, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-6.35, 4.11))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-6.35, 5.172))
+
+public pcb-component ncp1117st50t3g :
+  pin GND
+  pin VO
+  pin VI
+  val lp = sot-223
+  val sym = ncp1117st50t3g-symbol
+  landpattern = lp(GND => lp.p[1], VO => lp.p[2], VO => lp.p[4], VI => lp.p[3])
+  symbol = sym(GND => sym.GND, VO => sym.VO, VI => sym.VI)
+  
+  name = "FSL-MINI:SOT-223"
+  description = "SOT-223"
+  reference-prefix = "U"
+  mpn = "NCP1117ST50T3G"

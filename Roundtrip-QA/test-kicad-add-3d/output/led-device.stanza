@@ -1,0 +1,61 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/led-device :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern led_0603_1608metric :
+  pad p[1] : smd-pad(RoundedRectangle(0.875, 0.95, 0.109375)) at loc(-0.7875, 0.0, 0.0)
+  pad p[2] : smd-pad(RoundedRectangle(0.875, 0.95, 0.109375)) at loc(0.7875, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-1.485, -0.735), Point(0.8, -0.735) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-1.485, 0.735), Point(-1.485, -0.735) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(0.8, 0.735), Point(-1.485, 0.735) ])
+  model3d = Model3D("LED_0603_1608Metric.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol led-device-symbol :
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(-1.27, 1.27), Point(1.27, 0.0), Point(-1.27, -1.27)])
+  layer("foreground") = Line(0.15, [Point(1.651, -1.016), Point(2.794, -2.032)])
+  layer("foreground") = Line(0.15, [Point(2.794, -2.032), Point(2.667, -1.397)])
+  layer("foreground") = Line(0.15, [Point(2.032, -0.635), Point(3.175, -1.651)])
+  layer("foreground") = Line(0.15, [Point(3.175, -1.651), Point(3.048, -1.016)])
+  layer("foreground") = Line(0.15, [Point(1.27, 1.27), Point(1.27, -1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+public pcb-component led-device :
+  pin K
+  pin A
+  val lp = led_0603_1608metric
+  val sym = led-device-symbol
+  landpattern = lp(K => lp.p[1], A => lp.p[2])
+  symbol = sym(K => sym.K, A => sym.A)
+  
+  name = "Driverino-Shield:LED_0603_1608Metric"
+  description = "LED SMD 0603 (1608 Metric"
+  reference-prefix = "D"
+  mpn = "LED-device"

@@ -1,0 +1,47 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/conn_01x01-connector_generic :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern arduino_1pinlocked :
+  
+
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(0.0, 0.0), 2.286)
+  layer(Cutout()) = Circle(Point(0.0, 0.0), 1.524)
+  layer(SolderMask(Top)) = Circle(Point(0.0, 0.0), 1.524)
+  layer(SolderMask(Bottom)) = Circle(Point(0.0, 0.0), 1.524)
+  ref-label()
+
+pcb-symbol conn_01x01-connector_generic-symbol :
+  pin Pin_1 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(2.54, 2.54, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+public pcb-component conn_01x01-connector_generic :
+  
+  val lp = arduino_1pinlocked
+  val sym = conn_01x01-connector_generic-symbol
+  landpattern = lp()
+  symbol = sym()
+  
+  name = "Socket_Arduino_Uno:Arduino_1pin locked"
+  description = "module 1 pin (ou trou mecanique de percage"
+  reference-prefix = "J"
+  mpn = "Conn_01x01-Connector_Generic"

@@ -1,0 +1,24 @@
+#use-added-syntax(jitx)
+defpackage ocdb/designs/mcu :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/generic-components
+  import ocdb/bundles
+  import ocdb/design-vars
+  import ocdb/micro-controllers
+
+DESIGN-QUANTITY = 0
+
+val BOARD-SHAPE = RoundedRectangle(25.0, 25.0, 0.25)
+pcb-module my-design:
+  public inst mcu : micro-controller(["mpn" => "STM32L151C6U6A", "core" => "ARM Cortex-M3"])([`bypass-package => 4.7e-6])
+  add-mounting-holes(BOARD-SHAPE, [2, 3])
+
+make-default-board(my-design, 4, BOARD-SHAPE)
+;view-board()
+;view-schematic()
+save-to-svg("mcu-board.svg")save-schematic-to-svg("mcu-schematic.svg")
+println(mpn?(my-design.mcu.mcu))

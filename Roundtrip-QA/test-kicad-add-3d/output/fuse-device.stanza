@@ -1,0 +1,45 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/fuse-device :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern fuse_1206_3216metric_castellated :
+  pad p[1] : smd-pad(RoundedRectangle(1.6, 1.65, 0.125)) at loc(-1.425, 0.0, 0.0)
+  pad p[2] : smd-pad(RoundedRectangle(1.6, 1.65, 0.125)) at loc(1.425, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-0.490455, -0.91), Point(0.490455, -0.91) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-0.490455, 0.91), Point(0.490455, 0.91) ])
+  model3d = Model3D("Fuse_1206_3216Metric_Castellated.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  
+  model3d = Model3D("Fuse_1206_3216Metric.step",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+public pcb-component fuse-device :
+  pin-properties :
+    [pin:Ref | pads:Int ... | side:Dir]
+    [p[1] | 1 | Left]
+    [p[2] | 2 | Right]
+  
+  make-box-symbol()
+  assign-landpattern(fuse_1206_3216metric_castellated)
+
+  name = "Fuse:Fuse_1206_3216Metric_Castellated"
+  description = "Fuse SMD 1206 (3216 Metric"
+  reference-prefix = "F"
+  mpn = "FUSE-device"

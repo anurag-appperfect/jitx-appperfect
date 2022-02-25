@@ -1,0 +1,45 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/inductor :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern fb_0603 :
+  pad p[1] : smd-pad(Rectangle(0.89916, 1.00076)) at loc(-0.85, 0.0, 0.0)
+  pad p[2] : smd-pad(Rectangle(0.89916, 1.00076)) at loc(0.85, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.875, -0.6), Point(-0.875, -0.58) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.875, 0.6), Point(0.875, 0.58) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.875, 0.58), Point(-0.875, 0.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.875, -0.6), Point(0.875, -0.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.875, -0.58), Point(0.875, -0.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.875, 0.6), Point(-0.875, 0.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.0, 0.6), Point(0.0, -0.6) ])
+  model3d = Model3D("fb_0603.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+public pcb-component inductor :
+  pin-properties :
+    [pin:Ref | pads:Int ... | side:Dir]
+    [p[1] | 1 | Up]
+    [p[2] | 2 | Down]
+  
+  make-box-symbol()
+  assign-landpattern(fb_0603)
+
+  name = "FSL-MINI:fb_0603"
+  description = "Ferrite 0603"
+  reference-prefix = "L"
+  mpn = "INDUCTOR"

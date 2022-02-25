@@ -1,0 +1,56 @@
+open-components-database/components/st-microelectronics/stm-api.stanza:357.6: Check 'connected' passed.
+  Defined at open-components-database/utils/checks.stanza:128.7.
+  open-components-database/utils/checks.stanza:129.2: Assertion 'connected?(p)' passed.
+    p = Pin(L9985/D9981(relative))
+
+open-components-database/utils/checks.stanza:284.4: Check 'oscillator-check-frequency' passed.
+  Defined at open-components-database/utils/checks.stanza:249.7.
+  open-components-database/utils/checks.stanza:251.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 251, 9), o, ($quote crystal-resonator))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 251, 9) = open-components-database/utils/checks.stanza:251.9
+    o = Instance(L8705/D236(relative))
+  open-components-database/utils/checks.stanza:253.2: Assertion 'frequency(jitx/client/get-property(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 253, 19), o, ($quote crystal-resonator))) == frequency(intf)' passed.
+    frequency(jitx/client/get-property(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 253, 19), o, ($quote crystal-resonator))) = 16000000.0
+    frequency(intf) = 16000000.0
+    Margin: |16000000.0 - 16000000.0| = 0.0
+
+open-components-database/utils/checks.stanza:285.4: Check 'oscillator-check-gain' passed.
+  Defined at open-components-database/utils/checks.stanza:256.7.
+  open-components-database/utils/checks.stanza:258.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 258, 9), o, ($quote crystal-resonator))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 258, 9) = open-components-database/utils/checks.stanza:258.9
+    o = Instance(L8705/D236(relative))
+  open-components-database/utils/checks.stanza:262.2: Assertion 'gain < max-critical-gain(intf)' passed.
+    gain = 0.000257826928159613
+    max-critical-gain(intf) = 0.002
+    Margin: 0.002 - 0.000257826928159613 = 0.00174217307184039
+
+open-components-database/utils/checks.stanza:286.4: Check 'oscillator-check-drive' passed.
+  Defined at open-components-database/utils/checks.stanza:265.7.
+  open-components-database/utils/checks.stanza:267.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 267, 9), o, ($quote crystal-resonator))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 267, 9) = open-components-database/utils/checks.stanza:267.9
+    o = Instance(L8705/D236(relative))
+  open-components-database/utils/checks.stanza:269.2: Assertion 'drive-level(intf) <= max-drive-level(jitx/client/get-property(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 269, 46), o, ($quote crystal-resonator)))' passed.
+    drive-level(intf) = 0.0001
+    max-drive-level(jitx/client/get-property(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 269, 46), o, ($quote crystal-resonator))) = 0.0001
+    Margin: 0.0001 - 0.0001 = 0.0
+
+open-components-database/utils/checks.stanza:287.4: Check 'oscillator-check-pullability' passed.
+  Defined at open-components-database/utils/checks.stanza:272.7.
+  open-components-database/utils/checks.stanza:273.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 273, 9), o, ($quote crystal-resonator))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 273, 9) = open-components-database/utils/checks.stanza:273.9
+    o = Instance(L8705/D236(relative))
+  open-components-database/utils/checks.stanza:276.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 276, 9), load-cap, ($quote tolerance))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 276, 9) = open-components-database/utils/checks.stanza:276.9
+    load-cap = Instance(L8743/D236(relative))
+  open-components-database/utils/checks.stanza:277.2: Assertion 'jitx/client/has-property?(jitx/commands/JITX-CLIENT, core/FileInfo(open-components-database/utils/checks.stanza, 277, 9), load-cap, ($quote capacitance))' passed.
+    jitx/commands/JITX-CLIENT = [StanzaJITXClient object]
+    core/FileInfo(open-components-database/utils/checks.stanza, 277, 9) = open-components-database/utils/checks.stanza:277.9
+    load-cap = Instance(L8743/D236(relative))
+  open-components-database/utils/checks.stanza:280.2: Assertion 'plus(frequency-tolerance(op), freq-error) < frequency-tolerance(intf)' passed.
+    plus(frequency-tolerance(op), freq-error) = 193.19030519464
+    frequency-tolerance(intf) = 480.0
+    Margin: 480.0 - 193.19030519464 = 286.80969480536

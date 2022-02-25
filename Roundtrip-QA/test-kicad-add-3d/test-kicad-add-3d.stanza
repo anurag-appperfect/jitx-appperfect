@@ -1,0 +1,5 @@
+#use-added-syntax(jitx)
+defpackage test-kicad-add-3d:
+    import jitx/commands
+
+import-kicad("input","output")

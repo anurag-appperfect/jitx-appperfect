@@ -1,0 +1,110 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/conn_01x08-connector_generic-1 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern socket_strip_arduino_1x08locked :
+  pad p[1] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(0.0, 0.0, 0.0)
+  pad p[2] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(2.54, 0.0, 0.0)
+  pad p[3] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(5.08, 0.0, 0.0)
+  pad p[4] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(7.62, 0.0, 0.0)
+  pad p[5] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(10.16, 0.0, 0.0)
+  pad p[6] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(12.7, 0.0, 0.0)
+  pad p[7] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(15.24, 0.0, 0.0)
+  pad p[8] : pth-pad(Capsule(1.7272, 2.032), Circle(0.508)) at loc(17.78, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(1.27, -1.27), Point(19.05, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(19.05, -1.27), Point(19.05, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(19.05, 1.27), Point(1.27, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.55, -1.55), Point(0.0, -1.55) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(1.27, -1.27), Point(1.27, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(0.0, 1.55), Point(-1.55, 1.55) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.55, 1.55), Point(-1.55, -1.55) ])
+  model3d = Model3D("Socket_header_Arduino_1x08.wrl",
+    Vec3D(8.9, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol conn_01x08-connector_generic-symbol :
+  pin Pin_1 at Point(-1.27, 7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_2 at Point(-1.27, 5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_3 at Point(-1.27, 2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_4 at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_5 at Point(-1.27, -2.54) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_6 at Point(-1.27, -5.08) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_7 at Point(-1.27, -7.62) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+  pin Pin_8 at Point(-1.27, -10.16) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -10.16))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -7.62))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, -2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 0.0))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 2.54))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 5.08))
+  layer("foreground") = Rectangle(1.27, 0.254, loc(-0.635, 7.62))
+  layer("foreground") = Rectangle(2.54, 20.32, loc(0.0, -1.27))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 9.19))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 10.252))
+
+public pcb-component conn_01x08-connector_generic-1 :
+  pin Pin_1
+  pin Pin_2
+  pin Pin_3
+  pin Pin_4
+  pin Pin_5
+  pin Pin_6
+  pin Pin_7
+  pin Pin_8
+  val lp = socket_strip_arduino_1x08locked
+  val sym = conn_01x08-connector_generic-symbol
+  landpattern = lp(Pin_1 => lp.p[1], Pin_2 => lp.p[2], Pin_3 => lp.p[3], Pin_4 => lp.p[4], Pin_5 => lp.p[5], Pin_6 => lp.p[6], Pin_7 => lp.p[7], Pin_8 => lp.p[8])
+  symbol = sym(Pin_1 => sym.Pin_1, Pin_2 => sym.Pin_2, Pin_3 => sym.Pin_3, Pin_4 => sym.Pin_4, Pin_5 => sym.Pin_5, Pin_6 => sym.Pin_6, Pin_7 => sym.Pin_7, Pin_8 => sym.Pin_8)
+  
+  name = "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08 locked"
+  description = "Through hole socket strip"
+  reference-prefix = "J"
+  mpn = "Conn_01x08-Connector_Generic"

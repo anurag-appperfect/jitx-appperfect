@@ -1,0 +1,69 @@
+EESchema Schematic File Version 4
+EELAYER 25 0
+EELAYER END
+$Descr E 44016.0 34016.0
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L project_symbols:default_component U2
+U 1 1 00000000
+P 3100 32000
+F 0 "U2" H 2850 32354 30 0 L BNN
+F 1 "" H 3100 32000 60 1 C CNN
+F 2 "jitx-design:soic127p_landpattern" H 3100 32000 60 1 C CNN
+F 3 "" H 3100 32000 60 1 C CNN
+  1 3100 32000
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:STM32F407VGT6 U1
+U 2 1 00000000
+P 1600 33050
+F 0 "U1" H 1600 33104 30 0 L BNN
+F 1 "STM32F407VGT6" H 1600 33062 30 0 L BNN
+F 2 "jitx-design:STLQFP_100" H 1600 33050 60 1 C CNN
+F 3 "" H 1600 33050 60 1 C CNN
+F 4 "STM32F407VGT6" H 1600 33050 60 1 C CNN "MPN"
+F 5 "STMicroelectronics" H 1600 33050 60 1 C CNN "Manufacturer"
+  2 1600 33050
+  0 -1 -1 0
+$EndComp
+$Comp
+L project_symbols:STM32F407VGT6 U1
+U 1 1 00000000
+P 1050 26450
+F 0 "U1" H 1050 26504 30 0 L BNN
+F 1 "STM32F407VGT6" H 1050 26462 30 0 L BNN
+F 2 "jitx-design:STLQFP_100" H 1050 26450 60 1 C CNN
+F 3 "" H 1050 26450 60 1 C CNN
+F 4 "STM32F407VGT6" H 1050 26450 60 1 C CNN "MPN"
+F 5 "STMicroelectronics" H 1050 26450 60 1 C CNN "Manufacturer"
+  1 1050 26450
+  1 0 0 -1
+$EndComp
+Wire Wire Line
+  1700 32000 2750 32000
+Wire Wire Line
+  1700 32050 1700 32000
+Wire Wire Line
+  800 30250 850 30250
+Wire Wire Line
+  800 31900 2750 31900
+Wire Wire Line
+  800 31900 800 30250
+Wire Wire Line
+  2650 26950 2700 26950
+Wire Wire Line
+  2700 31800 2750 31800
+Wire Wire Line
+  2700 31800 2700 26950
+$EndSCHEMATC

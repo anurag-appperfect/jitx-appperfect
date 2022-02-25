@@ -1,0 +1,12 @@
+*.bak
+*.xml
+commitmsg
+commit_msg
+*.bck
+*.dcm
+*autosave*
+*-bak
+*.sch~
+*.net
+*.rpt
+impedancias.save

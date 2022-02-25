@@ -1,0 +1,67 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/diodesch :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern do-214aa_smb :
+  pad p[1] : smd-pad(Rectangle(2.5, 2.3)) at loc(-2.2, 0.0, 0.0)
+  pad p[2] : smd-pad(Rectangle(2.5, 2.3)) at loc(2.2, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.72, -1.8), Point(0.72, 1.8) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.66, 1.8), Point(0.66, -1.8) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.79, 1.8), Point(0.79, -1.8) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.15, -1.8), Point(-2.15, -1.22) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.15, -1.8), Point(2.15, -1.8) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.15, -1.8), Point(2.15, -1.22) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.15, 1.8), Point(-2.15, 1.22) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.15, 1.8), Point(2.15, 1.8) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.15, 1.8), Point(2.15, 1.22) ])
+  model3d = Model3D("DO-214AA_SMB.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol diodesch-symbol :
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(-1.27, 1.27), Point(1.27, 0.0), Point(-1.27, -1.27)])
+  layer("foreground") = Line(0.203, [Point(1.905, 0.635), Point(1.905, 1.27)])
+  layer("foreground") = Line(0.203, [Point(1.905, 1.27), Point(1.27, 1.27)])
+  layer("foreground") = Line(0.203, [Point(1.27, 1.27), Point(1.27, -1.27)])
+  layer("foreground") = Line(0.203, [Point(1.27, -1.27), Point(0.635, -1.27)])
+  layer("foreground") = Line(0.203, [Point(0.635, -1.27), Point(0.635, -0.635)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+public pcb-component diodesch :
+  pin A
+  pin K
+  val lp = do-214aa_smb
+  val sym = diodesch-symbol
+  landpattern = lp(A => lp.p[1], K => lp.p[2])
+  symbol = sym(A => sym.A, K => sym.K)
+  
+  name = "FSL-MINI:DO-214AA_SMB"
+  description = "Diode SMB Standard"
+  reference-prefix = "D"
+  mpn = "DIODESCH"

@@ -1,0 +1,60 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/zener-device :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern d_0603_1608metric :
+  pad p[1] : smd-pad(RoundedRectangle(0.875, 0.95, 0.109375)) at loc(-0.7875, 0.0, 0.0)
+  pad p[2] : smd-pad(RoundedRectangle(0.875, 0.95, 0.109375)) at loc(0.7875, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(0.8, 0.735), Point(-1.485, 0.735) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-1.485, 0.735), Point(-1.485, -0.735) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-1.485, -0.735), Point(0.8, -0.735) ])
+  model3d = Model3D("D_0603_1608Metric.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol zener-device-symbol :
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(1.27, 0.0), Point(-1.27, 1.27), Point(-1.27, -1.27), Point(1.27, 0.0), Point(1.27, 0.0)])
+  layer("foreground") = Line(0.203, [Point(1.778, 1.27), Point(1.27, 0.762)])
+  layer("foreground") = Line(0.203, [Point(1.27, 0.762), Point(1.27, -0.762)])
+  layer("foreground") = Line(0.203, [Point(1.27, -0.762), Point(0.762, -1.27)])
+  layer("foreground") = Line(0.203, [Point(0.762, -1.27), Point(0.762, -1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+public pcb-component zener-device :
+  pin A
+  pin K
+  val lp = d_0603_1608metric
+  val sym = zener-device-symbol
+  landpattern = lp(A => lp.p[1], K => lp.p[2])
+  symbol = sym(A => sym.A, K => sym.K)
+  
+  name = "Diode_SMD:D_0603_1608Metric"
+  description = "Diode SMD 0603 (1608 Metric"
+  reference-prefix = "D"
+  mpn = "ZENER-device"

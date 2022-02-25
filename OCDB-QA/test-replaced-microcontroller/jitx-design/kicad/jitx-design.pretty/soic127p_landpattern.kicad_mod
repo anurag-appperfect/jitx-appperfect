@@ -1,0 +1,58 @@
+(module soic127p_landpattern (layer F.Cu)
+  (pad 1 smd rect
+    (at -2.5 -2.54 270.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 2 smd rect
+    (at -2.5 -1.27 270.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 3 smd rect
+    (at -2.5 0.0 270.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 4 smd rect
+    (at -2.5 1.27 270.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 5 smd rect
+    (at -2.5 2.54 270.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 6 smd rect
+    (at 2.5 2.54 90.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 7 smd rect
+    (at 2.5 1.27 90.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 8 smd rect
+    (at 2.5 0.0 90.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 9 smd rect
+    (at 2.5 -1.27 90.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (pad 10 smd rect
+    (at 2.5 -2.54 90.0)
+    (size 0.6 1.5)
+    (layers F.Cu F.Paste))
+  (fp_poly (pts (xy -3.4 -2.99) (xy -3.4 -2.09) (xy -1.6 -2.09) (xy -1.6 -2.99)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy -3.4 -1.72) (xy -3.4 -0.82) (xy -1.6 -0.82) (xy -1.6 -1.72)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy -3.4 -0.45) (xy -3.4 0.45) (xy -1.6 0.45) (xy -1.6 -0.45)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy -3.4 0.82) (xy -3.4 1.72) (xy -1.6 1.72) (xy -1.6 0.82)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy -3.4 2.09) (xy -3.4 2.99) (xy -1.6 2.99) (xy -1.6 2.09)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 3.4 2.99) (xy 3.4 2.09) (xy 1.6 2.09) (xy 1.6 2.99)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 3.4 1.72) (xy 3.4 0.82) (xy 1.6 0.82) (xy 1.6 1.72)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 3.4 0.45) (xy 3.4 -0.45) (xy 1.6 -0.45) (xy 1.6 0.45)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 3.4 -0.82) (xy 3.4 -1.72) (xy 1.6 -1.72) (xy 1.6 -0.82)) (layer F.Mask) (width 0))
+  (fp_poly (pts (xy 3.4 -2.09) (xy 3.4 -2.99) (xy 1.6 -2.99) (xy 1.6 -2.09)) (layer F.Mask) (width 0))
+  (fp_line (start -3.75 3.09) (end 3.75 3.09) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.75 3.09) (end 3.75 -3.09) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.75 -3.09) (end -3.75 -3.09) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -3.75 -3.09) (end -3.75 3.09) (layer F.CrtYd) (width 0.05))
+  (fp_poly (pts (xy -4.3 -2.54) (xy -4.30384294391935 -2.57901806440323) (xy -4.31522409349774 -2.61653668647302) (xy -4.33370607753949 -2.65111404660392) (xy -4.35857864376269 -2.68142135623731) (xy -4.38888595339608 -2.70629392246051) (xy -4.42346331352698 -2.72477590650226) (xy -4.46098193559677 -2.73615705608065) (xy -4.5 -2.74) (xy -4.53901806440323 -2.73615705608065) (xy -4.57653668647302 -2.72477590650226) (xy -4.61111404660392 -2.70629392246051) (xy -4.64142135623731 -2.68142135623731) (xy -4.66629392246051 -2.65111404660392) (xy -4.68477590650226 -2.61653668647302) (xy -4.69615705608065 -2.57901806440323) (xy -4.7 -2.54) (xy -4.69615705608065 -2.50098193559677) (xy -4.68477590650226 -2.46346331352698) (xy -4.66629392246051 -2.42888595339608) (xy -4.64142135623731 -2.39857864376269) (xy -4.61111404660392 -2.37370607753949) (xy -4.57653668647302 -2.35522409349774) (xy -4.53901806440323 -2.34384294391935) (xy -4.5 -2.34) (xy -4.46098193559677 -2.34384294391935) (xy -4.42346331352698 -2.35522409349774) (xy -4.38888595339608 -2.37370607753949) (xy -4.35857864376269 -2.39857864376269) (xy -4.33370607753949 -2.42888595339608) (xy -4.31522409349774 -2.46346331352698) (xy -4.30384294391935 -2.50098193559677)) (layer F.SilkS) (width 0))
+  (fp_text reference ">REF" (at 0.0 0.0 0.0) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.10)) (justify ))))

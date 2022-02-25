@@ -1,0 +1,86 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/si50x :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern oscillator_70x50mm :
+  pad p[1] : smd-pad(Rectangle(2.0, 2.2)) at loc(-2.5, -2.1, 0.0)
+  pad p[2] : smd-pad(Rectangle(2.0, 2.2)) at loc(2.5, -2.1, 0.0)
+  pad p[3] : smd-pad(Rectangle(2.0, 2.2)) at loc(2.5, 2.1, 0.0)
+  pad p[4] : smd-pad(Rectangle(2.0, 2.2)) at loc(-2.5, 2.1, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-3.4, 0.2), Point(-3.4, -0.2) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-3.6, 0.4), Point(-3.6, -0.4) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-4.6, -2.0), 0.4)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-0.77, -0.25), Point(0.77, -0.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.77, -0.25), Point(0.77, 0.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.77, 0.25), Point(-0.77, 0.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-0.77, 0.25), Point(-0.77, -0.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-0.77, -0.63), Point(0.0, -0.63) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.0, -0.63), Point(0.77, -0.63) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.0, -0.63), Point(0.0, -1.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-0.77, 0.65), Point(0.0, 0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.0, 0.65), Point(0.77, 0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(0.0, 0.65), Point(0.0, 1.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-1.2, -2.7), Point(1.2, -2.7) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(3.8, -2.5), Point(3.8, 2.5) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(1.2, 2.7), Point(-1.2, 2.7) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-3.8, 2.5), Point(-3.8, 0.45) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-3.8, 0.5), Point(-3.8, -0.5) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254, [ Point(-3.8, -0.5), Point(-3.8, -2.5) ])
+  model3d = Model3D("asv.wrl",
+    Vec3D(0.0, 0.0, 0.0393700787401575),
+    Vec3D(0.42, 0.42, 0.42),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol si50x-symbol :
+  pin FSOE at Point(-7.62, 5.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin GND at Point(-7.62, -5.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin CLK at Point(8.889, -5.08) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin Vdd at Point(8.889, 5.08) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+
+  layer("foreground") = Rectangle(16.509, 19.05, loc(0.635, 0.635))
+  layer("foreground") = Line(0.15, [Point(6.35, 7.62), Point(6.35, 7.62)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-7.6195, 10.46))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-7.6195, 11.522))
+
+public pcb-component si50x :
+  pin FSOE
+  pin GND
+  pin CLK
+  pin Vdd
+  val lp = oscillator_70x50mm
+  val sym = si50x-symbol
+  landpattern = lp(FSOE => lp.p[1], GND => lp.p[2], CLK => lp.p[3], Vdd => lp.p[4])
+  symbol = sym(FSOE => sym.FSOE, GND => sym.GND, CLK => sym.CLK, Vdd => sym.Vdd)
+  
+  name = "FSL-MINI:Oscillator_7.0x5.0mm"
+  reference-prefix = "U"
+  mpn = "Si50X"

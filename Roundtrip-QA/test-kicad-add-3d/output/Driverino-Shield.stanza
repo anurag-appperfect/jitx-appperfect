@@ -1,0 +1,220 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+  import Driverino-Shield/jumper-device
+  import Driverino-Shield/kicad-logo2_5mm_silkscreen
+  import Driverino-Shield/conn_01x08-connector_generic-1
+  import Driverino-Shield/c-device
+  import Driverino-Shield/led-device
+  import Driverino-Shield/inductor_small-device
+  import Driverino-Shield/mct8316z-texas2-driverino-shield-rescue
+  import Driverino-Shield/conn_3-conn
+  import Driverino-Shield/r-device
+  import Driverino-Shield/fuse-device
+  import Driverino-Shield/conn_01x06-connector_generic
+  import Driverino-Shield/conn_2-conn
+  import Driverino-Shield/zener-device
+  import Driverino-Shield/conn_01x10-connector_generic
+  import Driverino-Shield/jumper3-device
+  import Driverino-Shield/conn_01x08-connector_generic
+  import Driverino-Shield/oshw-logo_19x20mm_silkscreen
+  import Driverino-Shield/c-device-1
+  import Driverino-Shield/conn_8-conn
+  import Driverino-Shield/conn_01x01-connector_generic
+  import Driverino-Shield/c-device-2
+  import Driverino-Shield/r-device-1
+  import Driverino-Shield/c-device-3
+  import Driverino-Shield/cp1-device
+
+pcb-module Driverino-Shield :
+  inst C1 : c-device-2
+  inst C10 : c-device-1
+  inst C11 : c-device-1
+  inst C12 : c-device-1
+  inst C2 : cp1-device
+  inst C3 : c-device
+  inst C4 : c-device-1
+  inst C5 : c-device-3
+  inst C6 : c-device-1
+  inst C7 : c-device-3
+  inst C8 : c-device-3
+  inst C9 : c-device-3
+  inst D1 : led-device
+  inst D2 : led-device
+  inst D3 : led-device
+  inst D4 : led-device
+  inst D5 : zener-device
+  inst F1 : fuse-device
+  inst JP1 : jumper3-device
+  inst JP2 : jumper-device
+  inst L1 : inductor_small-device
+  inst P1 : conn_01x08-connector_generic
+  inst P10 : conn_3-conn
+  inst P11 : conn_8-conn
+  inst P2 : conn_01x06-connector_generic
+  inst P3 : conn_01x10-connector_generic
+  inst P4 : conn_01x08-connector_generic-1
+  inst P5 : conn_01x01-connector_generic
+  inst P6 : conn_01x01-connector_generic
+  inst P7 : conn_01x01-connector_generic
+  inst P8 : conn_01x01-connector_generic
+  inst P9 : conn_2-conn
+  inst R1 : r-device-1
+  inst R10 : r-device-1
+  inst R11 : r-device-1
+  inst R12 : r-device-1
+  inst R13 : r-device-1
+  inst R14 : r-device-1
+  inst R15 : r-device-1
+  inst R16 : r-device-1
+  inst R17 : r-device-1
+  inst R18 : r-device
+  inst R19 : r-device
+  inst R2 : r-device-1
+  inst R20 : r-device
+  inst R21 : r-device
+  inst R22 : r-device
+  val keycap = ocdb/scripts/kle-importer/KeyCap(0, 0, [0.0, 0.0], [],             Rectangle(1.0, 1.0)) 
+  inst SW1 : ocdb/cherry/MX/component(keycap) 
+  inst R23 : r-device
+  inst R3 : r-device-1
+  inst R4 : r-device-1
+  inst R5 : r-device-1
+  inst R6 : r-device-1
+  inst R7 : r-device-1
+  inst R8 : r-device-1
+  inst R9 : r-device-1
+  inst REF** : kicad-logo2_5mm_silkscreen
+  inst REF**-1 : oshw-logo_19x20mm_silkscreen
+  inst U1 : mct8316z-texas2-driverino-shield-rescue
+
+  for inst in instances(self) do :
+    reference-designator(inst) = to-string(ref(inst))
+
+  place(C1) at loc(128.5494, -90.7034, 0.0) on Top
+  place(C10) at loc(118.3475, -109.823, 90.0) on Top
+  place(C11) at loc(118.3475, -112.577, 90.0) on Top
+  place(C12) at loc(118.3475, -115.331, 90.0) on Top
+  place(C2) at loc(124.714, -85.852, 180.0) on Top
+  place(C3) at loc(122.174, -94.615, 0.0) on Top
+  place(C4) at loc(122.936, -96.52, 0.0) on Top
+  place(C5) at loc(125.349, -94.996, 90.0) on Top
+  place(C6) at loc(126.8095, -96.393, 90.0) on Top
+  place(C7) at loc(126.548, -106.299, 270.0) on Top
+  place(C8) at loc(135.1915, -86.627, 90.0) on Top
+  place(C9) at loc(160.147, -118.999, 90.0) on Top
+  place(D1) at loc(168.2115, -95.9865, 180.0) on Top
+  place(D2) at loc(168.204, -93.787, 180.0) on Top
+  place(D3) at loc(134.422, -82.1245, 180.0) on Top
+  place(D4) at loc(168.204, -103.9495, 180.0) on Top
+  place(D5) at loc(133.604, -86.6395, 90.0) on Top
+  place(F1) at loc(133.498, -93.787, 180.0) on Top
+  place(JP1) at loc(120.998, -106.045, 90.0) on Top
+  place(JP2) at loc(149.098, -118.349, 0.0) on Top
+  place(L1) at loc(128.548, -93.533, 180.0) on Top
+  place(P1) at loc(138.938, -123.825, 0.0) on Top
+  place(P10) at loc(115.6335, -100.565, 270.0) on Top
+  place(P11) at loc(116.1475, -116.965, 90.0) on Top
+  place(P2) at loc(161.798, -123.825, 0.0) on Top
+  place(P3) at loc(129.794, -75.565, 0.0) on Top
+  place(P4) at loc(156.718, -75.565, 0.0) on Top
+  place(P5) at loc(124.968, -123.825, 0.0) on Top
+  place(P6) at loc(177.038, -118.745, 0.0) on Top
+  place(P7) at loc(126.238, -75.565, 0.0) on Top
+  place(P8) at loc(177.038, -90.805, 0.0) on Top
+  place(P9) at loc(115.6335, -91.565, 270.0) on Top
+  place(R1) at loc(164.998, -95.9865, 0.0) on Top
+  place(R10) at loc(156.718, -80.645, 270.0) on Top
+  place(R11) at loc(152.654, -80.645, 270.0) on Top
+  place(R12) at loc(159.258, -80.645, 270.0) on Top
+  place(R13) at loc(161.798, -118.999, 270.0) on Top
+  place(R14) at loc(166.878, -80.645, 270.0) on Top
+  place(R15) at loc(169.418, -80.645, 270.0) on Top
+  place(R16) at loc(161.798, -80.645, 270.0) on Top
+  place(R17) at loc(124.714, -79.629, 0.0) on Top
+  place(R18) at loc(120.3475, -109.338, 0.0) on Top
+  place(R19) at loc(120.3475, -110.308, 0.0) on Top
+  place(R2) at loc(133.2865, -96.774, 270.0) on Top
+  place(R20) at loc(120.3475, -112.092, 0.0) on Top
+  place(R21) at loc(120.3475, -113.062, 0.0) on Top
+  place(R22) at loc(120.3475, -114.846, 0.0) on Top
+  place(R23) at loc(120.3475, -115.816, 0.0) on Top
+  place(R3) at loc(164.998, -93.787, 0.0) on Top
+  place(R4) at loc(131.188, -82.1245, 0.0) on Top
+  place(R5) at loc(164.998, -103.9495, 0.0) on Top
+  place(R6) at loc(141.7065, -81.407, 0.0) on Top
+  place(R7) at loc(131.188, -85.852, 180.0) on Top
+  place(R8) at loc(131.191, -87.4776, 180.0) on Top
+  place(R9) at loc(164.338, -80.645, 270.0) on Top
+  place(REF**) at loc(169.7228, -111.4425, 0.0) on Top
+  place(REF**-1) at loc(146.431, -100.711, 0.0) on Top
+  place(U1) at loc(127.298, -100.565, 270.0) on Top
+
+  net FB (C1.p[2], F1.p[2], L1.p[1], U1.FB_BK)
+  net Net-D3-Pad2 (D3.A, R4.p[2])
+  net GND (C1.p[1], C7.p[2], C8.p[1], C9.p[1], D1.K, D2.K, D3.K, D5.A, P1.Pin_6, P1.Pin_7, P11.P1, P3.Pin_4, R17.p[2], R19.p[2], R21.p[2], R23.p[2], R8.p[2], U1.AGND[0], U1.GND, U1.GND_BK)
+  net GNDPWR (C2.p[2], C3.p[1], C4.p[1], P9.PM, R17.p[1], U1.PGND[0], U1.PGND[1], U1.PGND[2])
+  net FAULT (D4.K, R15.p[2], U1.nFAULT)
+  net A0 (P2.Pin_1, R13.p[2])
+  net p+36V (C2.p[1], C3.p[2], C4.p[2], C5.p[2], P9.P1, R4.p[1], R7.p[2], U1.VM[0], U1.VM[1], U1.VM[2])
+  net Net-D4-Pad2 (D4.A, R5.p[2])
+  net A1 (C8.p[2], D5.K, P2.Pin_2, R7.p[1], R8.p[1])
+  net Net-C5-Pad1 (C5.p[1], U1.CP)
+  net VCC (F1.p[1], JP1.p[3], JP2.p[1], R3.p[1])
+  net A4SDA (P2.Pin_5, P3.Pin_2)
+  net Net-C6-Pad1 (C6.p[1], U1.CPH)
+  net Net-JP1-Pad2 (JP1.p[2], P11.P8)
+  net A5SCL (P2.Pin_6, P3.Pin_1)
+  net Net-C6-Pad2 (C6.p[2], U1.CPL)
+  net SW (L1.p[2], U1.SW_BK)
+  net p8 (P3.Pin_10, R11.p[1])
+  net p+3-3V (C7.p[1], JP1.p[1], P1.Pin_4, R1.p[1], R18.p[2], R2.p[1], R20.p[2], R22.p[2], R5.p[1], R6.p[1], U1.AVDD)
+  net U (P10.P1, U1.OUTA[0], U1.OUTA[1])
+  net p7 (P4.Pin_1, R10.p[1])
+  net ILIM (C9.p[2], R13.p[1], U1.ILIM)
+  net V (P10.PM, U1.OUTB[0], U1.OUTB[1])
+  net p6** (P4.Pin_2, R12.p[1])
+  net HAP (C10.p[2], P11.P7, R18.p[1], U1.HPA)
+  net W (P10.P3, U1.OUTC[0], U1.OUTC[1])
+  net p5** (P4.Pin_3, R16.p[1])
+  net HAN (C10.p[1], P11.P6, R19.p[1], U1.HNA)
+  net FGOUT (R12.p[2], R2.p[2], U1.FGOUT)
+  net p4 (P4.Pin_4, R9.p[1])
+  net HBN (C11.p[1], P11.P4, R21.p[1], U1.HNB)
+  net CS (R9.p[2], U1.nSCS)
+  net p3** (P4.Pin_5, R14.p[1])
+  net HBP (C11.p[2], P11.P5, R20.p[1], U1.HPB)
+  net BRAKE (R10.p[2], U1.BRAKE)
+  net p2 (P4.Pin_6, R15.p[1])
+  net HCP (C12.p[2], P11.P3, R22.p[1], U1.HPC)
+  net PWM (R11.p[2], U1.PWM)
+  net p13SCK (P3.Pin_5, U1.SCLK)
+  net HCN (C12.p[1], P11.P2, R23.p[1], U1.HNC)
+  net SLEEP (R14.p[2], U1.nSLEEP)
+  net p12MISO (P3.Pin_6, R6.p[2], U1.SDO)
+  net Net-D1-Pad2 (D1.A, R1.p[2])
+  net DRVOFF (R16.p[2], U1.DRVOFF)
+  net p11**MOSI (P3.Pin_7, U1.SDI)
+  net Net-D2-Pad2 (D2.A, R3.p[2])
+  net p+5V (JP2.p[2], P1.Pin_5)
+
+  symbol(GND) = ground-sym
+  symbol(VCC) = supply-sym
+
+make-default-board(Driverino-Shield, 4, Rectangle(10.0, 10.0))
+
+view-board()
+view-schematic()
+export-cad()

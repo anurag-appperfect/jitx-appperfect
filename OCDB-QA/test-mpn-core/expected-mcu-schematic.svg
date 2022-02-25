@@ -1,0 +1,1868 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+ width="166.1" height="182.34" id="jitpcb">
+<g transform="scale(1.0,-1.0) translate(83.05,-91.17) ">
+<g class="schematic"
+><g class="instance" name="my-capacitor-17548"
+><!-- INSTANCE 17548 SYMBOL my-capacitor -->
+<g transform="translate(-36.83, 60.46)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-34.29, 61.73)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C5</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-34.29, 59.19)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">100.0nF ± 10.00%</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-resistor-17549"
+><!-- INSTANCE 17549 SYMBOL my-resistor -->
+<g transform="translate(-67.31, 4.58)">
+<g transform="rotate(270.0)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-2.54 0.0,-1.5875 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-1.5875 -0.762,-1.27 0.762,-0.635 -0.762,0.0 0.762,0.635 -0.762,1.27 0.0,1.5875 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,1.5875 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-66.04, 2.04)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="end">R1</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-68.58, 2.04)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="end">10.0kΩ ± 0.10%</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17545"
+><!-- INSTANCE 17545 SYMBOL my-capacitor -->
+<g transform="translate(38.1, -81.78)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(40.64, -80.51)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C2</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(40.64, -83.05)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">100.0nF ± 10.00%</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17554"
+><!-- INSTANCE 17554 SYMBOL my-capacitor -->
+<g transform="translate(7.62, 0.77)">
+<g transform="rotate(90.0)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(6.35, 3.31)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C7</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(8.89, 3.31)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">8.2pF ± 1.22%</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="Generic Mounting Hole-17556"
+><!-- INSTANCE 17556 SYMBOL Generic Mounting Hole -->
+<g transform="translate(78.74, -80.51)">
+<g class="sym-background layer--1 layer-0"
+><g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="0.635" fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<g class="sym-foreground layer--1 layer-0"
+><g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="1.143" fill="rgb(29.0%, 28.0%, 24.0%, 100.0%)"/></g>
+<g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="1.143" fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(76.2, -78.605)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">U2</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="Generic Mounting Hole-17557"
+><!-- INSTANCE 17557 SYMBOL Generic Mounting Hole -->
+<g transform="translate(78.74, -86.86)">
+<g class="sym-background layer--1 layer-0"
+><g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="0.635" fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+<g class="sym-foreground layer--1 layer-0"
+><g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="1.143" fill="rgb(29.0%, 28.0%, 24.0%, 100.0%)"/></g>
+<g transform="translate(-1.27, 0.0)">
+<circle cx="0" cy="0" r="1.143" fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(76.2, -84.955)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">U3</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="mcu-component-17543"
+><!-- INSTANCE 17543 SYMBOL mcu-component -->
+<g transform="translate(-39.37, -10.66)">
+<g class="sym-foreground layer--1 layer-0"
+><g transform="scale(17.78, 54.61)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(29.0%, 28.0%, 24.0%, 100.0%)"/>
+</g>
+<g transform="scale(17.78, 54.61)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-17.78, 1.27)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">44</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">BOOT0</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-17.78, -1.27)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">7</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">NRST</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 45.72)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">3</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">OSC32_IN</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 43.18)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">4</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">OSC32_OUT</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 40.64)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">5</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">OSC_IN</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 38.1)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">6</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">OSC_OUT</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 35.56)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">10</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA0</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 33.02)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">11</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA1</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 30.48)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">12</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA2</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 27.94)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">13</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA3</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 25.4)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">14</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA4</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 22.86)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">15</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA5</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 20.32)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">16</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA6</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 17.78)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">17</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA7</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 15.24)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">29</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA8</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 12.7)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">30</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA9</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 10.16)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">31</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA10</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 7.62)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">32</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA11</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 5.08)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">33</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA12</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 2.54)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">34</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA13</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, 0.0)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">37</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA14</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -2.54)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">38</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PA15</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -5.08)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">18</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB0</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -7.62)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">19</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB1</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -10.16)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">20</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB2</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -12.7)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">39</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB3</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -15.24)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">40</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB4</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -17.78)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">41</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB5</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -20.32)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">42</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB6</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -22.86)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">43</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB7</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -25.4)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">45</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB8</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -27.94)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">46</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB9</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -30.48)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">21</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB10</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -33.02)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">22</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB11</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -35.56)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">25</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB12</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -38.1)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">26</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB13</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -40.64)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">27</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB14</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -43.18)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">28</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PB15</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(17.78, -45.72)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">2</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">PC13</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-5.08, 54.61)">
+<g transform="translate(0.0, 1.0)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">24</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, -1.0)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VDD0</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-2.54, 54.61)">
+<g transform="translate(0.0, 1.0)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">36</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, -1.0)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VDD1</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 54.61)">
+<g transform="translate(0.0, 1.0)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">48</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, -1.0)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VDD2</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(2.54, 54.61)">
+<g transform="translate(0.0, 1.0)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">9</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, -1.0)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VDDA</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(5.08, 54.61)">
+<g transform="translate(0.0, 1.0)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">1</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, -1.0)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VLCD</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-3.81, -54.61)">
+<g transform="translate(0.0, -1.0)">
+<g transform="rotate(270.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">23</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, 1.0)">
+<g transform="rotate(270.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VSS0</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-1.27, -54.61)">
+<g transform="translate(0.0, -1.0)">
+<g transform="rotate(270.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">35</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, 1.0)">
+<g transform="rotate(270.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VSS1</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1.27, -54.61)">
+<g transform="translate(0.0, -1.0)">
+<g transform="rotate(270.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">47</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, 1.0)">
+<g transform="rotate(270.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VSS2</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(3.81, -54.61)">
+<g transform="translate(0.0, -1.0)">
+<g transform="rotate(270.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">8</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.0, 1.0)">
+<g transform="rotate(270.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">VSSA</text>
+</g>
+</g>
+</g>
+<polyline points=" 0.0,0.0 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-57.15, 45.312)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">U1</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-57.15, 44.25)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">STM32L151C6U6A</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17544"
+><!-- INSTANCE 17544 SYMBOL my-capacitor -->
+<g transform="translate(60.96, -75.43)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(63.5, -74.16)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C1</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(63.5, -76.7)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">4.7μF ± 20.00%</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-resistor-17551"
+><!-- INSTANCE 17551 SYMBOL my-resistor -->
+<g transform="translate(-38.1, -85.59)">
+<g transform="rotate(90.0)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-2.54 0.0,-1.5875 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-1.5875 -0.762,-1.27 0.762,-0.635 -0.762,0.0 0.762,0.635 -0.762,1.27 0.0,1.5875 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,1.5875 0.0,2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-39.37, -83.05)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">R2</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-36.83, -83.05)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">10.0kΩ ± 0.10%</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="component-17552"
+><!-- INSTANCE 17552 SYMBOL component -->
+<g transform="translate(-59.69, 76.97)">
+<g class="sym-foreground layer--1 layer-0"
+><g transform="scale(6.35, 7.62)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(29.0%, 28.0%, 24.0%, 100.0%)"/>
+</g>
+<g transform="scale(6.35, 7.62)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-6.35, 5.08)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">1</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">1</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-6.35, 2.54)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">2</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">2</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-6.35, 0.0)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">3</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">3</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-6.35, -2.54)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">4</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">4</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-6.35, -5.08)">
+<g transform="translate(-1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">5</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">5</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 -2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(6.35, 5.08)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">10</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">10</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(6.35, 2.54)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">9</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">9</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(6.35, 0.0)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">8</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">8</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(6.35, -2.54)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">7</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">7</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(6.35, -5.08)">
+<g transform="translate(1.0, 0.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(98.0%, 15.0%, 45.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">6</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.0, -0.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="end">6</text>
+</g>
+</g>
+<polyline points=" 0.0,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-66.04, 85.952)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="start">J1</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17547"
+><!-- INSTANCE 17547 SYMBOL my-capacitor -->
+<g transform="translate(26.67, -81.78)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(29.21, -80.51)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C4</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(29.21, -83.05)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">100.0nF ± 10.00%</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17550"
+><!-- INSTANCE 17550 SYMBOL my-capacitor -->
+<g transform="translate(-74.93, -11.93)">
+<g transform="rotate(90.0)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-76.2, -9.39)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C6</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-73.66, -9.39)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">10.0nF ± 100.00%</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="component-17553"
+><!-- INSTANCE 17553 SYMBOL component -->
+<g transform="translate(12.7, 23.63)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -2.54,0.0 -1.27,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-1.27 -1.27,1.27 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-foreground layer--1 layer-0"
+><g transform="scale(0.635, 1.27)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(29.0%, 28.0%, 24.0%, 100.0%)"/>
+</g>
+<g transform="scale(0.635, 1.27)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 1.27,-1.27 1.27,1.27 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 1.27,0.0 2.54,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 1.27,-2.54 -1.27,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-2.54 0.0,-5.08 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-2.54, 0.0)">
+<polyline points=" 0.0,0.0 -0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(2.54, 0.0)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -5.08)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(15.24, 24.9)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">X1</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(15.748, 24.138)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">TSX-3225 16.0000MF09Z-AC0</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17546"
+><!-- INSTANCE 17546 SYMBOL my-capacitor -->
+<g transform="translate(49.53, -81.78)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(52.07, -80.51)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C3</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(52.07, -83.05)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">100.0nF ± 10.00%</text>
+</g>
+</g>
+</g>
+</g>
+<g class="instance" name="my-capacitor-17555"
+><!-- INSTANCE 17555 SYMBOL my-capacitor -->
+<g transform="translate(-2.54, -3.04)">
+<g transform="rotate(90.0)">
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,2.54 0.0,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,0.508 1.27,0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" 0.0,-0.508 0.0,-2.54 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.127" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="sym-symbol layer--1 layer-0"
+><polyline points=" -1.27,-0.508 1.27,-0.508 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)"  stroke-width="0.254" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, 2.54)">
+<polyline points=" 0.0,0.0 0.0,0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(0.0, -2.54)">
+<polyline points=" 0.0,0.0 0.0,-0.0 " fill="none" stroke="rgb(98.0%, 15.0%, 45.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-3.81, -0.5)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">C8</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-1.27, -0.5)">
+<g transform="rotate(90.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(40.0%, 85.0%, 94.0%, 100.0%)" font-size="0.7056" dominant-baseline="middle" text-anchor="start">8.2pF ± 1.22%</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="drawing"
+><g class="wire"
+><polyline points=" -36.83,63.0 -36.83,64.27 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -36.83,57.92 -36.83,56.65 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -69.85,4.58 -71.12,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -64.77,4.58 -63.5,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 38.1,-79.24 38.1,-77.97 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 38.1,-84.32 38.1,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 5.08,0.77 3.81,0.77 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 10.16,0.77 11.43,0.77 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 60.96,-72.89 60.96,-71.62 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 60.96,-77.97 60.96,-79.24 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -35.56,-85.59 -34.29,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -40.64,-85.59 -41.91,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-79.24 26.67,-77.97 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-84.32 26.67,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -77.47,-11.93 -78.74,-11.93 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -72.39,-11.93 -71.12,-11.93 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 10.16,23.63 8.89,23.63 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 15.24,23.63 15.24,26.17 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 12.7,18.55 12.7,17.28 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 49.53,-79.24 49.53,-77.97 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 49.53,-84.32 49.53,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -5.08,-3.04 -6.35,-3.04 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 0.0,-3.04 1.27,-3.04 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -71.12,-11.93 -59.69,-11.93 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -63.5,4.58 -62.23,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -62.23,-11.93 -62.23,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -19.05,27.44 15.24,27.44 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -7.62,-3.04 -6.35,-3.04 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -7.62,-3.04 -7.62,27.44 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 15.24,26.17 15.24,27.44 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 2.54,23.63 8.89,23.63 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 2.54,0.77 3.81,0.77 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -19.05,29.98 2.54,29.98 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 2.54,0.77 2.54,29.98 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -60.96,-88.13 -33.02,-88.13 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -34.29,-85.59 -33.02,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -60.96,-9.39 -59.69,-9.39 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -33.02,-88.13 -33.02,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -60.96,-88.13 -60.96,-9.39 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -44.45,55.38 -39.37,55.38 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -39.37,46.49 -39.37,55.38 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -44.45,46.49 -44.45,55.38 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -41.91,46.49 -41.91,55.38 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,4.58 -71.12,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,-11.93 -78.74,-11.93 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,-11.93 -80.01,4.58 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -43.18,-76.7 -38.1,-76.7 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -43.18,-85.59 -41.91,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -43.18,-85.59 -43.18,-67.81 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -40.64,-76.7 -40.64,-67.81 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -38.1,-76.7 -38.1,-67.81 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 1.27,-3.04 12.7,-3.04 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 11.43,0.77 12.7,0.77 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 12.7,-3.04 12.7,17.28 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -36.83,46.49 -36.83,56.65 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -35.56,-76.7 21.59,-76.7 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -36.83,65.54 21.59,65.54 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -35.56,-76.7 -35.56,-67.81 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 21.59,-76.7 21.59,65.54 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -36.83,64.27 -36.83,65.54 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-88.13 60.96,-88.13 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 38.1,-88.13 38.1,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-88.13 26.67,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 49.53,-88.13 49.53,-85.59 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 60.96,-88.13 60.96,-79.24 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-62.73 60.96,-62.73 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 38.1,-77.97 38.1,-62.73 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 26.67,-77.97 26.67,-62.73 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 49.53,-77.97 49.53,-62.73 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" 60.96,-71.62 60.96,-62.73 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,76.97 -68.58,76.97 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,71.89 -68.58,71.89 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -50.8,79.51 -46.99,79.51 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -50.8,74.43 -46.99,74.43 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,68.08 -46.99,68.08 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -46.99,68.08 -46.99,79.51 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="wire"
+><polyline points=" -80.01,68.08 -80.01,76.97 " fill="none" stroke="rgb(65.0%, 89.0%, 18.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-71.12, 4.58)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VDD</text>
+</g>
+</g>
+</g>
+<g transform="translate(-39.37, 46.49)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">VDD</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-36.83, 46.49)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">VDDA</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-35.56, -67.81)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VSSA</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-19.05, -8.12)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">DEBUG_swdio</text>
+</g>
+</g>
+</g>
+<g transform="translate(12.7, 17.28)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VSS</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-40.64, -67.81)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VSS</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-19.05, -10.66)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">DEBUG_swdclk</text>
+</g>
+</g>
+</g>
+<g transform="translate(60.96, -71.62)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">VSS</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(60.96, -79.24)">
+<g transform="rotate(90.0)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VDD</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-68.58, 79.51)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">DEBUG_swdio</text>
+</g>
+</g>
+</g>
+<g transform="translate(-68.58, 82.05)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">VDD</text>
+</g>
+</g>
+</g>
+<g transform="translate(-50.8, 79.51)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">VSS</text>
+</g>
+</g>
+</g>
+<g transform="translate(-68.58, 74.43)">
+<g transform="translate(0.0, 0.5)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(97.0%, 97.0%, 95.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="end">DEBUG_swdclk</text>
+</g>
+</g>
+</g>
+<g class="intersection"
+><g transform="translate(-62.23, -11.93)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-7.62, 27.44)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(2.54, 23.63)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-41.91, 55.38)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-43.18, -76.7)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-40.64, -76.7)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(12.7, 0.77)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(38.1, -88.13)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(49.53, -88.13)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(38.1, -62.73)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(49.53, -62.73)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-80.01, 71.89)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="intersection"
+><g transform="translate(-46.99, 74.43)">
+<circle cx="0" cy="0" r="0.25" fill="rgb(65.0%, 89.0%, 18.0%, 100.0%)"/></g>
+</g>
+<g class="area"
+><g transform="translate(-5.715, -0.5)">
+<g transform="scale(76.835, 90.17)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(68.0%, 51.0%, 100.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-76.835, 90.67)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(68.0%, 51.0%, 100.0%, 100.0%)" font-size="1.0" dominant-baseline="middle" text-anchor="start">mcu</text>
+</g>
+</g>
+</g>
+</g>
+<g class="area"
+><g transform="translate(78.105, -83.05)">
+<g transform="scale(4.445, 7.62)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(68.0%, 51.0%, 100.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

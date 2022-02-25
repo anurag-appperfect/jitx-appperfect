@@ -1,0 +1,793 @@
+#use-added-syntax(jitx)
+defpackage microcontroller-design :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/land-patterns
+  import ocdb/defaults
+
+pcb-landpattern STLQFP-100 :
+  pad p[1] : smd-pad(0.3, 1.2) at loc(-7.75, 6.0, 90.0) on Top
+  pad p[2] : smd-pad(0.3, 1.2) at loc(-7.75, 5.5, 90.0) on Top
+  pad p[3] : smd-pad(0.3, 1.2) at loc(-7.75, 5.0, 90.0) on Top
+  pad p[4] : smd-pad(0.3, 1.2) at loc(-7.75, 4.5, 90.0) on Top
+  pad p[5] : smd-pad(0.3, 1.2) at loc(-7.75, 4.0, 90.0) on Top
+  pad p[6] : smd-pad(0.3, 1.2) at loc(-7.75, 3.5, 90.0) on Top
+  pad p[7] : smd-pad(0.3, 1.2) at loc(-7.75, 3.0, 90.0) on Top
+  pad p[8] : smd-pad(0.3, 1.2) at loc(-7.75, 2.5, 90.0) on Top
+  pad p[9] : smd-pad(0.3, 1.2) at loc(-7.75, 2.0, 90.0) on Top
+  pad p[10] : smd-pad(0.3, 1.2) at loc(-7.75, 1.5, 90.0) on Top
+  pad p[11] : smd-pad(0.3, 1.2) at loc(-7.75, 1.0, 90.0) on Top
+  pad p[12] : smd-pad(0.3, 1.2) at loc(-7.75, 0.5, 90.0) on Top
+  pad p[13] : smd-pad(0.3, 1.2) at loc(-7.75, 0.0, 90.0) on Top
+  pad p[14] : smd-pad(0.3, 1.2) at loc(-7.75, -0.5, 90.0) on Top
+  pad p[15] : smd-pad(0.3, 1.2) at loc(-7.75, -1.0, 90.0) on Top
+  pad p[16] : smd-pad(0.3, 1.2) at loc(-7.75, -1.5, 90.0) on Top
+  pad p[17] : smd-pad(0.3, 1.2) at loc(-7.75, -2.0, 90.0) on Top
+  pad p[18] : smd-pad(0.3, 1.2) at loc(-7.75, -2.5, 90.0) on Top
+  pad p[19] : smd-pad(0.3, 1.2) at loc(-7.75, -3.0, 90.0) on Top
+  pad p[20] : smd-pad(0.3, 1.2) at loc(-7.75, -3.5, 90.0) on Top
+  pad p[21] : smd-pad(0.3, 1.2) at loc(-7.75, -4.0, 90.0) on Top
+  pad p[22] : smd-pad(0.3, 1.2) at loc(-7.75, -4.5, 90.0) on Top
+  pad p[23] : smd-pad(0.3, 1.2) at loc(-7.75, -5.0, 90.0) on Top
+  pad p[24] : smd-pad(0.3, 1.2) at loc(-7.75, -5.5, 90.0) on Top
+  pad p[25] : smd-pad(0.3, 1.2) at loc(-7.75, -6.0, 90.0) on Top
+  pad p[26] : smd-pad(0.3, 1.2) at loc(-6.0, -7.75) on Top
+  pad p[27] : smd-pad(0.3, 1.2) at loc(-5.5, -7.75) on Top
+  pad p[28] : smd-pad(0.3, 1.2) at loc(-5.0, -7.75) on Top
+  pad p[29] : smd-pad(0.3, 1.2) at loc(-4.5, -7.75) on Top
+  pad p[30] : smd-pad(0.3, 1.2) at loc(-4.0, -7.75) on Top
+  pad p[31] : smd-pad(0.3, 1.2) at loc(-3.5, -7.75) on Top
+  pad p[32] : smd-pad(0.3, 1.2) at loc(-3.0, -7.75) on Top
+  pad p[33] : smd-pad(0.3, 1.2) at loc(-2.5, -7.75) on Top
+  pad p[34] : smd-pad(0.3, 1.2) at loc(-2.0, -7.75) on Top
+  pad p[35] : smd-pad(0.3, 1.2) at loc(-1.5, -7.75) on Top
+  pad p[36] : smd-pad(0.3, 1.2) at loc(-1.0, -7.75) on Top
+  pad p[37] : smd-pad(0.3, 1.2) at loc(-0.5, -7.75) on Top
+  pad p[38] : smd-pad(0.3, 1.2) at loc(0.0, -7.75) on Top
+  pad p[39] : smd-pad(0.3, 1.2) at loc(0.5, -7.75) on Top
+  pad p[40] : smd-pad(0.3, 1.2) at loc(1.0, -7.75) on Top
+  pad p[41] : smd-pad(0.3, 1.2) at loc(1.5, -7.75) on Top
+  pad p[42] : smd-pad(0.3, 1.2) at loc(2.0, -7.75) on Top
+  pad p[43] : smd-pad(0.3, 1.2) at loc(2.5, -7.75) on Top
+  pad p[44] : smd-pad(0.3, 1.2) at loc(3.0, -7.75) on Top
+  pad p[45] : smd-pad(0.3, 1.2) at loc(3.5, -7.75) on Top
+  pad p[46] : smd-pad(0.3, 1.2) at loc(4.0, -7.75) on Top
+  pad p[47] : smd-pad(0.3, 1.2) at loc(4.5, -7.75) on Top
+  pad p[48] : smd-pad(0.3, 1.2) at loc(5.0, -7.75) on Top
+  pad p[49] : smd-pad(0.3, 1.2) at loc(5.5, -7.75) on Top
+  pad p[50] : smd-pad(0.3, 1.2) at loc(6.0, -7.75) on Top
+  pad p[51] : smd-pad(0.3, 1.2) at loc(7.75, -6.0, 90.0) on Top
+  pad p[52] : smd-pad(0.3, 1.2) at loc(7.75, -5.5, 90.0) on Top
+  pad p[53] : smd-pad(0.3, 1.2) at loc(7.75, -5.0, 90.0) on Top
+  pad p[54] : smd-pad(0.3, 1.2) at loc(7.75, -4.5, 90.0) on Top
+  pad p[55] : smd-pad(0.3, 1.2) at loc(7.75, -4.0, 90.0) on Top
+  pad p[56] : smd-pad(0.3, 1.2) at loc(7.75, -3.5, 90.0) on Top
+  pad p[57] : smd-pad(0.3, 1.2) at loc(7.75, -3.0, 90.0) on Top
+  pad p[58] : smd-pad(0.3, 1.2) at loc(7.75, -2.5, 90.0) on Top
+  pad p[59] : smd-pad(0.3, 1.2) at loc(7.75, -2.0, 90.0) on Top
+  pad p[60] : smd-pad(0.3, 1.2) at loc(7.75, -1.5, 90.0) on Top
+  pad p[61] : smd-pad(0.3, 1.2) at loc(7.75, -1.0, 90.0) on Top
+  pad p[62] : smd-pad(0.3, 1.2) at loc(7.75, -0.5, 90.0) on Top
+  pad p[63] : smd-pad(0.3, 1.2) at loc(7.75, 0.0, 90.0) on Top
+  pad p[64] : smd-pad(0.3, 1.2) at loc(7.75, 0.5, 90.0) on Top
+  pad p[65] : smd-pad(0.3, 1.2) at loc(7.75, 1.0, 90.0) on Top
+  pad p[66] : smd-pad(0.3, 1.2) at loc(7.75, 1.5, 90.0) on Top
+  pad p[67] : smd-pad(0.3, 1.2) at loc(7.75, 2.0, 90.0) on Top
+  pad p[68] : smd-pad(0.3, 1.2) at loc(7.75, 2.5, 90.0) on Top
+  pad p[69] : smd-pad(0.3, 1.2) at loc(7.75, 3.0, 90.0) on Top
+  pad p[70] : smd-pad(0.3, 1.2) at loc(7.75, 3.5, 90.0) on Top
+  pad p[71] : smd-pad(0.3, 1.2) at loc(7.75, 4.0, 90.0) on Top
+  pad p[72] : smd-pad(0.3, 1.2) at loc(7.75, 4.5, 90.0) on Top
+  pad p[73] : smd-pad(0.3, 1.2) at loc(7.75, 5.0, 90.0) on Top
+  pad p[74] : smd-pad(0.3, 1.2) at loc(7.75, 5.5, 90.0) on Top
+  pad p[75] : smd-pad(0.3, 1.2) at loc(7.75, 6.0, 90.0) on Top
+  pad p[76] : smd-pad(0.3, 1.2) at loc(6.0, 7.75) on Top
+  pad p[77] : smd-pad(0.3, 1.2) at loc(5.5, 7.75) on Top
+  pad p[78] : smd-pad(0.3, 1.2) at loc(5.0, 7.75) on Top
+  pad p[79] : smd-pad(0.3, 1.2) at loc(4.5, 7.75) on Top
+  pad p[80] : smd-pad(0.3, 1.2) at loc(4.0, 7.75) on Top
+  pad p[81] : smd-pad(0.3, 1.2) at loc(3.5, 7.75) on Top
+  pad p[82] : smd-pad(0.3, 1.2) at loc(3.0, 7.75) on Top
+  pad p[83] : smd-pad(0.3, 1.2) at loc(2.5, 7.75) on Top
+  pad p[84] : smd-pad(0.3, 1.2) at loc(2.0, 7.75) on Top
+  pad p[85] : smd-pad(0.3, 1.2) at loc(1.5, 7.75) on Top
+  pad p[86] : smd-pad(0.3, 1.2) at loc(1.0, 7.75) on Top
+  pad p[87] : smd-pad(0.3, 1.2) at loc(0.5, 7.75) on Top
+  pad p[88] : smd-pad(0.3, 1.2) at loc(0.0, 7.75) on Top
+  pad p[89] : smd-pad(0.3, 1.2) at loc(-0.5, 7.75) on Top
+  pad p[90] : smd-pad(0.3, 1.2) at loc(-1.0, 7.75) on Top
+  pad p[91] : smd-pad(0.3, 1.2) at loc(-1.5, 7.75) on Top
+  pad p[92] : smd-pad(0.3, 1.2) at loc(-2.0, 7.75) on Top
+  pad p[93] : smd-pad(0.3, 1.2) at loc(-2.5, 7.75) on Top
+  pad p[94] : smd-pad(0.3, 1.2) at loc(-3.0, 7.75) on Top
+  pad p[95] : smd-pad(0.3, 1.2) at loc(-3.5, 7.75) on Top
+  pad p[96] : smd-pad(0.3, 1.2) at loc(-4.0, 7.75) on Top
+  pad p[97] : smd-pad(0.3, 1.2) at loc(-4.5, 7.75) on Top
+  pad p[98] : smd-pad(0.3, 1.2) at loc(-5.0, 7.75) on Top
+  pad p[99] : smd-pad(0.3, 1.2) at loc(-5.5, 7.75) on Top
+  pad p[100] : smd-pad(0.3, 1.2) at loc(-6.0, 7.75) on Top
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [
+    Point(-7.625, 6.7), 
+    Point(-7.63451505843609, 6.74783542904564), 
+    Point(-7.66161165235168, 6.78838834764832), 
+    Point(-7.70216457095436, 6.81548494156391), 
+    Point(-7.75, 6.825), 
+    Point(-7.79783542904564, 6.81548494156391), 
+    Point(-7.83838834764832, 6.78838834764832), 
+    Point(-7.86548494156391, 6.74783542904564), 
+    Point(-7.875, 6.7), 
+    Point(-7.86548494156391, 6.65216457095436), 
+    Point(-7.83838834764832, 6.61161165235168), 
+    Point(-7.79783542904564, 6.58451505843609), 
+    Point(-7.75, 6.575), 
+    Point(-7.70216457095436, 6.58451505843609), 
+    Point(-7.66161165235168, 6.61161165235168), 
+    Point(-7.63451505843609, 6.65216457095436), 
+    Point(-7.625, 6.7)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.6, [
+    Point(-5.273, 5.573), 
+    Point(-5.29583614024661, 5.68780502970953), 
+    Point(-5.36086796564404, 5.78513203435596), 
+    Point(-5.45819497029047, 5.85016385975339), 
+    Point(-5.573, 5.873), 
+    Point(-5.68780502970953, 5.85016385975339), 
+    Point(-5.78513203435596, 5.78513203435596), 
+    Point(-5.85016385975339, 5.68780502970953), 
+    Point(-5.873, 5.573), 
+    Point(-5.85016385975339, 5.45819497029047), 
+    Point(-5.78513203435597, 5.36086796564404), 
+    Point(-5.68780502970953, 5.29583614024661), 
+    Point(-5.573, 5.273), 
+    Point(-5.45819497029047, 5.29583614024661), 
+    Point(-5.36086796564404, 5.36086796564404), 
+    Point(-5.29583614024661, 5.45819497029047), 
+    Point(-5.273, 5.573)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1778, [Point(-6.6, -6.6), Point(-6.6, 6.6)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1778, [Point(6.6, -6.6), Point(6.6, 6.6)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1778, [Point(-6.6, 6.6), Point(6.6, 6.6)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1778, [Point(-6.6, -6.6), Point(6.6, -6.6)])
+  ref-label()
+
+pcb-symbol STM32F407VGT6-symbol0 :
+  pin BOOT0 at Point(35.56, -104.14) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin NRST at Point(35.56, -109.22) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA0-WKUPPA0 at Point(0.0, -2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA1 at Point(0.0, -5.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA10 at Point(0.0, -30.48) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA11 at Point(0.0, -33.02) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA12 at Point(0.0, -35.56) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA13JTMS-SWDIO at Point(0.0, -38.1) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA14JTCK-SWCLK at Point(0.0, -40.64) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA15JTDI at Point(0.0, -43.18) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA2 at Point(0.0, -7.62) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA3 at Point(0.0, -10.16) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA4 at Point(0.0, -12.7) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA5 at Point(0.0, -15.24) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA6 at Point(0.0, -17.78) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA7 at Point(0.0, -20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA8 at Point(0.0, -25.4) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PA9 at Point(0.0, -27.94) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB0 at Point(35.56, -2.54) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB1 at Point(35.56, -5.08) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB10 at Point(35.56, -30.48) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB11 at Point(35.56, -33.02) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB12 at Point(35.56, -35.56) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB13 at Point(35.56, -38.1) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB14 at Point(35.56, -40.64) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB15 at Point(35.56, -43.18) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB2-BOOT1PB2 at Point(35.56, -7.62) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB3JTDOTRACESWO at Point(35.56, -10.16) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB4NJTRST at Point(35.56, -12.7) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB5 at Point(35.56, -15.24) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB6 at Point(35.56, -17.78) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB7 at Point(35.56, -20.32) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB8 at Point(35.56, -25.4) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PB9 at Point(35.56, -27.94) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC0 at Point(0.0, -48.26) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC1 at Point(0.0, -50.8) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC10 at Point(0.0, -76.2) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC11 at Point(0.0, -78.74) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC12 at Point(0.0, -81.28) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC13 at Point(0.0, -83.82) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC14-OSC32_INPC14 at Point(0.0, -86.36) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC15-OSC32_OUTPC15 at Point(0.0, -88.9) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC2 at Point(0.0, -53.34) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC3 at Point(0.0, -55.88) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC4 at Point(0.0, -58.42) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC5 at Point(0.0, -60.96) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC6 at Point(0.0, -63.5) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC7 at Point(0.0, -66.04) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC8 at Point(0.0, -71.12) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PC9 at Point(0.0, -73.66) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD0 at Point(35.56, -48.26) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD1 at Point(35.56, -50.8) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD10 at Point(35.56, -76.2) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD11 at Point(35.56, -78.74) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD12 at Point(35.56, -81.28) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD13 at Point(35.56, -83.82) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD14 at Point(35.56, -86.36) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD15 at Point(35.56, -88.9) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD2 at Point(35.56, -53.34) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD3 at Point(35.56, -55.88) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD4 at Point(35.56, -58.42) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD5 at Point(35.56, -60.96) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD6 at Point(35.56, -63.5) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD7 at Point(35.56, -66.04) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD8 at Point(35.56, -71.12) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PD9 at Point(35.56, -73.66) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE0 at Point(0.0, -93.98) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE1 at Point(0.0, -96.52) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE10 at Point(0.0, -121.92) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE11 at Point(0.0, -124.46) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE12 at Point(0.0, -127.0) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE13 at Point(0.0, -129.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE14 at Point(0.0, -132.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE15 at Point(0.0, -134.62) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE2 at Point(0.0, -99.06) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE3 at Point(0.0, -101.6) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE4 at Point(0.0, -104.14) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE5 at Point(0.0, -106.68) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE6 at Point(0.0, -109.22) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE7 at Point(0.0, -111.76) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE8 at Point(0.0, -116.84) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PE9 at Point(0.0, -119.38) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PH0-OSC_INPH0 at Point(35.56, -96.52) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin PH1-OSC_OUTPH1 at Point(35.56, -99.06) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VCAP_1 at Point(35.56, -114.3) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VCAP_2 at Point(35.56, -116.84) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  layer("foreground") = Rectangle(35.56, 137.16, loc(17.78, -68.58))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(0.0, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(0.0, 1.362))
+
+pcb-symbol STM32F407VGT6-symbol1 :
+  pin VBAT at Point(0.0, -2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[0] at Point(0.0, -17.78) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[1] at Point(0.0, -12.7) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[2] at Point(0.0, -20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[3] at Point(0.0, -10.16) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[4] at Point(0.0, -15.24) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDD[5] at Point(0.0, -7.62) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VDDA at Point(0.0, -25.4) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VREF+ at Point(20.32, -2.54) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VSS[0] at Point(20.32, -12.7) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VSS[1] at Point(20.32, -20.32) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VSS[2] at Point(20.32, -15.24) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VSS[3] at Point(20.32, -17.78) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  pin VSSA at Point(20.32, -25.4) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.523
+    name-size = 1.523
+  layer("foreground") = Rectangle(20.32, 27.94, loc(10.16, -13.97))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(0.0, 0.3))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(0.0, 1.362))
+
+public pcb-component component :
+  name = "STM32F407VGT6"
+  description = "STM32F407VGT6"
+  manufacturer = "STMicroelectronics"
+  mpn = "STM32F407VGT6"
+  pin-properties :
+    [pin:Ref | pads:Int ... | side:Dir]
+    [BOOT0 | 94 | Right]
+    [NRST | 14 | Right]
+    [PA0-WKUPPA0 | 23 | Left]
+    [PA1 | 24 | Left]
+    [PA10 | 69 | Left]
+    [PA11 | 70 | Left]
+    [PA12 | 71 | Left]
+    [PA13JTMS-SWDIO | 72 | Left]
+    [PA14JTCK-SWCLK | 76 | Left]
+    [PA15JTDI | 77 | Left]
+    [PA2 | 25 | Left]
+    [PA3 | 26 | Left]
+    [PA4 | 29 | Left]
+    [PA5 | 30 | Left]
+    [PA6 | 31 | Left]
+    [PA7 | 32 | Left]
+    [PA8 | 67 | Left]
+    [PA9 | 68 | Left]
+    [PB0 | 35 | Right]
+    [PB1 | 36 | Right]
+    [PB10 | 47 | Right]
+    [PB11 | 48 | Right]
+    [PB12 | 51 | Right]
+    [PB13 | 52 | Right]
+    [PB14 | 53 | Right]
+    [PB15 | 54 | Right]
+    [PB2-BOOT1PB2 | 37 | Right]
+    [PB3JTDOTRACESWO | 89 | Right]
+    [PB4NJTRST | 90 | Right]
+    [PB5 | 91 | Right]
+    [PB6 | 92 | Right]
+    [PB7 | 93 | Right]
+    [PB8 | 95 | Right]
+    [PB9 | 96 | Right]
+    [PC0 | 15 | Left]
+    [PC1 | 16 | Left]
+    [PC10 | 78 | Left]
+    [PC11 | 79 | Left]
+    [PC12 | 80 | Left]
+    [PC13 | 7 | Left]
+    [PC14-OSC32_INPC14 | 8 | Left]
+    [PC15-OSC32_OUTPC15 | 9 | Left]
+    [PC2 | 17 | Left]
+    [PC3 | 18 | Left]
+    [PC4 | 33 | Left]
+    [PC5 | 34 | Left]
+    [PC6 | 63 | Left]
+    [PC7 | 64 | Left]
+    [PC8 | 65 | Left]
+    [PC9 | 66 | Left]
+    [PD0 | 81 | Right]
+    [PD1 | 82 | Right]
+    [PD10 | 57 | Right]
+    [PD11 | 58 | Right]
+    [PD12 | 59 | Right]
+    [PD13 | 60 | Right]
+    [PD14 | 61 | Right]
+    [PD15 | 62 | Right]
+    [PD2 | 83 | Right]
+    [PD3 | 84 | Right]
+    [PD4 | 85 | Right]
+    [PD5 | 86 | Right]
+    [PD6 | 87 | Right]
+    [PD7 | 88 | Right]
+    [PD8 | 55 | Right]
+    [PD9 | 56 | Right]
+    [PE0 | 97 | Left]
+    [PE1 | 98 | Left]
+    [PE10 | 41 | Left]
+    [PE11 | 42 | Left]
+    [PE12 | 43 | Left]
+    [PE13 | 44 | Left]
+    [PE14 | 45 | Left]
+    [PE15 | 46 | Left]
+    [PE2 | 1 | Left]
+    [PE3 | 2 | Left]
+    [PE4 | 3 | Left]
+    [PE5 | 4 | Left]
+    [PE6 | 5 | Left]
+    [PE7 | 38 | Left]
+    [PE8 | 39 | Left]
+    [PE9 | 40 | Left]
+    [PH0-OSC_INPH0 | 12 | Right]
+    [PH1-OSC_OUTPH1 | 13 | Right]
+    [VCAP_1 | 49 | Right]
+    [VCAP_2 | 73 | Right]
+    [VBAT | 6 | Left]
+    [VDD[0] | 75 | Left]
+    [VDD[1] | 28 | Left]
+    [VDD[2] | 100 | Left]
+    [VDD[3] | 19 | Left]
+    [VDD[4] | 50 | Left]
+    [VDD[5] | 11 | Left]
+    [VDDA | 22 | Left]
+    [VREF+ | 21 | Right]
+    [VSS[0] | 10 | Right]
+    [VSS[1] | 99 | Right]
+    [VSS[2] | 27 | Right]
+    [VSS[3] | 74 | Right]
+    [VSSA | 20 | Right]
+
+  assign-landpattern(STLQFP-100)
+  symbol :
+    val sym0 = STM32F407VGT6-symbol0
+    unit(0) = sym0(self.BOOT0 => sym0.BOOT0, self.NRST => sym0.NRST, self.PA0-WKUPPA0 => sym0.PA0-WKUPPA0, self.PA1 => sym0.PA1, self.PA10 => sym0.PA10, self.PA11 => sym0.PA11, self.PA12 => sym0.PA12, self.PA13JTMS-SWDIO => sym0.PA13JTMS-SWDIO, self.PA14JTCK-SWCLK => sym0.PA14JTCK-SWCLK, self.PA15JTDI => sym0.PA15JTDI, self.PA2 => sym0.PA2, self.PA3 => sym0.PA3, self.PA4 => sym0.PA4, self.PA5 => sym0.PA5, self.PA6 => sym0.PA6, self.PA7 => sym0.PA7, self.PA8 => sym0.PA8, self.PA9 => sym0.PA9, self.PB0 => sym0.PB0, self.PB1 => sym0.PB1, self.PB10 => sym0.PB10, self.PB11 => sym0.PB11, self.PB12 => sym0.PB12, self.PB13 => sym0.PB13, self.PB14 => sym0.PB14, self.PB15 => sym0.PB15, self.PB2-BOOT1PB2 => sym0.PB2-BOOT1PB2, self.PB3JTDOTRACESWO => sym0.PB3JTDOTRACESWO, self.PB4NJTRST => sym0.PB4NJTRST, self.PB5 => sym0.PB5, self.PB6 => sym0.PB6, self.PB7 => sym0.PB7, self.PB8 => sym0.PB8, self.PB9 => sym0.PB9, self.PC0 => sym0.PC0, self.PC1 => sym0.PC1, self.PC10 => sym0.PC10, self.PC11 => sym0.PC11, self.PC12 => sym0.PC12, self.PC13 => sym0.PC13, self.PC14-OSC32_INPC14 => sym0.PC14-OSC32_INPC14, self.PC15-OSC32_OUTPC15 => sym0.PC15-OSC32_OUTPC15, self.PC2 => sym0.PC2, self.PC3 => sym0.PC3, self.PC4 => sym0.PC4, self.PC5 => sym0.PC5, self.PC6 => sym0.PC6, self.PC7 => sym0.PC7, self.PC8 => sym0.PC8, self.PC9 => sym0.PC9, self.PD0 => sym0.PD0, self.PD1 => sym0.PD1, self.PD10 => sym0.PD10, self.PD11 => sym0.PD11, self.PD12 => sym0.PD12, self.PD13 => sym0.PD13, self.PD14 => sym0.PD14, self.PD15 => sym0.PD15, self.PD2 => sym0.PD2, self.PD3 => sym0.PD3, self.PD4 => sym0.PD4, self.PD5 => sym0.PD5, self.PD6 => sym0.PD6, self.PD7 => sym0.PD7, self.PD8 => sym0.PD8, self.PD9 => sym0.PD9, self.PE0 => sym0.PE0, self.PE1 => sym0.PE1, self.PE10 => sym0.PE10, self.PE11 => sym0.PE11, self.PE12 => sym0.PE12, self.PE13 => sym0.PE13, self.PE14 => sym0.PE14, self.PE15 => sym0.PE15, self.PE2 => sym0.PE2, self.PE3 => sym0.PE3, self.PE4 => sym0.PE4, self.PE5 => sym0.PE5, self.PE6 => sym0.PE6, self.PE7 => sym0.PE7, self.PE8 => sym0.PE8, self.PE9 => sym0.PE9, self.PH0-OSC_INPH0 => sym0.PH0-OSC_INPH0, self.PH1-OSC_OUTPH1 => sym0.PH1-OSC_OUTPH1, self.VCAP_1 => sym0.VCAP_1, self.VCAP_2 => sym0.VCAP_2)
+    val sym1 = STM32F407VGT6-symbol1
+    unit(1) = sym1(self.VBAT => sym1.VBAT, self.VDD[0] => sym1.VDD[0], self.VDD[1] => sym1.VDD[1], self.VDD[2] => sym1.VDD[2], self.VDD[3] => sym1.VDD[3], self.VDD[4] => sym1.VDD[4], self.VDD[5] => sym1.VDD[5], self.VDDA => sym1.VDDA, self.VREF+ => sym1.VREF+, self.VSS[0] => sym1.VSS[0], self.VSS[1] => sym1.VSS[1], self.VSS[2] => sym1.VSS[2], self.VSS[3] => sym1.VSS[3], self.VSSA => sym1.VSSA)
+  reference-prefix = "U"
+
+pcb-module mcu-module :
+  inst mcu : component
+  inst c : default-component(soic127p-landpattern(10))
+
+  net (mcu.PB4NJTRST, c.p[1])
+  net (mcu.PE1, c.p[2])
+  net (mcu.VREF+, c.p[3])
+
+make-default-board(mcu-module, 4, Rectangle(30.0, 30.0))
+;view-board()
+;view-schematic()
+export-cad()
+save-to-svg("microcontroller-design-board.svg")
+save-schematic-to-svg("microcontroller-design-schematic.svg")

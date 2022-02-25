@@ -1,0 +1,522 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+  import CIAA_FSL_MINI/sd-con
+  import CIAA_FSL_MINI/sot-23
+  import CIAA_FSL_MINI/c_1206pol
+  import CIAA_FSL_MINI/crystal_4pin_mini_gnd
+  import CIAA_FSL_MINI/r
+  import CIAA_FSL_MINI/c
+  import CIAA_FSL_MINI/arduino_as_uno-rescue-ciaa_fsl_mini
+  import CIAA_FSL_MINI/led
+  import CIAA_FSL_MINI/fiducial_1mm
+  import CIAA_FSL_MINI/diode
+  import CIAA_FSL_MINI/conn_02x05
+  import CIAA_FSL_MINI/pcb_hole
+  import CIAA_FSL_MINI/si-52003-f
+  import CIAA_FSL_MINI/soic-8
+  import CIAA_FSL_MINI/conn_01x30
+  import CIAA_FSL_MINI/sw_push
+  import CIAA_FSL_MINI/trasf_unip
+  import CIAA_FSL_MINI/c-filter
+  import CIAA_FSL_MINI/inductor
+  import CIAA_FSL_MINI/oshwa
+  import CIAA_FSL_MINI/r-rescue-ciaa-nxp
+  import CIAA_FSL_MINI/c-rescue-ciaa-nxp
+  import CIAA_FSL_MINI/s25fl032p0xmfi013
+  import CIAA_FSL_MINI/unlam_logo
+  import CIAA_FSL_MINI/c-1
+  import CIAA_FSL_MINI/lan8720a-cp
+  import CIAA_FSL_MINI/ncp1117st50t3g
+  import CIAA_FSL_MINI/si50x
+  import CIAA_FSL_MINI/mic2025
+  import CIAA_FSL_MINI/prtr5v0u2x
+  import CIAA_FSL_MINI/logo-ciaa
+  import CIAA_FSL_MINI/cp1-rescue-ciaa-nxp
+  import CIAA_FSL_MINI/jumper3
+  import CIAA_FSL_MINI/mk60fx512vlq15-rescue-ciaa_fsl_mini
+  import CIAA_FSL_MINI/bat54_c
+  import CIAA_FSL_MINI/oscilador
+  import CIAA_FSL_MINI/zener
+  import CIAA_FSL_MINI/micro_usb
+  import CIAA_FSL_MINI/diodesch
+
+pcb-module CIAA_FSL_MINI :
+  inst C201 : cp1-rescue-ciaa-nxp
+  inst C202 : c-rescue-ciaa-nxp
+  inst C203 : c-rescue-ciaa-nxp
+  inst C204 : c-rescue-ciaa-nxp
+  inst C205 : cp1-rescue-ciaa-nxp
+  inst C206 : c-rescue-ciaa-nxp
+  inst C207 : c-rescue-ciaa-nxp
+  inst C208 : c-rescue-ciaa-nxp
+  inst C209 : c-rescue-ciaa-nxp
+  inst C210 : c-rescue-ciaa-nxp
+  inst C211 : c-rescue-ciaa-nxp
+  inst C212 : c-rescue-ciaa-nxp
+  inst C213 : c-rescue-ciaa-nxp
+  inst C214 : c-rescue-ciaa-nxp
+  inst C215 : c-rescue-ciaa-nxp
+  inst C216 : c
+  inst C301 : c
+  inst C302 : c_1206pol
+  inst C303 : c
+  inst C401 : c-1
+  inst C402 : c
+  inst C403 : c
+  inst C404 : c
+  inst C405 : c
+  inst C501 : c
+  inst C502 : c
+  inst C503 : c_1206pol
+  inst C601 : c
+  inst C602 : c
+  inst C603 : c
+  inst C604 : c
+  inst C605 : c
+  inst C606 : c
+  inst C607 : c
+  inst C608 : c
+  inst C609 : c
+  inst C610 : c
+  inst C611 : c
+  inst C612 : c_1206pol
+  inst C613 : c
+  inst C614 : c
+  inst C615 : c
+  inst C616 : c
+  inst C617 : c
+  inst C618 : c
+  inst C619 : c
+  inst C620 : c
+  inst D301 : zener
+  inst D401 : led
+  inst D501 : diodesch
+  inst D502 : diodesch
+  inst D503 : bat54_c
+  inst D601 : led
+  inst D602 : led
+  inst D603 : diode
+  inst F101 : fiducial_1mm
+  inst F102 : fiducial_1mm
+  inst F103 : fiducial_1mm
+  inst FB301 : c-filter
+  inst FB302 : c-filter
+  inst FB501 : c-filter
+  inst FB502 : c-filter
+  inst FB601 : c-filter
+  inst FB602 : c-filter
+  inst G*** : unlam_logo
+  inst G101 : logo-ciaa
+  inst G102 : oshwa
+  inst H101 : pcb_hole
+  inst H102 : pcb_hole
+  inst H103 : pcb_hole
+  inst H104 : pcb_hole
+  inst J301 : micro_usb
+  inst J401 : sd-con
+  inst JP601 : jumper3
+  inst L201 : inductor
+  inst P103 : conn_02x05
+  inst P201 : si-52003-f
+  inst P701 : conn_01x30
+  inst P702 : conn_01x30
+  inst Q401 : sot-23
+  inst R101 : r
+  inst R201 : r-rescue-ciaa-nxp
+  inst R202 : r-rescue-ciaa-nxp
+  inst R203 : r-rescue-ciaa-nxp
+  inst R204 : r-rescue-ciaa-nxp
+  inst R205 : r-rescue-ciaa-nxp
+  inst R206 : r-rescue-ciaa-nxp
+  inst R207 : r-rescue-ciaa-nxp
+  inst R208 : r-rescue-ciaa-nxp
+  inst R209 : r-rescue-ciaa-nxp
+  inst R210 : r-rescue-ciaa-nxp
+  inst R211 : r-rescue-ciaa-nxp
+  inst R212 : r-rescue-ciaa-nxp
+  inst R213 : r-rescue-ciaa-nxp
+  inst R214 : r-rescue-ciaa-nxp
+  inst R215 : r-rescue-ciaa-nxp
+  inst R216 : r-rescue-ciaa-nxp
+  inst R217 : r-rescue-ciaa-nxp
+  inst R218 : r-rescue-ciaa-nxp
+  inst R219 : r-rescue-ciaa-nxp
+  inst R220 : r-rescue-ciaa-nxp
+  inst R221 : r-rescue-ciaa-nxp
+  inst R222 : r
+  inst R301 : r
+  inst R302 : r
+  inst R401 : r
+  inst R402 : r
+  inst R403 : r
+  inst R404 : r
+  inst R405 : r
+  inst R406 : r
+  inst R407 : r
+  inst R408 : r
+  inst R409 : r
+  inst R410 : r
+  inst R411 : r
+  inst R412 : r
+  inst R413 : r
+  inst R414 : r
+  inst R415 : r
+  inst R416 : r
+  inst R601 : r
+  inst R602 : r
+  inst R603 : r
+  inst R604 : r
+  inst R605 : r
+  inst R606 : r
+  inst R607 : r
+  inst SH701 : arduino_as_uno-rescue-ciaa_fsl_mini
+  inst SW601 : sw_push
+  inst TR301 : trasf_unip
+  inst U201 : lan8720a-cp
+  inst U202 : si50x
+  inst U301 : mic2025
+  inst U302 : prtr5v0u2x
+  inst U401 : s25fl032p0xmfi013
+  inst U402 : soic-8
+  inst U403 : soic-8
+  inst U501 : ncp1117st50t3g
+  inst U601 : mk60fx512vlq15-rescue-ciaa_fsl_mini
+  inst U602 : oscilador
+  inst X601 : crystal_4pin_mini_gnd
+
+  for inst in instances(self) do :
+    reference-designator(inst) = to-string(ref(inst))
+
+  place(C201) at loc(104.621, -112.737, 270.0) on Top
+  place(C202) at loc(107.796, -112.102, 90.0) on Top
+  place(C203) at loc(116.686, -110.832, 180.0) on Top
+  place(C204) at loc(100.4935, -112.737, 270.0) on Top
+  place(C205) at loc(113.511, -100.037, 90.0) on Top
+  place(C206) at loc(113.8285, -96.862, 0.0) on Top
+  place(C207) at loc(117.321, -106.7045, 180.0) on Top
+  place(C208) at loc(117.321, -105.117, 180.0) on Top
+  place(C209) at loc(124.6235, -132.1045, 270.0) on Top
+  place(C210) at loc(122.0835, -132.1045, 270.0) on Top
+  place(C211) at loc(113.8285, -123.532, 180.0) on Top
+  place(C212) at loc(110.6535, -123.532, 0.0) on Top
+  place(C213) at loc(117.956, -121.9445, 180.0) on Top
+  place(C214) at loc(114.781, -121.9445, 0.0) on Top
+  place(C215) at loc(119.861, -86.067, 180.0) on Top
+  place(C216) at loc(122.0835, -137.1845, 270.0) on Top
+  place(C301) at loc(119.5435, -60.9845, 90.0) on Top
+  place(C302) at loc(105.7005, -62.1275, 180.0) on Top
+  place(C303) at loc(104.9085, -59.3955, 0.0) on Top
+  place(C401) at loc(98.271, -57.492, 90.0) on Top
+  place(C402) at loc(100.811, -57.492, 270.0) on Top
+  place(C403) at loc(78.65077, -75.71523, 0.0) on Top
+  place(C404) at loc(115.416, -64.1595, 0.0) on Top
+  place(C405) at loc(121.4485, -60.032, 270.0) on Top
+  place(C501) at loc(94.7785, -118.1345, 180.0) on Top
+  place(C502) at loc(80.745, -110.1335, 90.0) on Top
+  place(C503) at loc(95.4135, -122.262, 270.0) on Top
+  place(C601) at loc(85.06427, -105.68723, 0.0) on Top
+  place(C602) at loc(89.69977, -71.01623, 270.0) on Top
+  place(C603) at loc(101.319, -98.767, 90.0) on Top
+  place(C604) at loc(115.8605, -81.9395, 180.0) on Top
+  place(C605) at loc(85.25477, -99.46423, 0.0) on Top
+  place(C606) at loc(111.9235, -95.2745, 180.0) on Top
+  place(C607) at loc(116.686, -71.462, 180.0) on Top
+  place(C608) at loc(103.0335, -66.382, 270.0) on Top
+  place(C609) at loc(97.636, -68.6045, 180.0) on Top
+  place(C610) at loc(94.27177, -98.19423, 90.0) on Top
+  place(C611) at loc(84.936, -82.257, 0.0) on Top
+  place(C612) at loc(116.051, -73.6845, 0.0) on Top
+  place(C613) at loc(88.4285, -94.3855, 0.0) on Top
+  place(C614) at loc(84.936, -89.242, 0.0) on Top
+  place(C615) at loc(84.8725, -83.9715, 0.0) on Top
+  place(C616) at loc(84.936, -87.6545, 180.0) on Top
+  place(C617) at loc(81.126, -132.7395, 270.0) on Top
+  place(C618) at loc(93.191, -104.482, 180.0) on Top
+  place(C619) at loc(84.936, -92.7345, 180.0) on Top
+  place(C620) at loc(84.936, -94.6395, 0.0) on Top
+  place(D301) at loc(105.256, -53.682, 270.0) on Top
+  place(D401) at loc(99.8585, -48.2845, 180.0) on Top
+  place(D501) at loc(75.411, -121.627, 0.0) on Top
+  place(D502) at loc(75.411, -126.3895, 0.0) on Top
+  place(D503) at loc(83.793, -110.1335, 0.0) on Top
+  place(D601) at loc(78.84, -132.676, 90.0) on Top
+  place(D602) at loc(74.776, -132.676, 90.0) on Top
+  place(D603) at loc(90.5875, -134.2, 270.0) on Top
+  place(F101) at loc(68.74477, -131.78573, 0.0) on Top
+  place(F102) at loc(77.062, -58.635, 0.0) on Top
+  place(F103) at loc(124.56, -126.58, 0.0) on Top
+  place(FB301) at loc(116.686, -54.952, 90.0) on Top
+  place(FB302) at loc(106.2085, -48.9195, 0.0) on Top
+  place(FB501) at loc(84.936, -85.7495, 0.0) on Top
+  place(FB502) at loc(81.25427, -98.19423, 90.0) on Top
+  place(FB601) at loc(84.936, -90.8295, 180.0) on Top
+  place(FB602) at loc(88.4285, -95.9095, 0.0) on Top
+  place(G***) at loc(102.716, -120.9285, 0.0) on Top
+  place(G101) at loc(130.97477, -130.83323, 0.0) on Top
+  place(G102) at loc(94.39877, -110.76723, 0.0) on Top
+  place(H101) at loc(130.3385, -140.3595, 0.0) on Top
+  place(H102) at loc(125.8935, -51.4595, 0.0) on Top
+  place(H103) at loc(75.0935, -51.4595, 0.0) on Top
+  place(H104) at loc(70.6485, -140.3595, 0.0) on Top
+  place(J301) at loc(113.7015, -49.4275, 180.0) on Top
+  place(J401) at loc(88.111, -53.682, 180.0) on Top
+  place(JP601) at loc(80.8085, -87.972, 0.0) on Top
+  place(L201) at loc(102.3985, -112.737, 90.0) on Top
+  place(P103) at loc(96.3025, -135.0255, 0.0) on Top
+  place(P201) at loc(111.9235, -141.947, 0.0) on Top
+  place(P701) at loc(68.7435, -50.8245, 0.0) on Top
+  place(P702) at loc(132.2435, -50.8245, 0.0) on Top
+  place(Q401) at loc(97.3185, -62.572, 0.0) on Top
+  place(R101) at loc(86.841, -139.9785, 0.0) on Top
+  place(R201) at loc(116.3685, -100.672, 270.0) on Top
+  place(R202) at loc(113.8285, -120.357, 180.0) on Top
+  place(R203) at loc(110.6535, -120.357, 0.0) on Top
+  place(R204) at loc(117.956, -118.7695, 180.0) on Top
+  place(R205) at loc(114.781, -118.7695, 0.0) on Top
+  place(R206) at loc(109.3835, -98.767, 270.0) on Top
+  place(R207) at loc(110.971, -98.767, 270.0) on Top
+  place(R208) at loc(107.796, -99.0845, 270.0) on Top
+  place(R209) at loc(104.621, -99.0845, 270.0) on Top
+  place(R210) at loc(103.0335, -99.0845, 270.0) on Top
+  place(R211) at loc(106.2085, -99.0845, 270.0) on Top
+  place(R212) at loc(101.2555, -102.958, 90.0) on Top
+  place(R213) at loc(117.956, -100.672, 270.0) on Top
+  place(R214) at loc(119.5435, -100.672, 270.0) on Top
+  place(R215) at loc(101.1285, -107.022, 90.0) on Top
+  place(R216) at loc(118.9085, -125.7545, 0.0) on Top
+  place(R217) at loc(116.686, -108.6095, 180.0) on Top
+  place(R218) at loc(101.446, -130.517, 90.0) on Top
+  place(R219) at loc(116.686, -112.4195, 0.0) on Top
+  place(R220) at loc(119.226, -96.5445, 180.0) on Top
+  place(R221) at loc(116.3685, -86.067, 0.0) on Top
+  place(R222) at loc(124.6235, -137.1845, 90.0) on Top
+  place(R301) at loc(108.431, -58.762, 90.0) on Top
+  place(R302) at loc(110.0185, -56.222, 0.0) on Top
+  place(R401) at loc(97.001, -66.0645, 180.0) on Top
+  place(R402) at loc(84.936, -63.5245, 270.0) on Top
+  place(R403) at loc(82.0785, -63.5245, 90.0) on Top
+  place(R404) at loc(87.7935, -63.5245, 90.0) on Top
+  place(R405) at loc(90.9685, -63.5245, 90.0) on Top
+  place(R406) at loc(93.5085, -63.5245, 90.0) on Top
+  place(R407) at loc(100.811, -53.682, 90.0) on Top
+  place(R408) at loc(99.8585, -50.507, 0.0) on Top
+  place(R409) at loc(108.431, -67.9695, 180.0) on Top
+  place(R410) at loc(108.431, -64.7945, 180.0) on Top
+  place(R411) at loc(108.431, -66.382, 180.0) on Top
+  place(R412) at loc(129.0685, -67.9695, 180.0) on Top
+  place(R413) at loc(129.0685, -70.827, 0.0) on Top
+  place(R414) at loc(129.0685, -65.112, 180.0) on Top
+  place(R415) at loc(120.1785, -66.0645, 0.0) on Top
+  place(R416) at loc(120.3055, -63.5245, 180.0) on Top
+  place(R601) at loc(76.808, -132.676, 90.0) on Top
+  place(R602) at loc(120.1785, -69.8745, 180.0) on Top
+  place(R603) at loc(72.744, -132.676, 90.0) on Top
+  place(R604) at loc(120.1785, -67.9695, 180.0) on Top
+  place(R605) at loc(86.65177, -73.55623, 90.0) on Top
+  place(R606) at loc(96.366, -99.7195, 270.0) on Top
+  place(R607) at loc(90.651, -129.247, 270.0) on Top
+  place(SH701) at loc(76.3635, -78.7645, 270.0) on Top
+  place(SW601) at loc(85.2535, -132.7395, 90.0) on Top
+  place(TR301) at loc(113.8285, -55.587, 270.0) on Top
+  place(U201) at loc(110.9075, -107.911, 180.0) on Top
+  place(U202) at loc(118.2735, -91.147, 270.0) on Top
+  place(U301) at loc(113.3205, -60.6035, 0.0) on Top
+  place(U302) at loc(119.5435, -55.9045, 270.0) on Top
+  place(U401) at loc(78.26977, -71.39723, 0.0) on Top
+  place(U402) at loc(114.4635, -67.652, 0.0) on Top
+  place(U403) at loc(126.846, -60.667, 180.0) on Top
+  place(U501) at loc(89.0635, -122.262, 90.0) on Top
+  place(U601) at loc(100.6205, -83.4635, 0.0) on Top
+  place(U602) at loc(93.191, -101.6245, 0.0) on Top
+  place(X601) at loc(85.19127, -102.63923, 180.0) on Top
+
+  net CPUETH-RXD0 (R209.p[1], U601.PTA13RMII0_RXD0)
+  net Net-R220-Pad1 (R220.p[1], U202.CLK)
+  net p+3-3V (C204.p[1], C205.p[1], C206.p[1], C215.p[1], C403.p[1], C404.p[1], C405.p[1], C503.p[1], C602.p[1], C603.p[1], C604.p[1], C606.p[1], C607.p[1], C608.p[1], C609.p[1], C610.p[1], C611.p[1], C612.p[1], C618.p[1], D503.A, FB501.p[1], L201.p[1], P103.P1, Q401.p[2], R201.p[1], R215.p[1], R216.p[2], R221.p[2], R302.p[1], R401.p[1], R409.p[2], R412.p[1], R602.p[1], R604.p[1], R607.p[1], SH701.IOREF, SH701.p3V3, U201.VDDIO, U202.Vdd, U401.VCC, U402.p[8], U403.p[8], U501.VO, U601.VDD[0], U601.VDD[1], U601.VDD[2], U601.VDD[3], U601.VDD[4], U601.VDD[5], U601.VDD[6], U601.VDD[7], U601.VDD[8], U602.EN, U602.VDD)
+  net CPUETH-RXD1 (R210.p[1], U601.PTA12RMII0_RXD1)
+  net Net-P201-Pad13 (P201.LED1_K, R218.p[2])
+  net GND (C201.p[2], C202.p[2], C203.p[2], C204.p[2], C205.p[2], C206.p[2], C207.p[2], C208.p[2], C209.p[2], C210.p[2], C211.p[2], C212.p[2], C213.p[2], C214.p[2], C215.p[2], C216.p[2], C301.p[2], C302.p[2], C303.p[2], C401.p[2], C402.p[2], C403.p[2], C404.p[2], C405.p[2], C501.p[2], C502.p[2], C503.p[2], C601.p[2], C602.p[2], C603.p[2], C604.p[2], C605.p[2], C606.p[2], C607.p[2], C608.p[2], C609.p[2], C610.p[2], C611.p[2], C612.p[2], C615.p[2], C617.p[1], C618.p[2], D401.K, D601.K, D602.K, FB302.p[1], FB502.p[1], J301.GND, J401.SHLD1, J401.SHLD2, J401.SHLD3, J401.SHLD4, J401.VSS, P103.P3, P103.P5, P701.P30, P702.P1, R218.p[1], R219.p[2], R222.p[2], R301.p[1], R402.p[2], R407.p[2], R410.p[2], R411.p[2], R413.p[2], R414.p[2], R415.p[2], R416.p[2], SH701.GND1, SH701.GND2, SH701.p3GND, SW601.p[2], U201.GND, U202.GND, U301.GND, U401.GND, U402.p[4], U403.p[4], U501.GND, U601.VSS[0], U601.VSS[1], U601.VSS[2], U601.VSS[3], U601.VSS[4], U601.VSS[5], U601.VSS[6], U601.VSS[7], U601.VSS[8], U601.VSS[9], U602.GND, X601.GND[0], X601.GND[1])
+  net CPUETH-RXER (R212.p[2], U601.PTA5RMII0_RXER)
+  net Net-R219-Pad1 (R219.p[1], U201.RBIAS)
+  net GNDPWR (C216.p[1], H101.p[1], H102.p[1], H103.p[1], H104.p[1], P201.NC[0], P201.NC[1], P201.SHIELD[0], P201.SHIELD[1], R222.p[1])
+  net Net-R206-Pad2 (R206.p[2], U201.TXD0)
+  net p+5V (C301.p[1], C501.p[1], D501.K, D502.K, P701.P1, P701.P25, P702.P26, SH701.p5V, U301.IN, U501.VI)
+  net CPUETH-CRS-DV (R211.p[1], U601.PTA14RMII0_CRS_DV)
+  net Net-C401-Pad1 (C401.p[1], C402.p[1], J401.VDD, Q401.p[3], R403.p[1], R404.p[1], R405.p[1], R406.p[1], R407.p[1], R408.p[1])
+  net Net-R207-Pad2 (R207.p[2], U201.TXD1)
+  net Net-C601-Pad1 (C601.p[1], U601.EXTAL32, X601.B)
+  net CPUETH-REF-CLK (R220.p[2], U201.XTAL1CLKIN, U601.PTA18EXTAL0)
+  net CPUGPIO3SPI2-SCK (SH701.SCK_13, U601.PTB21)
+  net Net-C605-Pad1 (C605.p[1], U601.XTAL32, X601.A)
+  net EthernetLED-LINK (P201.LED1_A, U201.LED1REGOFF)
+  net CPUGPIO5SPI2-SOUT (SH701.*MOSI_11, U601.PTB22)
+  net Net-C613-Pad1 (C613.p[1], U601.VREF_OUT)
+  net USBOTGUSB0-PPWR (R301.p[2], U301.EN, U601.PTC18)
+  net CPUGPIO7SPI2-SIN (SH701.MISO_12, U601.PTB23)
+  net CPUVREFL (C613.p[2], C614.p[2], C616.p[1], FB602.p[1], U601.VREFL)
+  net USBOTGUSB0-PWR-FAULT (R302.p[2], U301.FLG, U601.PTC17)
+  net CPUEC-AI0 (SH701.A0, U601.ADC1_SE16)
+  net Net-C615-Pad1 (C615.p[1], U601.VOUT33)
+  net Net-R409-Pad1 (R409.p[1], U402.p[3])
+  net CPUEC-AI1 (SH701.A1, U601.ADC0_SE16)
+  net Net-C617-Pad2 (C617.p[2], D603.A, R607.p[2], SW601.p[1], U601.nRESET)
+  net Net-R410-Pad1 (R410.p[1], U402.p[1])
+  net CPUEC-AI2 (SH701.A2, U601.DAC1_OUTADC1_SE23)
+  net p+3-3VADC (FB501.p[2], JP601.p[1], U601.VDDA)
+  net Net-R411-Pad1 (R411.p[1], U402.p[2])
+  net CPUEC-AI3 (SH701.A3, U601.PTE25XTAL1ADC0_SE18)
+  net GNDA (C619.p[2], C620.p[1], FB502.p[2], FB602.p[2], U601.VSSA)
+  net Net-R412-Pad2 (R412.p[2], U403.p[1])
+  net CPUEC-PWM2 (SH701.*_3, U601.PTA10)
+  net CPUETH-RST (U201.NRST, U601.PTA19)
+  net Net-R413-Pad1 (R413.p[1], U403.p[2])
+  net CPUEC-PWM1 (SH701.*_5, U601.PTA9)
+  net CPUUSB-ID (D301.K, J301.USB_ID, U601.PTC16)
+  net Net-R414-Pad1 (R414.p[1], U403.p[3])
+  net CPUEC-PWM0 (SH701.*_6, U601.PTA8)
+  net USBOTGCHS-OTG (D301.A, FB302.p[2], J301.S1, J301.S2, J301.S3, J301.S4, U302.GND)
+  net Net-R415-Pad1 (R415.p[1], U402.p[7])
+  net VDD-ETH (C201.p[1], C202.p[1], C203.p[1], C209.p[1], C210.p[1], L201.p[2], P201.CT, R202.p[1], R203.p[1], R204.p[1], R205.p[1], R217.p[1], U201.VDD1A, U201.VDD2A)
+  net Net-D401-Pad1 (D401.A, R408.p[2])
+  net Net-R416-Pad1 (R416.p[1], U403.p[7])
+  net EthernetTX-P (C211.p[1], P201.TD+, R202.p[2], U201.TXP)
+  net Net-D601-Pad1 (D601.A, R601.p[1])
+  net Net-R601-Pad2 (R601.p[2], U601.PTA6)
+  net EthernetTX-N (C212.p[1], P201.TD-, R203.p[2], U201.TXN)
+  net Net-D602-Pad1 (D602.A, R603.p[1])
+  net CPUI2C-SDA (R602.p[2], U402.p[5], U403.p[5], U601.PTD9I2C0_SDA)
+  net EthernetRX-P (C213.p[1], P201.RD+, R204.p[2], U201.RXP)
+  net Net-FB301-Pad2 (FB301.p[2], J301.VBUS)
+  net Net-R603-Pad2 (R603.p[2], U601.PTA7)
+  net EthernetRX-N (C214.p[1], P201.RD-, R205.p[2], U201.RXN)
+  net CPUSD-DAT1 (J401.DAT1, R406.p[2], U601.PTE0SDHC0_D1)
+  net CPUI2C-SCL (R604.p[2], U402.p[6], U403.p[6], U601.PTD8I2C0_SCL)
+  net USBOTGUSB-D-OTG-P (J301.USB_DP, TR301.p[1])
+  net CPUSD-DAT0 (J401.DAT0, R405.p[2], U601.PTE1LLWU_P0SDHC0_D0)
+  net Net-R605-Pad1 (R605.p[1], U601.PTE2LLWU_P1SDHC0_DCLK)
+  net USBOTGUSB-D-OTG-N (J301.USB_DN, TR301.p[4])
+  net CPUSD-CLK (J401.CLK, R605.p[2])
+  net Net-R606-Pad2 (R606.p[2], U602.OUT)
+  net CPUUSBD-P (TR301.p[2], U302.IO[1], U601.USB0_DP)
+  net CPUSD-CMD (J401.CMD, R404.p[2], U601.PTE3SDHC0_CMD)
+  net Net-R606-Pad1 (R606.p[1], U601.PTE24EXTAL1)
+  net CPUUSBD-N (TR301.p[3], U302.IO[0], U601.USB0_DM)
+  net CPUSD-DAT3 (J401.CDDAT3, R402.p[1], U601.PTE4LLWU_P2SDHC0_D3)
+  net CPUETH-MDC (R214.p[1], U601.PTB1RMII0_MDC)
+  net PoE-MB-+ (P201.VC+[1], P702.P27)
+  net CPUSD-DAT2 (J401.DAT2, R403.p[2], U601.PTE5SDHC0_D2)
+  net CPUETH-TXEN (R208.p[1], U601.PTA15RMII0_TXEN)
+  net PoE-MA-+ (P201.VC+[0], P702.P29)
+  net CPUDIN3 (P701.P24, U601.PTE11)
+  net CPUETH-TXD0 (R206.p[1], U601.PTA16RMII0_TXD0)
+  net PoE-MA-- (P201.VC-[0], P702.P30)
+  net CPUDIN2 (P701.P23, U601.PTE10)
+  net CPUETH-TXD1 (R207.p[1], U601.PTA17RMII0_TXD1)
+  net PoE-MB-- (P201.VC-[1], P702.P28)
+  net CPUDIN1 (P702.P14, U601.PTE7)
+  net CPUSPIFI-CS (U401.nCS, U601.PTD11SPI2_PCS0)
+  net Net-P103-Pad9 (P103.P9, R101.p[2])
+  net CPUDIN0 (P702.P13, U601.PTE6)
+  net CPUSPIFI-MISO (U401.DOIO1, U601.PTD14SPI2_SIN)
+  net USB-VBUS (C302.p[1], C303.p[1], D502.A, FB301.p[1], U301.OUT[0], U301.OUT[1], U302.VCC, U601.VREGIN)
+  net CPUAUX-UART-RXSPI-MISO (P701.P10, U601.PTD3SPI0_SINUART2_TX)
+  net CPUSPIFI-WP (U401.nWPIO2, U601.PTD10)
+  net VBAT (C502.p[1], D503.C, U601.VBAT)
+  net CPUAUX-UART-CTSSPI-CLK (P701.P12, U601.PTD1SPI0_SCK~UART2_CTS)
+  net CPUSPIFI-MOSI (U401.DIIO0, U601.PTD13SPI2_SOUT)
+  net p5VPIN (D501.A, P701.P19)
+  net CPUAUX-UART-RTSSPI-CS (P701.P13, U601.PTD0LLWU_P12SPI0_PCS0~UART2_RTS)
+  net CPUSPIFI-CLK (U401.CLK, U601.PTD12SPI2_SCK)
+  net BATPIN (D503.B, P701.P20)
+  net CPUGPIO1 (P702.P2, U601.PTB20)
+  net CPUSPIFI-HOLD (U401.nHOLDIO3, U601.PTD15SPI2_PCS1)
+  net RESET (D603.K, P103.P10, P701.P17, SH701.RESET)
+  net CPUGPIO4 (P701.P2, U601.PTC9)
+  net IOArefA (C614.p[1], C616.p[2], FB601.p[1], JP601.p[3], SH701.AREF, U601.VREFH)
+  net USB-JTAG-UART-RXD (P103.P7, P701.P16, U601.PTE9UART5_RX)
+  net CPUGPIO8 (P701.P4, U601.PTC7)
+  net Net-C619-Pad1 (C619.p[1], C620.p[2], FB601.p[2], JP601.p[2])
+  net TCK (P103.P4, U601.PTA0JTAG_TCLK)
+  net CPUGPIO9 (P702.P8, U601.PTC0)
+  net TDOEC-UART-TX (P103.P6, SH701.TX_1, U601.PTA2JTAG_TDO)
+  net CPUGPIO10 (P702.P4, U601.PTC6LLWU_P10)
+  net TDIEC-UART-RX (P103.P8, SH701.RX_0, U601.PTA1JTAG_TDI)
+  net CPUGPIO12 (P702.P5, U601.PTC5LLWU_P9)
+  net TMS (P103.P2, U601.PTA3JTAG_TMS)
+  net CPUDAC-OUT (P701.P18, U601.DAC0_OUT)
+  net CPUGPIO6 (P701.P3, U601.PTC8)
+  net CPUAIN0 (P702.P25, U601.PTA26ADC2_SE15)
+  net CPUGPIO2 (P701.P8, U601.PTC10)
+  net CPUAIN1 (P702.P24, U601.PTA27ADC2_SE14)
+  net CPUAUX-UART-TXSPI-MOSIFTM3-CH2 (P701.P11, U601.PTD2LLWU_P13SPI0_SOUTUART2_RX)
+  net CPUGPIO0 (P701.P9, U601.PTC11LLWU_P11)
+  net CPUAIN2 (P702.P23, U601.PTA28ADC2_SE13)
+  net CPUGPIO15 (P701.P14, U601.PTC3LLWU_P7)
+  net CPUAIN3 (P702.P22, U601.PTA29ADC2_SE12)
+  net USB-JTAG-UART-TXD (P701.P15, R101.p[1], U601.PTE8UART5_TX)
+  net CPURS485-RXD (P701.P6, U601.PTD6LLWU_P15UART0_RX)
+  net CPUGPIO11 (P702.P7, U601.PTC1LLWU_P6)
+  net CPUDOUT0 (P702.P12, U601.PTB16)
+  net CPUGPIO13 (P702.P6, U601.PTC2)
+  net CPUDOUT1 (P702.P21, U601.PTB6)
+  net CPUGPIO14 (P702.P3, U601.PTC4LLWU_P8)
+  net CPUDOUT2 (P702.P20, U601.PTB7)
+  net CPUEC-I2C-SDA (SH701.A4_SDA1, SH701.p2SDAA4, U601.PTB3ADC0_SE13)
+  net CPUDOUT3 (P702.P11, U601.PTB17)
+  net CPUEC-I2C-SCL (SH701.A5_SCL1, SH701.p2SCLA5, U601.PTB2ADC0_SE12)
+  net CPUDOUT4 (P701.P26, U601.PTC15)
+  net CPUEC-PWM3 (SH701.p[2], U601.PTA11)
+  net CPUDOUT5 (P701.P27, U601.PTC14)
+  net Net-C207-Pad1 (C207.p[1], C208.p[1], U201.VDDCR)
+  net CPUEC-GPIO2 (SH701.p[4], U601.PTB4ADC1_SE10)
+  net CPUDOUT6 (P701.P28, U601.PTC13)
+  net Net-R201-Pad2 (R201.p[2], R213.p[2], U201.MDIO)
+  net CPUEC-GPIO1 (SH701.p[7], U601.PTA24)
+  net CPUDOUT7 (P701.P29, U601.PTC12)
+  net Net-R208-Pad2 (R208.p[2], U201.TXEN)
+  net CPUEC-GPIO0 (SH701.p[8], U601.PTA25)
+  net CPURS232-CTS (P702.P18, U601.PTB9~UART3_CTS)
+  net Net-R209-Pad2 (R209.p[2], U201.RXDOMODE0)
+  net CPUEC-PWM5 (SH701.*_9, U601.PTE12)
+  net CPURS232-RTS (P702.P19, U601.PTB8~UART3_RTS)
+  net Net-R210-Pad2 (R210.p[2], U201.RXD1MODE1)
+  net CPUEC-PWM4 (SH701.*_10, U601.PTA4LLWU_P3)
+  net CPURS232-RXD (P702.P17, U601.PTB10UART3_RX)
+  net Net-R211-Pad2 (R211.p[2], U201.CRS_DVMODE2)
+  net CPURS232-TXD (P702.P16, U601.PTB11UART3_TX)
+  net Net-R212-Pad1 (R212.p[1], U201.RXERPHYAD0)
+  net CPUPTB5 (P702.P15, U601.PTB5ADC1_SE11)
+  net CPUCAN-TD (P702.P9, U601.PTB18CAN0_TX)
+  net Net-R214-Pad2 (R214.p[2], U201.MDC)
+  net CPUPGA1-DM (P701.P22, U601.PGA1_DM)
+  net CPUCAN-RD (P702.P10, U601.PTB19CAN0_RX)
+  net Net-R215-Pad2 (R215.p[2], U201.NINTREFCLK0)
+  net CPUPGA1-DP (P701.P21, U601.PGA1_DP)
+  net CPURS485-DIR (P701.P5, U601.PTD4LLWU_P14)
+  net Net-P201-Pad14 (P201.LED2_A, R216.p[1])
+  net CPURS485-TXD (P701.P7, U601.PTD7UART0_TX)
+  net EthernetLED-100M (P201.LED2_K, R217.p[2], U201.LED2NINTSEL)
+  net CPUSD-POW (Q401.p[1], R401.p[2], U601.PTC19)
+  net CPUETH-MDIO (R213.p[1], U601.PTB0LLWU_P5RMII0_MDIO)
+  net Net-R221-Pad1 (R221.p[1], U202.FSOE)
+
+  symbol(GND) = ground-sym
+
+make-default-board(CIAA_FSL_MINI, 4, Rectangle(10.0, 10.0))
+
+view-board()
+view-schematic()
+export-cad()

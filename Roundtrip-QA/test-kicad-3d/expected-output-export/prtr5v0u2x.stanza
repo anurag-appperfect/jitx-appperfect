@@ -1,0 +1,75 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/prtr5v0u2x :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern sot-143-4 :
+  pad p[1] : smd-pad(Rectangle(0.96, 0.75)) at loc(-0.76, -0.975, 0.0)
+  pad p[2] : smd-pad(Rectangle(0.54, 0.75)) at loc(0.96, -0.975, 0.0)
+  pad p[3] : smd-pad(Rectangle(0.54, 0.75)) at loc(0.96, 0.975, 0.0)
+  pad p[4] : smd-pad(Rectangle(0.54, 0.75)) at loc(-0.96, 0.975, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-1.6, -1.1), 0.05)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.5, 0.65), Point(1.35, 0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.5, 0.65), Point(1.5, -0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.5, -0.65), Point(1.35, -0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.5, 0.65), Point(-1.35, 0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.5, 0.65), Point(-1.5, -0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.5, -0.65), Point(-1.35, -0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.15, -0.65), Point(0.55, -0.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.55, 0.65), Point(0.55, 0.65) ])
+  model3d = Model3D("sot143b.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol prtr5v0u2x-symbol :
+  pin GND at Point(-6.35, 2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin IO[0] at Point(-6.35, -2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin IO[1] at Point(6.35, -2.54) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+  pin VCC at Point(6.35, 2.54) with :
+    direction = Right
+    length = 5.08
+    number-size = 1.066
+    name-size = 1.066
+
+  layer("foreground") = Rectangle(12.7, 12.7, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-6.35, 6.65))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-6.35, 7.712))
+
+public pcb-component prtr5v0u2x :
+  pin GND
+  pin VCC
+  port IO : pin[2]
+  val lp = sot-143-4
+  val sym = prtr5v0u2x-symbol
+  landpattern = lp(GND => lp.p[1], IO[0] => lp.p[2], IO[1] => lp.p[3], VCC => lp.p[4])
+  symbol = sym(GND => sym.GND, IO[0] => sym.IO[0], IO[1] => sym.IO[1], VCC => sym.VCC)
+  
+  name = "FSL-MINI:SOT-143-4"
+  description = "SOT-143-4"
+  reference-prefix = "U"
+  mpn = "PRTR5V0U2X"

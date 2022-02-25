@@ -1,0 +1,101 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/s25fl032p0xmfi013 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern soic-8_wide :
+  pad p[1] : smd-pad(Rectangle(0.6, 1.8)) at loc(-3.7, 1.905, 270.0)
+  pad p[2] : smd-pad(Rectangle(0.6, 1.8)) at loc(-3.7, 0.635, 270.0)
+  pad p[3] : smd-pad(Rectangle(0.6, 1.8)) at loc(-3.7, -0.635, 270.0)
+  pad p[4] : smd-pad(Rectangle(0.6, 1.8)) at loc(-3.7, -1.905, 270.0)
+  pad p[5] : smd-pad(Rectangle(0.6, 1.8)) at loc(3.7, -1.905, 270.0)
+  pad p[6] : smd-pad(Rectangle(0.6, 1.8)) at loc(3.7, -0.635, 270.0)
+  pad p[7] : smd-pad(Rectangle(0.6, 1.8)) at loc(3.7, 0.635, 270.0)
+  pad p[8] : smd-pad(Rectangle(0.6, 1.8)) at loc(3.7, 1.905, 270.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.6, 3.25), Point(2.6, -3.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.6, 3.25), Point(-2.6, -3.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-3.7746, 2.6764), 0.08)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.6, 3.25), Point(-2.6, 3.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.6, -3.25), Point(2.6, -3.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-1.6746, 2.3764), 0.178)
+  model3d = Model3D("so-8-wide.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 90.0))
+  ref-label()
+
+pcb-symbol s25fl032p0xmfi013-symbol :
+  pin nCS at Point(-11.43, 6.35) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin DOIO1 at Point(-11.43, -1.27) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin nWPIO2 at Point(-11.43, -3.81) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin GND at Point(12.7, -6.35) with :
+    direction = Right
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin DIIO0 at Point(-11.43, 1.27) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin CLK at Point(-11.43, 3.81) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin nHOLDIO3 at Point(-11.43, -6.35) with :
+    direction = Left
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+  pin VCC at Point(12.7, 6.35) with :
+    direction = Right
+    length = 7.62
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(24.13, 17.779, loc(0.635, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-11.43, 9.1895))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-11.43, 10.2515))
+
+public pcb-component s25fl032p0xmfi013 :
+  pin nCS
+  pin DOIO1
+  pin nWPIO2
+  pin GND
+  pin DIIO0
+  pin CLK
+  pin nHOLDIO3
+  pin VCC
+  val lp = soic-8_wide
+  val sym = s25fl032p0xmfi013-symbol
+  landpattern = lp(nCS => lp.p[1], DOIO1 => lp.p[2], nWPIO2 => lp.p[3], GND => lp.p[4], DIIO0 => lp.p[5], CLK => lp.p[6], nHOLDIO3 => lp.p[7], VCC => lp.p[8])
+  symbol = sym(nCS => sym.nCS, DOIO1 => sym.DOIO1, nWPIO2 => sym.nWPIO2, GND => sym.GND, DIIO0 => sym.DIIO0, CLK => sym.CLK, nHOLDIO3 => sym.nHOLDIO3, VCC => sym.VCC)
+  
+  name = "FSL-MINI:SOIC-8_WIDE"
+  description = "SO-8 WIDE 5.3 mm"
+  reference-prefix = "U"
+  mpn = "S25FL032P0XMFI013"

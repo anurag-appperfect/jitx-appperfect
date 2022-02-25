@@ -1,0 +1,7 @@
+Lineas USB
+-Se ha elegido un ancho de pista de 17 mils y una separación de 7 mils para las lineas
+diferenciales.  Ver archivo "impedancias" en carpeta doc.
+
+Lineas ethernet
+-Se ha elegido un ancho de pista de 14 mils y una separaciòn de 8 mils para el ruteado de
+las lineas diferenciales del ethernet.  Ver archivo "impedancias" en carpeta doc.

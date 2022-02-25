@@ -1,0 +1,300 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/arduino_as_uno-rescue-ciaa_fsl_mini :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern arduino_as_uno_r3locked :
+  pad p[0] : pth-pad(Circle(0.762), Circle(0.381)) at loc(35.56, 48.26, 0.0)
+  pad p[1] : pth-pad(Circle(0.762), Circle(0.381)) at loc(33.02, 48.26, 0.0)
+  pad p[2] : pth-pad(Circle(0.762), Circle(0.381)) at loc(30.48, 48.26, 0.0)
+  pad p[3] : pth-pad(Circle(0.762), Circle(0.381)) at loc(27.94, 48.26, 0.0)
+  pad p[4] : pth-pad(Circle(0.762), Circle(0.381)) at loc(25.4, 48.26, 0.0)
+  pad p[5] : pth-pad(Circle(0.762), Circle(0.381)) at loc(22.86, 48.26, 0.0)
+  pad p[6] : pth-pad(Circle(0.762), Circle(0.381)) at loc(20.32, 48.26, 0.0)
+  pad p[7] : pth-pad(Circle(0.762), Circle(0.381)) at loc(17.78, 48.26, 0.0)
+  pad p[8] : pth-pad(Circle(0.762), Circle(0.381)) at loc(13.716, 48.26, 0.0)
+  pad p[9] : pth-pad(Circle(0.762), Circle(0.381)) at loc(11.176, 48.26, 0.0)
+  pad p[10] : pth-pad(Circle(0.762), Circle(0.381)) at loc(8.636, 48.26, 0.0)
+  pad p[11] : pth-pad(Circle(0.762), Circle(0.381)) at loc(6.096, 48.26, 0.0)
+  pad p[12] : pth-pad(Circle(0.762), Circle(0.381)) at loc(3.556, 48.26, 0.0)
+  pad p[13] : pth-pad(Circle(0.762), Circle(0.381)) at loc(1.016, 48.26, 0.0)
+  pad p5V : pth-pad(Circle(0.762), Circle(0.381)) at loc(10.16, 0.0, 0.0)
+  pad A0 : pth-pad(Circle(0.762), Circle(0.381)) at loc(22.86, 0.0, 0.0)
+  pad A1 : pth-pad(Circle(0.762), Circle(0.381)) at loc(25.4, 0.0, 0.0)
+  pad A2 : pth-pad(Circle(0.762), Circle(0.381)) at loc(27.94, 0.0, 0.0)
+  pad A3 : pth-pad(Circle(0.762), Circle(0.381)) at loc(30.48, 0.0, 0.0)
+  pad NC : pth-pad(Circle(0.762), Circle(0.381)) at loc(0.0, 0.0, 0.0)
+  pad p3V3 : pth-pad(Circle(0.762), Circle(0.381)) at loc(7.62, 0.0, 0.0)
+  pad RST : pth-pad(Circle(0.762), Circle(0.381)) at loc(5.08, 0.0, 0.0)
+  pad VIN : pth-pad(Circle(0.762), Circle(0.381)) at loc(17.78, 0.0, 0.0)
+  pad A4-1 : pth-pad(Circle(0.762), Circle(0.381)) at loc(33.02, 0.0, 0.0)
+  pad A4-2 : pth-pad(Circle(0.762), Circle(0.381)) at loc(-6.604, 48.26, 0.0)
+  pad A5-1 : pth-pad(Circle(0.762), Circle(0.381)) at loc(35.56, 0.0, 0.0)
+  pad A5-2 : pth-pad(Circle(0.762), Circle(0.381)) at loc(-9.144, 48.26, 0.0)
+  pad AREF : pth-pad(Circle(0.762), Circle(0.381)) at loc(-4.064, 48.26, 0.0)
+  pad GND1 : pth-pad(Circle(0.762), Circle(0.381)) at loc(12.7, 0.0, 0.0)
+  pad GND2 : pth-pad(Circle(0.762), Circle(0.381)) at loc(15.24, 0.0, 0.0)
+  pad GND3 : pth-pad(Circle(0.762), Circle(0.381)) at loc(-1.524, 48.26, 0.0)
+  pad IREF : pth-pad(Circle(0.762), Circle(0.381)) at loc(2.54, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-13.97, 0.0), 1.524)
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(38.1, 5.08), 1.524)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(37.592, 5.08), Point(38.608, 5.08) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(38.1, 5.588), Point(38.1, 4.572) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(38.1, 33.02), 1.524)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(38.608, 33.02), Point(37.592, 33.02) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(38.1, 33.528), Point(38.1, 32.512) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(14.986, 49.53), Point(14.986, 46.99) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(14.986, 46.99), Point(-10.414, 46.99) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-10.414, 46.99), Point(-10.414, 49.53) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-10.414, 49.53), Point(14.986, 49.53) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-12.7, 48.26), 1.523)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(-13.208, 48.26), Point(-12.192, 48.26) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(-12.7, 48.768), Point(-12.7, 47.752) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(16.51, 49.53), Point(36.83, 49.53) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(36.83, 49.53), Point(36.83, 46.99) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(36.83, 46.99), Point(16.51, 46.99) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(16.51, 46.99), Point(16.51, 49.53) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(21.59, 1.27), Point(36.83, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(36.83, 1.27), Point(36.83, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(36.83, -1.27), Point(21.59, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(21.59, -1.27), Point(21.59, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.27, -1.27), Point(-1.27, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(-1.27, 1.27), Point(19.05, 1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(19.05, 1.27), Point(19.05, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.15, [ Point(19.05, -1.27), Point(-1.27, -1.27) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(-14.732, 0.0), Point(-13.208, 0.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.01, [ Point(-13.97, 0.762), Point(-13.97, -0.762) ])
+  layer(Cutout()) = Circle(Point(38.1, 5.08), 1.5)
+  layer(SolderMask(Top)) = Circle(Point(38.1, 5.08), 1.5)
+  layer(SolderMask(Bottom)) = Circle(Point(38.1, 5.08), 1.5)
+  layer(Cutout()) = Circle(Point(38.1, 33.02), 1.5)
+  layer(SolderMask(Top)) = Circle(Point(38.1, 33.02), 1.5)
+  layer(SolderMask(Bottom)) = Circle(Point(38.1, 33.02), 1.5)
+  layer(Cutout()) = Circle(Point(-13.97, 0.0), 1.5)
+  layer(SolderMask(Top)) = Circle(Point(-13.97, 0.0), 1.5)
+  layer(SolderMask(Bottom)) = Circle(Point(-13.97, 0.0), 1.5)
+  layer(Cutout()) = Circle(Point(-12.7, 48.26), 1.5)
+  layer(SolderMask(Top)) = Circle(Point(-12.7, 48.26), 1.5)
+  layer(SolderMask(Bottom)) = Circle(Point(-12.7, 48.26), 1.5)
+  model3d = Model3D("conn_exp.wrl",
+    Vec3D(0.25, 0.95, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol arduino_as_uno-rescue-ciaa_fsl_mini-symbol :
+  pin RX_0 at Point(15.24, -22.86) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin TX_1 at Point(15.24, -20.32) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p[2] at Point(15.24, -17.78) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *_3 at Point(15.24, -15.24) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p[4] at Point(15.24, -12.7) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *_5 at Point(15.24, -10.16) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *_6 at Point(15.24, -7.62) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p[7] at Point(15.24, -5.08) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p[8] at Point(15.24, 0.0) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *_9 at Point(15.24, 2.54) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *_10 at Point(15.24, 5.08) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A0 at Point(-13.97, -10.16) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin *MOSI_11 at Point(15.24, 7.62) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A1 at Point(-13.97, -12.7) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin MISO_12 at Point(15.24, 10.16) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A2 at Point(-13.97, -15.24) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SCK_13 at Point(15.24, 12.7) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A3 at Point(-13.97, -17.78) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin NC at Point(-13.97, 12.7) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p5V at Point(-13.97, 2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p3V3 at Point(-13.97, 5.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VIN at Point(-13.97, -5.08) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin RESET at Point(-13.97, 7.62) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A4_SDA1 at Point(-13.97, -20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin A5_SCL1 at Point(-13.97, -22.86) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND1 at Point(-13.97, 0.0) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p2SDAA4 at Point(15.24, 20.32) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p2SCLA5 at Point(15.24, 22.86) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND2 at Point(-13.97, -2.54) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin p3GND at Point(15.24, 15.24) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AREF at Point(15.24, 17.779) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin IOREF at Point(-13.97, 10.16) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(29.209, 50.165, loc(0.635, -0.305))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-13.9695, 25.0775))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-13.9695, 26.1395))
+
+public pcb-component arduino_as_uno-rescue-ciaa_fsl_mini :
+  pin RX_0
+  pin TX_1
+  pin *_3
+  pin *_5
+  pin *_6
+  pin *_9
+  pin *_10
+  pin *MOSI_11
+  pin MISO_12
+  pin SCK_13
+  pin p5V
+  pin A0
+  pin A1
+  pin A2
+  pin A3
+  pin NC
+  pin p3V3
+  pin RESET
+  pin VIN
+  pin A4_SDA1
+  pin p2SDAA4
+  pin A5_SCL1
+  pin p2SCLA5
+  pin AREF
+  pin GND1
+  pin GND2
+  pin p3GND
+  pin IOREF
+  port p : pin[[2 4 7 8]]
+  no-connect(NC)
+  val lp = arduino_as_uno_r3locked
+  val sym = arduino_as_uno-rescue-ciaa_fsl_mini-symbol
+  landpattern = lp(RX_0 => lp.p[0], TX_1 => lp.p[1], p[2] => lp.p[2], *_3 => lp.p[3], p[4] => lp.p[4], *_5 => lp.p[5], *_6 => lp.p[6], p[7] => lp.p[7], p[8] => lp.p[8], *_9 => lp.p[9], *_10 => lp.p[10], *MOSI_11 => lp.p[11], MISO_12 => lp.p[12], SCK_13 => lp.p[13], p5V => lp.p5V, A0 => lp.A0, A1 => lp.A1, A2 => lp.A2, A3 => lp.A3, NC => lp.NC, p3V3 => lp.p3V3, RESET => lp.RST, VIN => lp.VIN, A4_SDA1 => lp.A4-1, p2SDAA4 => lp.A4-2, A5_SCL1 => lp.A5-1, p2SCLA5 => lp.A5-2, AREF => lp.AREF, GND1 => lp.GND1, GND2 => lp.GND2, p3GND => lp.GND3, IOREF => lp.IREF)
+  symbol = sym(RX_0 => sym.RX_0, TX_1 => sym.TX_1, p[2] => sym.p[2], *_3 => sym.*_3, p[4] => sym.p[4], *_5 => sym.*_5, *_6 => sym.*_6, p[7] => sym.p[7], p[8] => sym.p[8], *_9 => sym.*_9, *_10 => sym.*_10, *MOSI_11 => sym.*MOSI_11, MISO_12 => sym.MISO_12, SCK_13 => sym.SCK_13, p5V => sym.p5V, A0 => sym.A0, A1 => sym.A1, A2 => sym.A2, A3 => sym.A3, NC => sym.NC, p3V3 => sym.p3V3, RESET => sym.RESET, VIN => sym.VIN, A4_SDA1 => sym.A4_SDA1, p2SDAA4 => sym.p2SDAA4, A5_SCL1 => sym.A5_SCL1, p2SCLA5 => sym.p2SCLA5, AREF => sym.AREF, GND1 => sym.GND1, GND2 => sym.GND2, p3GND => sym.p3GND, IOREF => sym.IOREF)
+  
+  name = "FSL-MINI:ARDUINO_as_UNO_R3 locked"
+  reference-prefix = "SH"
+  mpn = "ARDUINO_as_UNO-RESCUE-CIAA_FSL_MINI"

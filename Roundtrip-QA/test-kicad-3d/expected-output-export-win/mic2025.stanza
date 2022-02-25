@@ -1,0 +1,103 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/mic2025 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern soic-8 :
+  pad p[1] : smd-pad(Rectangle(0.6, 1.52)) at loc(-2.7, 1.905, 270.0)
+  pad p[2] : smd-pad(Rectangle(0.6, 1.52)) at loc(-2.7, 0.635, 270.0)
+  pad p[3] : smd-pad(Rectangle(0.6, 1.52)) at loc(-2.7, -0.635, 270.0)
+  pad p[4] : smd-pad(Rectangle(0.6, 1.52)) at loc(-2.7, -1.905, 270.0)
+  pad p[5] : smd-pad(Rectangle(0.6, 1.52)) at loc(2.7, -1.905, 270.0)
+  pad p[6] : smd-pad(Rectangle(0.6, 1.52)) at loc(2.7, -0.635, 270.0)
+  pad p[7] : smd-pad(Rectangle(0.6, 1.52)) at loc(2.7, 0.635, 270.0)
+  pad p[8] : smd-pad(Rectangle(0.6, 1.52)) at loc(2.7, 1.905, 270.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.0, 2.5), Point(-2.0, 2.3) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.0, -2.5), Point(-2.0, -2.3) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.0, -2.5), Point(2.0, -2.3) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.0, 2.5), Point(2.0, 2.3) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-2.7746, 2.5764), 0.08)
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(2.0, 2.5), Point(-2.0, 2.5) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-2.0, -2.5), Point(2.0, -2.5) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-1.0746, 1.8764), 0.178)
+  model3d = Model3D("so-8.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 90.0))
+  ref-label()
+
+pcb-symbol mic2025-symbol :
+  pin EN at Point(-12.7, 7.62) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin FLG at Point(-12.7, 2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin GND at Point(-12.7, -2.54) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin NC[0] at Point(-12.7, -7.62) with :
+    direction = Left
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin NC[1] at Point(12.7, -7.62) with :
+    direction = Right
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin OUT[0] at Point(12.7, -2.54) with :
+    direction = Right
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin IN at Point(12.7, 2.54) with :
+    direction = Right
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+  pin OUT[1] at Point(12.7, 7.62) with :
+    direction = Right
+    length = 6.35
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(25.4, 25.4, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-12.7, 13.0))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-12.7, 14.062))
+
+public pcb-component mic2025 :
+  pin EN
+  pin FLG
+  pin GND
+  pin IN
+  port NC : pin[2]
+  port OUT : pin[2]
+  no-connect(NC[0])
+  no-connect(NC[1])
+  val lp = soic-8
+  val sym = mic2025-symbol
+  landpattern = lp(EN => lp.p[1], FLG => lp.p[2], GND => lp.p[3], NC[0] => lp.p[4], NC[1] => lp.p[5], OUT[0] => lp.p[6], IN => lp.p[7], OUT[1] => lp.p[8])
+  symbol = sym(EN => sym.EN, FLG => sym.FLG, GND => sym.GND, NC[0] => sym.NC[0], NC[1] => sym.NC[1], OUT[0] => sym.OUT[0], IN => sym.IN, OUT[1] => sym.OUT[1])
+  
+  name = "FSL-MINI:SOIC-8"
+  description = "SO-8"
+  reference-prefix = "U"
+  mpn = "MIC2025"

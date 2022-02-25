@@ -1,0 +1,72 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/oscilador :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern si501_c :
+  pad p[1] : smd-pad(Rectangle(1.4, 1.2)) at loc(-1.2, -0.95, 0.0)
+  pad p[2] : smd-pad(Rectangle(1.4, 1.2)) at loc(1.2, -0.95, 0.0)
+  pad p[3] : smd-pad(Rectangle(1.4, 1.2)) at loc(1.2, 0.95, 0.0)
+  pad p[4] : smd-pad(Rectangle(1.4, 1.2)) at loc(-1.2, 0.95, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.381, 1.25), Point(0.381, 1.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-0.381, -1.25), Point(0.381, -1.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.6, 0.254), Point(-1.6, -0.254) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.6, 0.254), Point(1.6, -0.254) ])
+  layer(Silkscreen("F-SilkS", Top)) = Circle(Point(-2.25, -2.0), 0.049)
+  model3d = Model3D("crystal_fa-128.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.6, 1.6, 1.6),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol oscilador-symbol :
+  pin EN at Point(-5.08, -1.27) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin GND at Point(0.0, -2.54) with :
+    direction = Down
+    length = 1.27
+    number-size = 0.457
+    name-size = 0.457
+  pin OUT at Point(5.08, 1.27) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin VDD at Point(-5.08, 1.27) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Rectangle(10.16, 5.08, loc(0.0, 0.0))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-5.08, 2.84))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-5.08, 3.902))
+
+public pcb-component oscilador :
+  pin EN
+  pin GND
+  pin OUT
+  pin VDD
+  val lp = si501_c
+  val sym = oscilador-symbol
+  landpattern = lp(EN => lp.p[1], GND => lp.p[2], OUT => lp.p[3], VDD => lp.p[4])
+  symbol = sym(EN => sym.EN, GND => sym.GND, OUT => sym.OUT, VDD => sym.VDD)
+  
+  name = "FSL-MINI:SI501_C"
+  description = "EPSON FA238V"
+  reference-prefix = "U"
+  mpn = "OSCILADOR"

@@ -1,0 +1,62 @@
+#use-added-syntax(jitx)
+defpackage CIAA_FSL_MINI/diode :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern sod-123 :
+  pad p[1] : smd-pad(Rectangle(0.9, 0.95)) at loc(-1.575, 0.0, 0.0)
+  pad p[2] : smd-pad(Rectangle(0.9, 0.95)) at loc(1.575, 0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.75, 0.77), Point(0.75, -0.77) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.68, -0.77), Point(0.68, 0.77) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(0.82, 0.77), Point(0.82, -0.77) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.35, -0.77), Point(1.35, -0.77) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.35, -0.77), Point(1.35, -0.54) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.35, -0.77), Point(-1.35, -0.54) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.35, 0.77), Point(1.35, 0.77) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(1.35, 0.77), Point(1.35, 0.54) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.127, [ Point(-1.35, 0.77), Point(-1.35, 0.54) ])
+  model3d = Model3D("sod123.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol diode-symbol :
+  pin A at Point(-1.27, 0.0) with :
+    direction = Left
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+  pin K at Point(1.27, 0.0) with :
+    direction = Right
+    length = 3.81
+    number-size = 0.609
+    name-size = 0.609
+
+  layer("foreground") = Polygon([Point(-1.27, 1.27), Point(1.27, 0.0), Point(-1.27, -1.27)])
+  layer("foreground") = Line(0.152, [Point(1.27, 1.27), Point(1.27, -1.27)])
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-1.27, 1.57))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-1.27, 2.632))
+
+public pcb-component diode :
+  pin A
+  pin K
+  val lp = sod-123
+  val sym = diode-symbol
+  landpattern = lp(A => lp.p[1], K => lp.p[2])
+  symbol = sym(A => sym.A, K => sym.K)
+  
+  name = "FSL-MINI:SOD-123"
+  reference-prefix = "D"
+  mpn = "DIODE"

@@ -1,0 +1,341 @@
+#use-added-syntax(jitx)
+defpackage Driverino-Shield/mct8316z-texas2-driverino-shield-rescue :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern qfn-40_ep_5x7_pitch05mm :
+  pad p[1] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 2.75, -270.0)
+  pad p[2] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 2.25, -270.0)
+  pad p[3] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 1.75, -270.0)
+  pad p[4] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 1.25, -270.0)
+  pad p[5] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 0.75, -270.0)
+  pad p[6] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, 0.25, -270.0)
+  pad p[7] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -0.25, -270.0)
+  pad p[8] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -0.75, -270.0)
+  pad p[9] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -1.25, -270.0)
+  pad p[10] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -1.75, -270.0)
+  pad p[11] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -2.25, -270.0)
+  pad p[12] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-2.4, -2.75, -270.0)
+  pad p[13] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-1.75, -3.4, -180.0)
+  pad p[14] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-1.25, -3.4, -180.0)
+  pad p[15] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-0.75, -3.4, -180.0)
+  pad p[16] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-0.25, -3.4, -180.0)
+  pad p[17] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(0.25, -3.4, -180.0)
+  pad p[18] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(0.75, -3.4, -180.0)
+  pad p[19] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(1.25, -3.4, -180.0)
+  pad p[20] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(1.75, -3.4, -180.0)
+  pad p[21] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -2.75, -270.0)
+  pad p[22] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -2.25, -270.0)
+  pad p[23] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -1.75, -270.0)
+  pad p[24] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -1.25, -270.0)
+  pad p[25] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -0.75, -270.0)
+  pad p[26] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, -0.25, -270.0)
+  pad p[27] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 0.25, -270.0)
+  pad p[28] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 0.75, -270.0)
+  pad p[29] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 1.25, -270.0)
+  pad p[30] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 1.75, -270.0)
+  pad p[31] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 2.25, -270.0)
+  pad p[32] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(2.4, 2.75, -270.0)
+  pad p[33] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(1.75, 3.4, -180.0)
+  pad p[34] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(1.25, 3.4, -180.0)
+  pad p[35] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(0.75, 3.4, -180.0)
+  pad p[36] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(0.25, 3.4, -180.0)
+  pad p[37] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-0.25, 3.4, -180.0)
+  pad p[38] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-0.75, 3.4, -180.0)
+  pad p[39] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-1.25, 3.4, -180.0)
+  pad p[40] : smd-pad(RoundedRectangle(0.25, 0.6, 0.025)) at loc(-1.75, 3.4, -180.0)
+  pad p[41] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-0.625, 2.6, 0.0)
+  pad p[42] : pth-pad(Circle(0.3), Circle(0.15)) at loc(1.6, 1.35, 0.0)
+  pad p[43] : pth-pad(Circle(0.3), Circle(0.15)) at loc(0.625, 2.6, 0.0)
+  pad p[44] : pth-pad(Circle(0.3), Circle(0.15)) at loc(0.625, 0.0, 0.0)
+  pad p[45] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-1.6, 1.35, 0.0)
+  pad p[46] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-0.625, 1.35, 0.0)
+  pad p[47] : pth-pad(Circle(0.3), Circle(0.15)) at loc(1.6, 0.0, 0.0)
+  pad p[48] : pth-pad(Circle(0.3), Circle(0.15)) at loc(0.625, 1.35, 0.0)
+  pad p[49] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-1.6, 0.0, 0.0)
+  pad p[50] : smd-pad(Rectangle(3.7, 5.7)) at loc(0.0, 0.0, 0.0)
+  pad p[51] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-0.625, 0.0, 0.0)
+  pad p[52] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-0.625, -2.6, 0.0)
+  pad p[53] : pth-pad(Circle(0.3), Circle(0.15)) at loc(0.625, -1.35, 0.0)
+  pad p[54] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-0.625, -1.35, 0.0)
+  pad p[55] : pth-pad(Circle(0.3), Circle(0.15)) at loc(-1.6, -1.35, 0.0)
+  pad p[56] : pth-pad(Circle(0.3), Circle(0.15)) at loc(0.625, -2.6, 0.0)
+  pad p[57] : pth-pad(Circle(0.3), Circle(0.15)) at loc(1.6, -1.35, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(2.75, 3.65), Point(2.65, 3.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(2.65, 3.65), Point(2.65, 2.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(2.75, -3.65), Point(2.65, -3.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(2.65, -3.65), Point(2.65, -2.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-2.75, -3.65), Point(-2.65, -3.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-2.65, -3.65), Point(-2.65, -2.75) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.12, [ Point(-2.75, 3.65), Point(-2.8, 3.65) ])
+  model3d = Model3D("QFN40.STEP",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(-90.0, 0.0, 0.0))
+  ref-label()
+
+pcb-symbol mct8316z-texas2-driverino-shield-rescue-symbol :
+  pin NC[0] at Point(-15.875, 13.969) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[0] at Point(-15.875, -8.89) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[1] at Point(-15.875, -11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[0] at Point(-15.875, -13.97) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[0] at Point(-8.89, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTA[1] at Point(-6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[1] at Point(-3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[0] at Point(-1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTB[1] at Point(1.27, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PGND[2] at Point(3.81, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[0] at Point(6.35, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[0] at Point(-15.875, 11.43) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin OUTC[1] at Point(8.889, -24.13) with :
+    direction = Down
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin DRVOFF at Point(15.875, -13.97) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nFAULT at Point(15.875, -11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSLEEP at Point(15.875, -8.89) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin NC[1] at Point(15.875, -6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AVDD at Point(15.875, -3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin AGND[1] at Point(15.875, -1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPA at Point(15.875, 1.27) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNA at Point(15.875, 3.81) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPB at Point(15.875, 6.35) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FB_BK at Point(-15.875, 8.889) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNB at Point(15.875, 8.889) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HPC at Point(15.875, 11.43) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin HNC at Point(15.875, 13.969) with :
+    direction = Right
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDO at Point(8.889, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SDI at Point(6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SCLK at Point(3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin nSCS at Point(1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin ILIM at Point(-1.27, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin BRAKE at Point(-3.81, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin PWM at Point(-6.35, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND_BK at Point(-15.875, 6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin FGOUT at Point(-8.89, 22.86) with :
+    direction = Up
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin GND at Point(-15.875, 20.32) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin SW_BK at Point(-15.875, 3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPL at Point(-15.875, 1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CPH at Point(-15.875, -1.27) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin CP at Point(-15.875, -3.81) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+  pin VM[2] at Point(-15.875, -6.35) with :
+    direction = Left
+    length = 5.08
+    number-size = 0.762
+    name-size = 0.762
+
+  layer("foreground") = Rectangle(31.75, 46.989, loc(0.0, -0.635))
+  layer("foreground") = Text(">VALUE", 0.762, SW, loc(-15.875, 23.1595))
+  layer("foreground") = Text(">REF", 0.762, SW, loc(-15.875, 24.2215))
+
+public pcb-component mct8316z-texas2-driverino-shield-rescue :
+  pin FB_BK
+  pin GND_BK
+  pin SW_BK
+  pin CPL
+  pin CPH
+  pin CP
+  pin DRVOFF
+  pin nFAULT
+  pin nSLEEP
+  pin AVDD
+  pin HPA
+  pin HNA
+  pin HPB
+  pin HNB
+  pin HPC
+  pin HNC
+  pin SDO
+  pin SDI
+  pin SCLK
+  pin nSCS
+  pin ILIM
+  pin BRAKE
+  pin PWM
+  pin FGOUT
+  pin GND
+  port OUTA : pin[2]
+  port AGND : pin[2]
+  port OUTB : pin[2]
+  port NC : pin[2]
+  port OUTC : pin[2]
+  port PGND : pin[3]
+  port VM : pin[3]
+  no-connect(NC[0])
+  no-connect(NC[1])
+  val lp = qfn-40_ep_5x7_pitch05mm
+  val sym = mct8316z-texas2-driverino-shield-rescue-symbol
+  landpattern = lp(NC[0] => lp.p[1], AGND[0] => lp.p[2], FB_BK => lp.p[3], GND_BK => lp.p[4], SW_BK => lp.p[5], CPL => lp.p[6], CPH => lp.p[7], CP => lp.p[8], VM[2] => lp.p[9], VM[0] => lp.p[10], VM[1] => lp.p[11], PGND[0] => lp.p[12], OUTA[0] => lp.p[13], OUTA[1] => lp.p[14], PGND[1] => lp.p[15], OUTB[0] => lp.p[16], OUTB[1] => lp.p[17], PGND[2] => lp.p[18], OUTC[0] => lp.p[19], OUTC[1] => lp.p[20], DRVOFF => lp.p[21], nFAULT => lp.p[22], nSLEEP => lp.p[23], NC[1] => lp.p[24], AVDD => lp.p[25], AGND[1] => lp.p[26], HPA => lp.p[27], HNA => lp.p[28], HPB => lp.p[29], HNB => lp.p[30], HPC => lp.p[31], HNC => lp.p[32], SDO => lp.p[33], SDI => lp.p[34], SCLK => lp.p[35], nSCS => lp.p[36], ILIM => lp.p[37], BRAKE => lp.p[38], PWM => lp.p[39], FGOUT => lp.p[40], GND => lp.p[41], GND => lp.p[42], GND => lp.p[43], GND => lp.p[44], GND => lp.p[45], GND => lp.p[46], GND => lp.p[47], GND => lp.p[48], GND => lp.p[49], GND => lp.p[50], GND => lp.p[51], GND => lp.p[52], GND => lp.p[53], GND => lp.p[54], GND => lp.p[55], GND => lp.p[56], GND => lp.p[57])
+  symbol = sym(NC[0] => sym.NC[0], AGND[0] => sym.AGND[0], FB_BK => sym.FB_BK, GND_BK => sym.GND_BK, SW_BK => sym.SW_BK, CPL => sym.CPL, CPH => sym.CPH, CP => sym.CP, VM[2] => sym.VM[2], VM[0] => sym.VM[0], VM[1] => sym.VM[1], PGND[0] => sym.PGND[0], OUTA[0] => sym.OUTA[0], OUTA[1] => sym.OUTA[1], PGND[1] => sym.PGND[1], OUTB[0] => sym.OUTB[0], OUTB[1] => sym.OUTB[1], PGND[2] => sym.PGND[2], OUTC[0] => sym.OUTC[0], OUTC[1] => sym.OUTC[1], DRVOFF => sym.DRVOFF, nFAULT => sym.nFAULT, nSLEEP => sym.nSLEEP, NC[1] => sym.NC[1], AVDD => sym.AVDD, AGND[1] => sym.AGND[1], HPA => sym.HPA, HNA => sym.HNA, HPB => sym.HPB, HNB => sym.HNB, HPC => sym.HPC, HNC => sym.HNC, SDO => sym.SDO, SDI => sym.SDI, SCLK => sym.SCLK, nSCS => sym.nSCS, ILIM => sym.ILIM, BRAKE => sym.BRAKE, PWM => sym.PWM, FGOUT => sym.FGOUT, GND => sym.GND)
+  
+  name = "Driverino-Shield:QFN-40_EP_5x7_Pitch0.5mm"
+  reference-prefix = "U"
+  mpn = "MCT8316Z-texas2-Driverino-Shield-rescue"

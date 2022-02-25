@@ -1,0 +1,6690 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+ width="26.7111" height="26.3011" id="jitpcb">
+<g transform="scale(1.0,-1.0) translate(13.3555,-13.1505) ">
+<g data-jitpcb-num-layers="4"
+><g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="solder-mask layer-3"
+><circle cx="0" cy="0" r="2.45" fill="rgb(58.8235%, 57.6471%, 17.2549%, 80.0%)"/></g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="solder-mask layer-3"
+><circle cx="0" cy="0" r="2.45" fill="rgb(58.8235%, 57.6471%, 17.2549%, 80.0%)"/></g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="courtyard layer-3"
+><g transform="scale(1.75, 1.75)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(80.3922%, 78.4314%, 25.098%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="courtyard layer-3"
+><g transform="scale(1.75, 1.75)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(80.3922%, 78.4314%, 25.098%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.285, 0.31)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.48, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.285, 0.31)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(-1.27, 0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(0.0, 0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(1.27, 0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(2.54, 0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(-2.54, -0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(-1.27, -0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(0.0, -0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(1.27, -0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+<g transform="translate(2.54, -0.635)">
+<g class="copper layer-0"
+><circle cx="0" cy="0" r="0.3935" fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/></g>
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+<g class="copper layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, 0.8)">
+<g class="copper layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.1, -0.8)">
+<g class="copper layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, -0.8)">
+<g class="copper layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, -3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.25)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.75)">
+<g class="copper layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, 3.42929)">
+<g class="copper layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g class="copper layer-0"
+><polygon points=" -2.8,-2.3 -2.3,-2.8 2.8,-2.8 2.8,2.8 -2.8,2.8 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="copper layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(51.7647%, 0.0%, 0.0%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.765, 0.31)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g class="courtyard layer-0"
+><g transform="scale(5.08, 3.81)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g class="courtyard layer-0"
+><g transform="scale(1.8, 1.375)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="courtyard layer-0"
+><g transform="scale(1.75, 1.75)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="courtyard layer-0"
+><g transform="scale(1.75, 1.75)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g class="courtyard layer-0"
+><g transform="scale(3.95, 3.95)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g class="courtyard layer-0"
+><g transform="scale(0.56, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="none" stroke="rgb(56.4706%, 56.4706%, 56.4706%, 80.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.435, 0.46)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.48, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.435, 0.46)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(-1.27, 0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(0.0, 0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(1.27, 0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(2.54, 0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(-2.54, -0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(-1.27, -0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(0.0, -0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(1.27, -0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(2.54, -0.635)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="0.5435" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.85, 0.725)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, 0.8)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.85, 0.725)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.1, -0.8)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.85, 0.725)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, -0.8)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.85, 0.725)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="2.45" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="solder-mask layer-0"
+><circle cx="0" cy="0" r="2.45" fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/></g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, -3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.25)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.75)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.470711, 0.26)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, 3.42929)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.26, 0.470711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g class="solder-mask layer-0"
+><polygon points=" -2.8,-2.3 -2.3,-2.8 2.8,-2.8 2.8,2.8 -2.8,2.8 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="solder-mask layer-0"
+><g transform="scale(0.38, 0.36)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(54.902%, 18.8235%, 56.8627%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.285, 0.31)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.48, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.285, 0.31)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+<g class="paste layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, 0.8)">
+<g class="paste layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.1, -0.8)">
+<g class="paste layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, -0.8)">
+<g class="paste layer-0"
+><g transform="scale(0.7, 0.575)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, -3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.25)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.75)">
+<g class="paste layer-0"
+><g transform="scale(0.320711, 0.11)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, 3.42929)">
+<g class="paste layer-0"
+><g transform="scale(0.11, 0.320711)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g class="paste layer-0"
+><polygon points=" -2.8,-2.3 -2.3,-2.8 2.8,-2.8 2.8,2.8 -2.8,2.8 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="paste layer-0"
+><g transform="scale(0.23, 0.21)">
+<polygon points=" -1.0,-1.0 -1.0,1.0 1.0,1.0 1.0,-1.0 " fill="rgb(25.098%, 25.098%, 25.098%, 80.0%)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g class="silkscreen layer-0"
+><g transform="rotate(180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C1</text>
+</g>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C1</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">J1</text>
+</g>
+</g>
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C2</text>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C2</text>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g class="silkscreen layer-0"
+><g transform="translate(-2.1, -0.8)">
+<circle cx="0" cy="0" r="0.2" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)"/></g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">X1</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C3</text>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C3</text>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C7</text>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C7</text>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C4</text>
+</g>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C4</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C8</text>
+</g>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C8</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C5</text>
+</g>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C5</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">R1</text>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">R1</text>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C6</text>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">C6</text>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g class="silkscreen layer-0"
+><polyline points=" -3.5881,3.5119 -3.4357,3.5119 " fill="none" stroke="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)"  stroke-width="0.0762" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="silkscreen layer-0"
+><g transform="translate(0.0, 4.331)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">U1</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">R2</text>
+</g>
+</g>
+</g>
+<g class="silkscreen layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(23.5294%, 57.2549%, 58.4314%, 80.0%)" font-size="0.762" dominant-baseline="middle" text-anchor="middle">R2</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(-3.81, 0.0)">
+<circle cx="0" cy="0" r="0.5" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(3.81, 1.015)">
+<circle cx="0" cy="0" r="0.5" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(3.81, -1.015)">
+<circle cx="0" cy="0" r="0.5" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(-3.81, 2.54)">
+<circle cx="0" cy="0" r="1.1875" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(-3.81, -2.54)">
+<circle cx="0" cy="0" r="1.1875" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(1.905, 2.54)">
+<circle cx="0" cy="0" r="1.1875" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><g transform="translate(1.905, -2.54)">
+<circle cx="0" cy="0" r="1.1875" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><circle cx="0" cy="0" r="1.75" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="cutout layer-0 layer-1 layer-2 layer-3"
+><circle cx="0" cy="0" r="1.75" fill="rgb(80.3922%, 78.8235%, 25.098%, 100.0%)"/></g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+</g>
+<g transform="translate(0.48, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+</g>
+<g transform="translate(-1.27, 0.635)">
+</g>
+<g transform="translate(0.0, 0.635)">
+</g>
+<g transform="translate(1.27, 0.635)">
+</g>
+<g transform="translate(2.54, 0.635)">
+</g>
+<g transform="translate(-2.54, -0.635)">
+</g>
+<g transform="translate(-1.27, -0.635)">
+</g>
+<g transform="translate(0.0, -0.635)">
+</g>
+<g transform="translate(1.27, -0.635)">
+</g>
+<g transform="translate(2.54, -0.635)">
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+</g>
+<g transform="translate(1.1, 0.8)">
+</g>
+<g transform="translate(-1.1, -0.8)">
+</g>
+<g transform="translate(1.1, -0.8)">
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+</g>
+<g transform="translate(-3.42929, 2.25)">
+</g>
+<g transform="translate(-3.42929, 1.75)">
+</g>
+<g transform="translate(-3.42929, 1.25)">
+</g>
+<g transform="translate(-3.42929, 0.75)">
+</g>
+<g transform="translate(-3.42929, 0.25)">
+</g>
+<g transform="translate(-3.42929, -0.25)">
+</g>
+<g transform="translate(-3.42929, -0.75)">
+</g>
+<g transform="translate(-3.42929, -1.25)">
+</g>
+<g transform="translate(-3.42929, -1.75)">
+</g>
+<g transform="translate(-3.42929, -2.25)">
+</g>
+<g transform="translate(-3.42929, -2.75)">
+</g>
+<g transform="translate(-2.75, -3.42929)">
+</g>
+<g transform="translate(-2.25, -3.42929)">
+</g>
+<g transform="translate(-1.75, -3.42929)">
+</g>
+<g transform="translate(-1.25, -3.42929)">
+</g>
+<g transform="translate(-0.75, -3.42929)">
+</g>
+<g transform="translate(-0.25, -3.42929)">
+</g>
+<g transform="translate(0.25, -3.42929)">
+</g>
+<g transform="translate(0.75, -3.42929)">
+</g>
+<g transform="translate(1.25, -3.42929)">
+</g>
+<g transform="translate(1.75, -3.42929)">
+</g>
+<g transform="translate(2.25, -3.42929)">
+</g>
+<g transform="translate(2.75, -3.42929)">
+</g>
+<g transform="translate(3.42929, -2.75)">
+</g>
+<g transform="translate(3.42929, -2.25)">
+</g>
+<g transform="translate(3.42929, -1.75)">
+</g>
+<g transform="translate(3.42929, -1.25)">
+</g>
+<g transform="translate(3.42929, -0.75)">
+</g>
+<g transform="translate(3.42929, -0.25)">
+</g>
+<g transform="translate(3.42929, 0.25)">
+</g>
+<g transform="translate(3.42929, 0.75)">
+</g>
+<g transform="translate(3.42929, 1.25)">
+</g>
+<g transform="translate(3.42929, 1.75)">
+</g>
+<g transform="translate(3.42929, 2.25)">
+</g>
+<g transform="translate(3.42929, 2.75)">
+</g>
+<g transform="translate(2.75, 3.42929)">
+</g>
+<g transform="translate(2.25, 3.42929)">
+</g>
+<g transform="translate(1.75, 3.42929)">
+</g>
+<g transform="translate(1.25, 3.42929)">
+</g>
+<g transform="translate(0.75, 3.42929)">
+</g>
+<g transform="translate(0.25, 3.42929)">
+</g>
+<g transform="translate(-0.25, 3.42929)">
+</g>
+<g transform="translate(-0.75, 3.42929)">
+</g>
+<g transform="translate(-1.25, 3.42929)">
+</g>
+<g transform="translate(-1.75, 3.42929)">
+</g>
+<g transform="translate(-2.25, 3.42929)">
+</g>
+<g transform="translate(-2.75, 3.42929)">
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+</g>
+<g transform="translate(0.33, 0.0)">
+</g>
+</g>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -9.1984,-3.28591 -9.1984,-3.28591 -9.1984,-3.28591 -8.862,-2.352 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -1.1202,-6.0484 -1.1202,-6.0484 -1.1202,-6.0484 -6.6984,-10.1445 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -1.1202,-8.5884 -1.1202,-8.5884 -1.1202,-8.5884 -5.01911,-9.4652 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -9.6984,-3.28591 -9.6984,-3.28591 -9.6984,-3.28591 -9.522,-2.352 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -11.8777,-8.9652 -11.8777,-8.9652 -11.8777,-8.9652 -12.0884,-12.1134 -11.8777,-8.9652 -6.1984,-10.1445 -6.1984,-10.1445 -1.1202,-9.8584 -1.1202,-9.8584 0.1498,-8.5884 0.1498,-8.5884 -1.1202,-7.3184 -1.1202,-7.3184 0.1498,-6.0484 -1.1202,-7.3184 -5.01911,-4.4652 -5.01911,-4.4652 -3.4052,-1.8252 -3.4052,-1.8252 -4.4724,-1.202 -4.4724,-1.202 -5.7956,-1.202 -5.7956,-1.202 -6.4388,-1.7088 -6.4388,-1.7088 -7.552,-1.3638 -7.552,-1.3638 -9.752,0.2362 -9.752,0.2362 -10.8452,-2.352 -10.8452,-2.352 -12.1684,-1.7288 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -11.8777,-9.4652 -11.8777,-9.4652 -11.8777,-9.4652 -12.0884,-11.1534 -11.8777,-9.4652 -5.6984,-10.1445 -5.6984,-10.1445 -5.01911,-3.9652 -5.01911,-3.9652 -4.0652,-1.8252 -4.0652,-1.8252 -3.8124,-1.202 -5.01911,-3.9652 -1.1202,-4.7784 -5.01911,-3.9652 -10.8652,-1.0488 -10.8652,-1.0488 -11.5084,-1.7288 -11.5084,-1.7288 -12.1684,-2.352 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" 0.1498,-7.3184 0.1498,-7.3184 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -5.01911,-5.9652 -5.01911,-5.9652 -5.01911,-5.9652 -5.1356,-1.202 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -7.552,0.2362 -7.552,0.2362 -7.552,0.2362 -6.4388,-1.0488 -6.4388,-1.0488 -7.6984,-3.28591 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" 0.1498,-4.7784 0.1498,-4.7784 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" 0.1498,-9.8584 0.1498,-9.8584 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -9.752,-1.3638 -9.752,-1.3638 -9.752,-1.3638 -10.1852,-2.352 -10.1852,-2.352 -8.1984,-3.28591 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g class="rats-nest layer-0 layer-1 layer-2 layer-3"
+><polyline points=" -8.6984,-3.28591 -8.6984,-3.28591 -8.6984,-3.28591 -10.8652,-1.7088 -10.8652,-1.7088 -11.5084,-2.352 " fill="none" stroke="rgb(40.0%, 40.0%, 40.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(-12.0884, -11.6334)">
+<g transform="rotate(90.0)">
+<g transform="translate(-0.48, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1824" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0.48, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1824" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-0.4852, -7.3184)">
+<g transform="rotate(270.0)">
+<g transform="translate(-2.54, 0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.201472" dominant-baseline="middle" text-anchor="middle">p[10]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.27, 0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[9]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.0, 0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[8]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.27, 0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[7]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.54, 0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[6]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-2.54, -0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.27, -0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.0, -0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[3]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.27, -0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[4]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.54, -0.635)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.25184" dominant-baseline="middle" text-anchor="middle">p[5]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.903111" dominant-baseline="middle" text-anchor="middle">mcu.debug-con.conn</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-4.1424, -1.202)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+<g transform="translate(-8.652, -0.5638)">
+<g transform="rotate(180.0)">
+<g transform="translate(-1.1, 0.8)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.597333" dominant-baseline="middle" text-anchor="middle">gnd</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, 0.8)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.448" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-1.1, -0.8)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.448" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(1.1, -0.8)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.597333" dominant-baseline="middle" text-anchor="middle">gnd</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(-0.175, 0.0)">
+<g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.618182" dominant-baseline="middle" text-anchor="middle">mcu.hf-xtal</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -1.7288)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+<g transform="translate(-6.4388, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-3.7352, -1.8252)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-10.5152, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-9.192, -2.352)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-7.25, 7.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="1.96" dominant-baseline="middle" text-anchor="middle">hole</text>
+</g>
+</g>
+</g>
+<g transform="translate(-10.8652, -1.3788)">
+<g transform="rotate(270.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.rid</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(7.25, -7.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="1.96" dominant-baseline="middle" text-anchor="middle">hole</text>
+</g>
+</g>
+</g>
+<g transform="translate(-11.8384, -2.352)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.cap</text>
+</g>
+</g>
+</g>
+<g transform="translate(-8.4484, -6.7152)">
+<g transform="rotate(270.0)">
+<g transform="translate(-3.42929, 2.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.176" dominant-baseline="middle" text-anchor="middle">VLCD</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 2.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PC[13]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.102627" dominant-baseline="middle" text-anchor="middle">OSC32_IN</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 1.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0912244" dominant-baseline="middle" text-anchor="middle">OSC32_OUT</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">OSC_IN</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, 0.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.117288" dominant-baseline="middle" text-anchor="middle">OSC_OUT</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.176" dominant-baseline="middle" text-anchor="middle">NRST</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -0.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.176" dominant-baseline="middle" text-anchor="middle">VSSA</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.176" dominant-baseline="middle" text-anchor="middle">VDDA</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -1.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.164204" dominant-baseline="middle" text-anchor="middle">PA[0]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.164204" dominant-baseline="middle" text-anchor="middle">PA[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-3.42929, -2.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.164204" dominant-baseline="middle" text-anchor="middle">PA[2]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PA[3]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PA[4]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PA[5]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PA[6]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PA[7]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[0]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[2]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">PB[10]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">PB[11]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">VSS[0]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, -3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">VDD[0]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PB[12]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -2.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PB[13]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PB[14]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -1.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PB[15]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.164204" dominant-baseline="middle" text-anchor="middle">PA[8]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, -0.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.164204" dominant-baseline="middle" text-anchor="middle">PA[9]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PA[10]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 0.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PA[11]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PA[12]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 1.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">PA[13]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.25)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">VSS[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(3.42929, 2.75)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.136837" dominant-baseline="middle" text-anchor="middle">VDD[1]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">PA[14]</text>
+</g>
+</g>
+</g>
+<g transform="translate(2.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">PA[15]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[3]</text>
+</g>
+</g>
+</g>
+<g transform="translate(1.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[4]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[5]</text>
+</g>
+</g>
+</g>
+<g transform="translate(0.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[6]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[7]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-0.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0402286" dominant-baseline="middle" text-anchor="middle">BOOT[0]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[8]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-1.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.05632" dominant-baseline="middle" text-anchor="middle">PB[9]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-2.25, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">VSS[2]</text>
+</g>
+</g>
+</g>
+<g transform="translate(-2.75, 3.42929)">
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.0469333" dominant-baseline="middle" text-anchor="middle">VDD[2]</text>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="1.4336" dominant-baseline="middle" text-anchor="middle">p[49]</text>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="translate(0.0, 0.381)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="1.80571" dominant-baseline="middle" text-anchor="middle">mcu.mcu</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-5.4656, -1.202)">
+<g transform="rotate(180.0)">
+<g transform="translate(-0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[1]</text>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0.33, 0.0)">
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.1472" dominant-baseline="middle" text-anchor="middle">p[2]</text>
+</g>
+</g>
+</g>
+</g>
+<g class="label layer-0"
+><g transform="rotate(-180.0)">
+<g transform="scale(1,-1)">
+<text x="0" y="0" fill="rgb(100.0%, 100.0%, 100.0%, 80.0%)" font-size="0.693543" dominant-baseline="middle" text-anchor="middle">mcu.rid</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g class="board-edge layer-0 layer-1 layer-2 layer-3"
+><rect x="-12.5" y="-12.5" width="25.0" height="25.0" rx="0.25" fill="none" stroke="rgb(100.0%, 50.0%, 0.0%, 100.0%)" vector-effect="non-scaling-stroke" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</g>
+</svg>
