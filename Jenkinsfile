@@ -38,7 +38,7 @@ pipeline {
                         docker exec --workdir /myvol3/Importer-QA check-jitx pytest test_importer_jitx.py --html=report.html
                         docker exec --workdir /myvol3/Exporter-QA check-jitx pytest test_exporter_jitx.py --html=report.html
                         docker exec --workdir /myvol3/Roundtrip-QA check-jitx pytest test_roundtrip_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/JITX check-jitx pytest test_jitxQA_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/JITX-QA check-jitx pytest test_jitxQA_jitx.py --html=report.html
                         docker exec --workdir /myvol3/OCDB-QA check-jitx pytest test_ocdb_jitx.py --html=report.html
                         docker exec --workdir /myvol3/Schematic-QA check-jitx pytest test_schematic_jitx.py --html=report.html
                         docker stop check-jitx
