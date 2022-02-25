@@ -40,7 +40,7 @@ pipeline {
                         docker exec --workdir /myvol3/Importer-QA test-jitx pytest test_importer_jitx.py --html=report.html || true
                         docker exec --workdir /myvol3/Exporter-QA test-jitx pytest test_exporter_jitx.py --html=report.html || true
                         docker exec --workdir /myvol3/Roundtrip-QA test-jitx pytest test_roundtrip_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/JITX-QA test-jitx pytest test_jitxQA_jitx.py --html=report.html || true
+                        docker exec --workdir /myvol3/JITX-QA test-jitx pytest test_jitxqa_jitx.py --html=report.html || true
                         docker exec --workdir /myvol3/OCDB-QA test-jitx pytest test_ocdb_jitx.py --html=report.html || true
                         docker exec --workdir /myvol3/Schematic-QA test-jitx pytest test_schematic_jitx.py --html=report.html || true
                         docker stop test-jitx
