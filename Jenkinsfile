@@ -37,12 +37,7 @@ pipeline {
                         docker exec test-jitx mv /myvol3/license /root/.jitx/
                         docker exec test-jitx mv /myvol3/refresh_license /root/.jitx/
                         docker exec test-jitx mv /myvol3/user.params /root/.jitx/
-                        docker exec --workdir /myvol3/Importer-QA test-jitx pytest test_importer_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/Exporter-QA test-jitx pytest test_exporter_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/Roundtrip-QA test-jitx pytest test_roundtrip_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/JITX-QA test-jitx pytest test_jitxqa_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/OCDB-QA test-jitx pytest test_ocdb_jitx.py --html=report.html || true
-                        docker exec --workdir /myvol3/Schematic-QA test-jitx pytest test_schematic_jitx.py --html=report.html || true
+                        docker exec test-jitx /myvol3/./jitx.sh ./
                         docker stop test-jitx
                         ls
                     '''
