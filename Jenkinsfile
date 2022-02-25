@@ -29,6 +29,7 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
+                        docker rm --force test-jitx
                         docker volume create myvol3
                         docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
                         docker start test-jitx
