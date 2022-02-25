@@ -1,3 +1,4 @@
+#!/bin/bash
 # This script is to execute the automated pytest test cases
 
 usage() {
