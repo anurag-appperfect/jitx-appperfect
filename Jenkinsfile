@@ -30,18 +30,19 @@ pipeline {
                     sh '''
                         ls
                         docker volume create myvol3
-                        docker run -dit -v $(pwd):/myvol3 --name check-jitx setup-jitx
-                        docker start check-jitx
-                        docker exec check-jitx mv /myvol3/license /root/.jitx/
-                        docker exec check-jitx mv /myvol3/refresh_license /root/.jitx/
-                        docker exec check-jitx mv /myvol3/user.params /root/.jitx/
-                        docker exec --workdir /myvol3/Importer-QA check-jitx pytest test_importer_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/Exporter-QA check-jitx pytest test_exporter_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/Roundtrip-QA check-jitx pytest test_roundtrip_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/JITX-QA check-jitx pytest test_jitxQA_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/OCDB-QA check-jitx pytest test_ocdb_jitx.py --html=report.html
-                        docker exec --workdir /myvol3/Schematic-QA check-jitx pytest test_schematic_jitx.py --html=report.html
-                        docker stop check-jitx
+                        docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
+                        docker start test-jitx
+                        docker exec test-jitx mv /myvol3/machine-id /etc/
+                        docker exec test-jitx mv /myvol3/license /root/.jitx/
+                        docker exec test-jitx mv /myvol3/refresh_license /root/.jitx/
+                        docker exec test-jitx mv /myvol3/user.params /root/.jitx/
+                        docker exec --workdir /myvol3/Importer-QA test-jitx pytest test_importer_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/Exporter-QA test-jitx pytest test_exporter_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/Roundtrip-QA test-jitx pytest test_roundtrip_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/JITX-QA test-jitx pytest test_jitxQA_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/OCDB-QA test-jitx pytest test_ocdb_jitx.py --html=report.html
+                        docker exec --workdir /myvol3/Schematic-QA test-jitx pytest test_schematic_jitx.py --html=report.html
+                        docker stop test-jitx
                         ls
                     '''
                 }
