@@ -38,7 +38,8 @@ pipeline {
                         docker exec test-jitx mv /myvol3/refresh_license /root/.jitx/
                         docker exec test-jitx mv /myvol3/user.params /root/.jitx/
                         docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
-                        docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
+                        docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
+                        # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
                         docker stop test-jitx
                         ls
                     '''
