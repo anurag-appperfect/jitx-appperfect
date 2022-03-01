@@ -11,3 +11,7 @@ RUN wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
 RUN unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
 RUN bash install.sh jitx.zip
 ENV PATH "$PATH:/root/.jitx/current/"
+COPY license /root/.jitx/
+COPY refresh_license /root/.jitx/
+COPY user.params /root/.jitx/
+COPY machine-id /etc/
