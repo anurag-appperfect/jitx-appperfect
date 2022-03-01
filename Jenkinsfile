@@ -24,7 +24,7 @@ pipeline {
             steps {
                 node ('slave-node01||master') {
                     // Clean before build
-                    //cleanWs()
+                    cleanWs()
                     checkout scm
                     sh 'pwd'
                     sh '''
