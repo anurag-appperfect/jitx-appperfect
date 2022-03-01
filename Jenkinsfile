@@ -32,16 +32,9 @@ pipeline {
                         docker rm --force test-jitx
                         docker volume create myvol3
                         docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
-                        docker start test-jitx
-                        docker exec test-jitx mv /myvol3/machine-id /etc/
-                        docker exec test-jitx mv /myvol3/license /root/.jitx/
-                        docker exec test-jitx mv /myvol3/refresh_license /root/.jitx/
-                        docker exec test-jitx mv /myvol3/user.params /root/.jitx/
                         docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
                         docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
-                        docker stop test-jitx
-                        ls
                     '''
                 }
             }
