@@ -14,8 +14,8 @@ pipeline {
                     sh '''
                         # authenticate to AWS
                         # launch container with a script as command
-                        docker build --no-cache -t jitx-install-image .
-                        docker image ls
+                        docker build -t jitx-install-image .
+                        docker container ls
                     '''
                 }
             }
