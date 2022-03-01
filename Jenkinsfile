@@ -27,7 +27,6 @@ pipeline {
                     checkout scm
                     sh 'pwd'
                     sh '''
-                        docker build -t setup-jitx .
                         docker image ls
                         docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
                         docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
