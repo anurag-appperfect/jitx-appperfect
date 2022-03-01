@@ -16,8 +16,6 @@ pipeline {
                         # launch container with a script as command
                         docker build -t jitx-install-image .
                         docker image ls
-                        docker volume create myvol3
-                        docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-install-image
                     '''
                 }
             }
@@ -26,11 +24,11 @@ pipeline {
             steps {
                 node ('slave-node01||master') {
                     // Clean before build
-                    cleanWs()
+                    //cleanWs()
                     checkout scm
                     sh 'pwd'
                     sh '''
-                        docker container ls
+                        docker image ls
                         #docker rm --force test-jitx
                         #docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
                         #docker exec test-jitx ls root/.jitx/
