@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('Installing jitx') {
             steps {
-                node ('slave-node01') {
+                node ('slave-node01||master') {
                     cleanWs()
                     checkout scm
                     // My comment
@@ -21,7 +21,7 @@ pipeline {
         }
         stage ('Tests on Ubuntu bionic') {
             steps {
-                node ('slave-node01') {
+                node ('slave-node01||master') {
                     // Clean before build
                     cleanWs()
                     checkout scm
