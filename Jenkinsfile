@@ -14,8 +14,7 @@ pipeline {
                     sh '''
                         # authenticate to AWS
                         # launch container with a script as command
-                        ls
-                        docker build -t jitx-image .
+                        docker build -t jitx-install-image .
                     '''
                 }
             }
@@ -31,7 +30,7 @@ pipeline {
                         ls
                         #docker rm --force test-jitx
                         docker volume create myvol3
-                        docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-image
+                        docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-install-image
                         docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
                         docker exec test-jitx ls root/.jitx/
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
