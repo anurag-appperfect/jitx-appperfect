@@ -16,6 +16,8 @@ pipeline {
                         # launch container with a script as command
                         docker build -t jitx-install-image .
                         docker image ls
+                        docker volume create myvol3
+                        docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-install-image
                     '''
                 }
             }
@@ -28,12 +30,10 @@ pipeline {
                     checkout scm
                     sh 'pwd'
                     sh '''
-                        docker image ls
+                        docker container ls
                         #docker rm --force test-jitx
-                        docker volume create myvol3
-                        docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-install-image
-                        docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
-                        docker exec test-jitx ls root/.jitx/
+                        #docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
+                        #docker exec test-jitx ls root/.jitx/
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
                     '''
