@@ -15,6 +15,7 @@ pipeline {
                         # authenticate to AWS
                         # launch container with a script as command
                         docker build -t jitx-install-image .
+                        docker image ls
                     '''
                 }
             }
@@ -27,7 +28,7 @@ pipeline {
                     checkout scm
                     sh 'pwd'
                     sh '''
-                        ls
+                        docker image ls
                         #docker rm --force test-jitx
                         docker volume create myvol3
                         docker run -dit -v $(pwd):/myvol3 --name test-jitx jitx-install-image
