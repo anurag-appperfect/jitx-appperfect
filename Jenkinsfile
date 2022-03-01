@@ -31,7 +31,7 @@ pipeline {
                         ls
                         docker rm --force test-jitx
                         docker image rm --force setup-jitx
-                        docker image ls -all
+                        docker image ls 
                         #docker volume create myvol3
                         #docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
                         #docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
