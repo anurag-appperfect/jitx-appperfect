@@ -30,7 +30,6 @@ pipeline {
                         docker image ls
                         #docker rm --force test-jitx
                         #docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
-                        #docker exec test-jitx ls root/.jitx/
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
                     '''
