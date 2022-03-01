@@ -33,7 +33,8 @@ pipeline {
                         docker volume create myvol3
                         docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
                         docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
-                        docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
+                        docker exec test-jitx ls root/.jitx/
+                        # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
                         # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
                     '''
                 }
