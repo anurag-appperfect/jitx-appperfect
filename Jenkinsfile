@@ -44,8 +44,8 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        pip3 install -U pytest
-                        pip3 install pytest-html
+                        pip3 install pytest --user
+                        pip3 install pytest-html --user
                         wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         bash install.sh jitx.zip
