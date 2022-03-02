@@ -14,27 +14,39 @@ pipeline {
                     sh '''
                         # authenticate to AWS
                         # launch container with a script as command
-                        docker build -t setup-jitx .
+                        #docker build -t setup-jitx .
                     '''
                 }
             }
         }
-        stage ('Tests on Ubuntu bionic') {
+        // stage ('Tests on Ubuntu bionic') {
+        //     steps {
+        //         node ('slave-node01||master') {
+        //             // Clean before build
+        //             cleanWs()
+        //             checkout scm
+        //             sh 'pwd'
+        //             sh '''
+        //                 docker rm --force test-jitx
+        //                 docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
+        //                 docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
+        //                 docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
+        //                 # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
+        //             '''
+        //         }
+        //     }
+        // }
+        stage ('Tests on MacOS') {
             steps {
-                node ('slave-node01||master') {
-                    // Clean before build
+                node ('MacMini') {
                     cleanWs()
                     checkout scm
                     sh 'pwd'
                     sh '''
-                        docker rm --force test-jitx
-                        docker run -dit -v $(pwd):/myvol3 --name test-jitx setup-jitx
-                        docker exec --workdir /myvol3 test-jitx chmod +x jitx.sh
-                        docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ 
-                        # docker exec --workdir /myvol3 test-jitx ./jitx.sh ./ JITX-QA
+                        ls
                     '''
+                        }
+                    }
                 }
-            }
-        }
     }
 }
