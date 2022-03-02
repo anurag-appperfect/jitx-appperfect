@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('Installing jitx') {
             steps {
-                node ('slave-node01||master') {
+                node ('MacMini') {
                     cleanWs()
                     checkout scm
                     // My comment
