@@ -51,6 +51,7 @@ pipeline {
                         #wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #bash install.sh jitx.zip
+                        chmod +x jitx.sh
                         ./jitx.sh ./
                     '''
                         }
