@@ -44,8 +44,12 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        pip install pytest --user
-                        pip install pytest-html --user
+                        echo "installing pip, pytest using $($PYTHON_ALIAS --version)"
+                        curl https://bootstrap.pypa.io/pip/3.6/get-pip.py | $PYTHON_ALIAS -
+                        pip3 install pytest
+                        pip3 install pytest-html
+                        #pip install pytest --user
+                        #pip install pytest-html --user
                         #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
                         #brew install wget
                         #wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
