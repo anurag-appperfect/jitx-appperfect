@@ -44,7 +44,7 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        echo "installing pip, pytest using $($PYTHON_ALIAS --version)"
+                        #echo "installing pip, pytest using $($PYTHON_ALIAS --version)"
                         curl https://bootstrap.pypa.io/pip/3.6/get-pip.py | $PYTHON_ALIAS -
                         pip3 install pytest
                         pip3 install pytest-html
