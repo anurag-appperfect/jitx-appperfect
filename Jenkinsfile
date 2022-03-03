@@ -60,21 +60,14 @@ pipeline {
                         #ls -a ~/
                         #echo "~/.jitx/current/" > ~/.bash_profile
                         #cat ~/.bash_profile
-                        #ls -a ~/.jitx/current
-                        #cd ~/.jitx/current
-                        #pwd
-                        #ls
+                        ls -a ~/.jitx/current
                         #ls -a ~/.jitx/0.11.5-rc.2
                         #ls -a ~/.jitx/0.11.4-rc.1
                         #~/.jitx/current/jitx check-install
+                        #ls -a ~/.jitx/0.11.5-rc.2
+                        export PATH=$PATH:~/.jitx/current/
                         echo $PATH
                         jitx check-install
-                        cd ~/.jitx/current
-                        pwd
-                        ls
-                        #ls -a ~/.jitx/0.11.5-rc.2
-                        #export PATH=$PATH:~/.jitx/current/
-                        echo $PATH
                         #chmod +x jitx.sh
                         #./jitx.sh ./ JITX-QA
                         #echo $PATH
