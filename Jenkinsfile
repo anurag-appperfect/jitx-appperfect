@@ -52,6 +52,7 @@ pipeline {
                         #pip install pytest-html --user
                         #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
                         #brew install wget
+                        rm -r ~/.jitx/0.11.5-rc.2
                         wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         bash install.sh jitx.zip     
