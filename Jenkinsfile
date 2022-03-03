@@ -54,15 +54,16 @@ pipeline {
                         #brew install wget
                         #wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        #bash install.sh jitx.zip
+                        #bash install.sh jitx.zip     
                         echo $PATH
-                        ls -a ~/
-                        echo "~/.jitx/current/" > ~/.bash_profile
+                        #ls -a ~/
+                        #echo "~/.jitx/current/" > ~/.bash_profile
                         cat ~/.bash_profile
-                        ls ~/.jitx/current
-                        ~/.jitx/current/jitx check-install
-                        echo $PATH
-                        jitx check-install
+                        ls -a ~/.jitx/current
+                        ls -a ~/.jitx/0.11.5-rc.2
+                        #~/.jitx/current/jitx check-install
+                        #echo $PATH
+                        #jitx check-install
                         #export PATH=$PATH:~/.jitx/current/
                         #echo $PATH
                         #chmod +x jitx.sh
