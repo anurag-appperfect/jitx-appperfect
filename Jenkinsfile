@@ -61,7 +61,8 @@ pipeline {
                         cat ~/.bash_profile
                         ls ~/.jitx/current
                         ~/.jitx/current/jitx check-install
-                        #echo $PATH
+                        echo $PATH
+                        jitx check-install
                         #export PATH=$PATH:~/.jitx/current/
                         #echo $PATH
                         #chmod +x jitx.sh
