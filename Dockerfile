@@ -17,7 +17,7 @@
 # ENV PATH "$PATH:/root/.jitx/current/"
 FROM windows-base-image:latest
 SHELL ["C:/msys64/msys2_shell.cmd", "-mingw64", "-no-start", "-defterm", "-here", "--login", "-c"]
-RUN pacman -S -q --needed --noconfirm mingw-w64-x86_64-python3 wget unzip
+RUN pacman -S -q --needed --noconfirm mingw-w64-x86_64-python3
 # RUN pip3 install pytest
 # RUN pip3 install pytest-html
 # # Installs the latest internal release, it is 0.11.5-rc.2 on 02/15/2022
