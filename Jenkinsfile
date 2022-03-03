@@ -56,7 +56,8 @@ pipeline {
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #bash install.sh jitx.zip
                         #jitx check-install
-                        #export PATH=$PATH:~/.jitx/current/
+                        echo $PATH
+                        export PATH=$PATH:~/.jitx/current/
                         echo $PATH
                         #chmod +x jitx.sh
                         #./jitx.sh ./ JITX-QA
