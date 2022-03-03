@@ -52,13 +52,14 @@ pipeline {
                         #pip install pytest-html --user
                         #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
                         #brew install wget
-                        wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
-                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        bash install.sh jitx.zip
+                        #wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
+                        #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        #bash install.sh jitx.zip
                         #jitx check-install
-                        export PATH=$PATH:~/.jitx/current/
-                        chmod +x jitx.sh
-                        ./jitx.sh ./ JITX-QA
+                        #export PATH=$PATH:~/.jitx/current/
+                        echo $PATH
+                        #chmod +x jitx.sh
+                        #./jitx.sh ./ JITX-QA
                     '''
                         }
                     }
