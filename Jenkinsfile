@@ -45,9 +45,9 @@ pipeline {
                     sh '''
                         ls
                         #echo "installing pip, pytest using $($PYTHON_ALIAS --version)"
-                        curl https://bootstrap.pypa.io/pip/3.6/get-pip.py | $PYTHON_ALIAS
-                        pip3 install pytest
-                        pip3 install pytest-html
+                        #curl https://bootstrap.pypa.io/pip/3.6/get-pip.py | $PYTHON_ALIAS
+                        #pip3 install pytest
+                        #pip3 install pytest-html
                         #pip install pytest --user
                         #pip install pytest-html --user
                         #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -55,6 +55,8 @@ pipeline {
                         #wget https://jitx-staging.s3.amazonaws.com/public/ubuntu-bionic/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #bash install.sh jitx.zip
+                        jitx check-install
+                        jitx check-update
                         chmod +x jitx.sh
                         ./jitx.sh ./
                     '''
