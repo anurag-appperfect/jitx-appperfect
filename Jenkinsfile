@@ -14,7 +14,7 @@ pipeline {
                     sh '''
                         # authenticate to AWS
                         # launch container with a script as command
-                        docker build -t setup-jitx .
+                        #docker build -t setup-jitx .
                     '''
                 }
             }
