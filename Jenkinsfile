@@ -56,8 +56,9 @@ pipeline {
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #bash install.sh jitx.zip
                         echo $PATH
-                        ls ~/.jitx/
-                        jitx check-install
+                        cat ~/.bash_profile
+                        ls ~/.jitx/current
+                        ~/.jitx/current/jitx check-install
                         #echo $PATH
                         #export PATH=$PATH:~/.jitx/current/
                         #echo $PATH
