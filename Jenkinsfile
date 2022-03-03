@@ -67,7 +67,9 @@ pipeline {
                         #ls -a ~/.jitx/0.11.5-rc.2
                         export PATH=$PATH:~/.jitx/current/
                         echo $PATH
-                        chmod +x ~/.jitx/current/jitx
+
+                        file ~/.jitx/current/jitx
+                        chmod a+x ~/.jitx/current/jitx
                         jitx check-install
                         chmod +x jitx.sh
                         ./jitx.sh ./ JITX-QA
