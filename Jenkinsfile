@@ -66,8 +66,7 @@ pipeline {
                         bash install.sh jitx.zip
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
-                        cp user.params ~/.jitx/
-                        cp machine-id /etc/    
+                        cp user.params ~/.jitx/  
                         echo $PATH
                         export PATH=$PATH:~/.jitx/current/
                         echo $PATH
