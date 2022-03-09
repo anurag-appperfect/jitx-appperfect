@@ -61,6 +61,7 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
+                        rm -r ~/.jitx/0.11.5-rc.2
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         bash install.sh jitx.zip
