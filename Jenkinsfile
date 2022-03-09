@@ -61,11 +61,13 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        echo $JITPCB_VERSION
+                        #echo $JITPCB_VERSION
                         # Check if empty directory
-                        if [ -d $HOME/.jitx/$JITPCB_VERSION ]; then 
-                            if [ -z "$(ls -A $HOME/.jitx/$JITPCB_VERSION)" ]; then 
-                                rm -r $HOME/.jitx/$JITPCB_VERSION; 
+                        current_jitx_path=readlink "current"
+                        echo $current_jitx_path
+                        if [ -d $current_jitx_path ]; then 
+                            if [ -z "$(ls -A $current_jitx_path)" ]; then 
+                                rm -r $current_jitx_path; 
                             fi 
                         fi                         
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
