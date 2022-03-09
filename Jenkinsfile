@@ -63,7 +63,7 @@ pipeline {
                         ls
                         #echo $JITPCB_VERSION
                         # Check if empty directory
-                        current_jitx_path=readlink "current"
+                        current_jitx_path="$(readlink "current")"
                         echo $current_jitx_path
                         if [ -d $current_jitx_path ]; then 
                             if [ -z "$(ls -A $current_jitx_path)" ]; then 
