@@ -61,7 +61,6 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        rm -r ~/.jitx/current/
                         rm -r ~/.jitx/0.11.5-rc.2
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
@@ -71,10 +70,8 @@ pipeline {
                         cp user.params ~/.jitx/
                         echo $PATH
                         export PATH=$PATH:~/.jitx/current/
-                        ls -a ~/.jitx/0.11.5-rc.2
                         echo $PATH
                         ls ~/.jitx/
-                        ls ~/.jitx/current/
                         chmod +x jitx.sh
                         ./jitx.sh ./
                     '''
