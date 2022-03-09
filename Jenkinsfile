@@ -61,27 +61,12 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        #echo $JITPCB_VERSION
-                        # Check if empty directory
-                        dir_path="$(pwd)"
-                        cd $HOME/.jitx/
-                        ls -la
-                        ls -la current/
-                        current_jitx_path="$(readlink "current")"
-                        echo $current_jitx_path
-                        if [ -d $current_jitx_path ]; then 
-                            if [ -z "$(ls -A $current_jitx_path)" ]; then 
-                                rm -r $current_jitx_path; 
-                            fi 
-                        fi               
-                        cd $dir_path          
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        #cat install.sh
                         bash install.sh jitx.zip
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
-                        cp user.params ~/.jitx/  
+                        cp user.params ~/.jitx/
                         echo $PATH
                         export PATH=$PATH:~/.jitx/current/
                         ls -a ~/.jitx/0.11.5-rc.2
