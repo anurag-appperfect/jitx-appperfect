@@ -63,13 +63,17 @@ pipeline {
                         ls
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        cat install.sh
                         bash install.sh jitx.zip
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
                         cp user.params ~/.jitx/  
                         echo $PATH
                         export PATH=$PATH:~/.jitx/current/
+                        ls -a ~/.jitx/0.11.5-rc.2
                         echo $PATH
+                        ls ~/.jitx/
+                        ls ~/.jitx/current/
                         chmod +x jitx.sh
                         ./jitx.sh ./
                     '''
