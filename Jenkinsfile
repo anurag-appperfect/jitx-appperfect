@@ -65,6 +65,8 @@ pipeline {
                         # Check if empty directory
                         dir_path="$(pwd)"
                         cd $HOME/.jitx/
+                        ls -la
+                        ls -la current/
                         current_jitx_path="$(readlink "current")"
                         echo $current_jitx_path
                         if [ -d $current_jitx_path ]; then 
@@ -72,7 +74,7 @@ pipeline {
                                 rm -r $current_jitx_path; 
                             fi 
                         fi               
-                        cd dir_path          
+                        cd $dir_path          
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #cat install.sh
