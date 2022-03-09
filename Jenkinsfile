@@ -61,6 +61,7 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
+                        echo $JITPCB_VERSION
                         # Check if empty directory
                         if [ -d $HOME/.jitx/$JITPCB_VERSION ]; then 
                             if [ -z "$(ls -A $HOME/.jitx/$JITPCB_VERSION)" ]; then 
@@ -69,7 +70,7 @@ pipeline {
                         fi                         
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        cat install.sh
+                        #cat install.sh
                         bash install.sh jitx.zip
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
