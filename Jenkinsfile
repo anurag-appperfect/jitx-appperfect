@@ -4,21 +4,21 @@ pipeline {
         skipDefaultCheckout(true)
     }
     stages {
-        stage ('Installing jitx') {
-            steps {
-                node ('slave-node01||master') {
-                    cleanWs()
-                    checkout scm
-                    // My comment
-                    sh 'pwd'
-                    sh '''
-                        # authenticate to AWS
-                        # launch container with a script as command
-                        #docker build -t setup-jitx .
-                    '''
-                }
-            }
-        }
+        // stage ('Installing jitx') {
+        //     steps {
+        //         node ('slave-node01||master') {
+        //             cleanWs()
+        //             checkout scm
+        //             // My comment
+        //             sh 'pwd'
+        //             sh '''
+        //                 # authenticate to AWS
+        //                 # launch container with a script as command
+        //                 #docker build -t setup-jitx .
+        //             '''
+        //         }
+        //     }
+        // }
         // stage ('Tests on Ubuntu bionic') {
         //     steps {
         //         node ('slave-node01||master') {
@@ -36,21 +36,21 @@ pipeline {
         //         }
         //     }
         // }
-        stage ('Load AWS credentials') {
-            steps {
-                node ('slave-node01||master') {
-                    cleanWs()
-                    sh '''
-                        echo "Write .env"
-                        echo > .env
-                        echo "AWS_ACCESS_KEY_ID=$(grep aws_access_key_id /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')"         >> .env
-                        echo "AWS_SECRET_ACCESS_KEY=$(grep aws_secret_access_key /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')" >> .env
-                        echo "AWS_REGION=$(grep region /home/jenkins/.aws/config | grep -oE '[^ =]+$')" >> .env
-                    '''
-                    stash name: "qa-ci", useDefaultExcludes: false
-                }
-            }
-        }
+        // stage ('Load AWS credentials') {
+        //     steps {
+        //         node ('slave-node01||master') {
+        //             cleanWs()
+        //             sh '''
+        //                 echo "Write .env"
+        //                 echo > .env
+        //                 echo "AWS_ACCESS_KEY_ID=$(grep aws_access_key_id /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')"         >> .env
+        //                 echo "AWS_SECRET_ACCESS_KEY=$(grep aws_secret_access_key /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')" >> .env
+        //                 echo "AWS_REGION=$(grep region /home/jenkins/.aws/config | grep -oE '[^ =]+$')" >> .env
+        //             '''
+        //             stash name: "qa-ci", useDefaultExcludes: false
+        //         }
+        //     }
+        // }
         // stage ('Tests on Windows') {
         //     steps {
         //         node ('Windows') {
