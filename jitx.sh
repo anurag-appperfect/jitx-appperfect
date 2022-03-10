@@ -18,6 +18,16 @@ usage() {
     exit 1
 }
 
+# Checking Platform
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     machine=Linux;;
+    Darwin*)    machine=Mac;;
+    CYGWIN*)    machine=Cygwin;;
+    MINGW*)     machine=Windows;;
+    *)          machine="UNKNOWN:${unameOut}"
+esac
+
 # Script Validation
 if [[ $# -ne 1 && $# -ne 2 ]]; then
     echo "Invalid number of arguments"
@@ -28,43 +38,43 @@ fi
 if [ $# -eq 1 ]; then
     dir_path="$1""Exporter-QA"
     cd $dir_path
-    pytest test_exporter_jitx.py --html=Exporter_report.html
+    pytest test_exporter_jitx.py --html="Exporter_$machine.html"
     cd ../Importer-QA
-    pytest test_importer_jitx.py --html=Importer_report.html
+    pytest test_importer_jitx.py --html="Importer_$machine.html"
     cd ../JITX-QA
-    pytest test_jitxqa_jitx.py --html=JITX_report.html
+    pytest test_jitxqa_jitx.py --html="JITX_$machine.html"
     cd ../OCDB-QA
-    pytest test_ocdb_jitx.py --html=OCDB_report.html
+    pytest test_ocdb_jitx.py --html="OCDB_$machine.html"
     cd ../Roundtrip-QA
-    pytest test_roundtrip_jitx.py --html=Roundtrip_report.html
+    pytest test_roundtrip_jitx.py --html="Roundtrip_$machine.html"
     cd ../Schematic-QA
-    pytest test_schematic_jitx.py  --html=Schematic_report.html
+    pytest test_schematic_jitx.py  --html="Schematic_$machine.html"
 else
     option="${2}" 
     case ${option} in 
         "Exporter-QA") dir_path="$1""Exporter-QA" 
             cd $dir_path
-            pytest test_exporter_jitx.py --html=Exporter_report.html
+            pytest test_exporter_jitx.py --html="Exporter_$machine.html"
             ;; 
         "Importer-QA") dir_path="$1""Importer-QA" 
             cd $dir_path
-            pytest test_importer_jitx.py --html=Importer_report.html
+            pytest test_importer_jitx.py --html="Importer_$machine.html"
             ;; 
         "JITX-QA") dir_path="$1""JITX-QA"
             cd $dir_path
-            pytest test_jitxqa_jitx.py --html=JITX_report.html
+            pytest test_jitxqa_jitx.py --html="JITX_$machine.html"
             ;;
         "OCDB-QA") dir_path="$1""OCDB-QA"
             cd $dir_path
-            pytest test_ocdb_jitx.py --html=OCDB_report.html
+            pytest test_ocdb_jitx.py --html="OCDB_$machine.html"
             ;;
         "Roundtrip-QA") dir_path="$1""Roundtrip-QA"
             cd $dir_path
-            pytest test_roundtrip_jitx.py --html=Roundtrip_report.html
+            pytest test_roundtrip_jitx.py --html="Roundtrip_$machine.html"
             ;;
         "Schematic-QA") dir_path="$1""Schematic-QA"
             cd $dir_path
-            pytest test_schematic_jitx.py --html=Schematic_report.html
+            pytest test_schematic_jitx.py --html="Schematic_$machine.html"
             ;;
         *)
             echo "Invalid directory name"
