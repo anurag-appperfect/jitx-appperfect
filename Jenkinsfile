@@ -82,19 +82,19 @@ pipeline {
                     sh '''
                         ls
                         #rm -r ~/.jitx/0.11.5-rc.2/
-                        ls ~/.jitx/0.11.5-rc.2/
-                        ls ~/.jitx/current/
+                        rm -r ~/.jitx/0.11.5-rc.2/
+                        rm ~/.jitx/current/
                         #rm ~/.jitx/current
                         #wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
                         #bash install.sh jitx.zip
-                        
+                        mkdir ~/.jitx/0.11.5-rc.2/
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/jitx > jitx
                         chmod +x ./jitx
                         ./jitx install-from-zip jitx.zip
                         export PATH=$PATH:~/.jitx/current/
-                        jitx version
+                        #jitx version
 
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
