@@ -83,7 +83,8 @@ pipeline {
                         ls
                         #rm -r ~/.jitx/0.11.5-rc.2/
                         rm -r ~/.jitx/0.11.5-rc.2/
-                        rm ~/.jitx/current/
+                        ls -la ~/.jitx/
+                        #rm ~/.jitx/current/
                         #rm ~/.jitx/current
                         #wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
