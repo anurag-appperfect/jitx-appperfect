@@ -1,0 +1,17 @@
+#!/bin/bash
+pacman -S -q --needed --noconfirm \
+            mingw-w64-x86_64-cmake        \
+            mingw-w64-x86_64-gtk3         \
+            mingw-w64-x86_64-ninja        \
+            mingw-w64-x86_64-python3      \
+            mingw-w64-x86_64-toolchain    \
+            curl                          \
+            git                           \
+            unzip                         \
+            wget                          \
+            zip                         
+pip3 install pytest
+
+wget https://jitx-staging.s3.amazonaws.com/public/windows/jitx.zip
+unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+bash install.sh jitx.zip
