@@ -86,6 +86,10 @@ pipeline {
                         #ls -la ~/.jitx/
                         #rm ~/.jitx/current/
                         #rm ~/.jitx/current
+                        
+                        wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
+                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        
                         source jitpcb.release/scripts/install-info.sh
                         # Check if empty directory
                         current_jitx_path=~/.jitx/$JITPCB_VERSION
@@ -94,12 +98,9 @@ pipeline {
                             if [ -z "$(ls -A $current_jitx_path)" ]; then 
                                 rm -r $current_jitx_path; 
                             fi 
-                        fi 
-                        wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
-                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        fi
+                        ls -la ~/.jitx/
                         bash install.sh jitx.zip
-
-   
 
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
