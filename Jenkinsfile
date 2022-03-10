@@ -89,8 +89,9 @@ pipeline {
                         
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        
-                        source jitpcb.release/scripts/install-info.sh
+                        unzip -p jitx.zip jitpcb.release/scripts/install-info.sh > install-info.sh
+                        ls
+                        source install-info.sh
                         # Check if empty directory
                         current_jitx_path=~/.jitx/$JITPCB_VERSION
                         echo $current_jitx_path
