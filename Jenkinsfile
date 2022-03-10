@@ -106,9 +106,9 @@ pipeline {
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
                         cp user.params ~/.jitx/
-                        #echo $PATH
-                        #export PATH=$PATH:~/.jitx/current/
-                        #echo $PATH
+                        echo $PATH
+                        export PATH=$PATH:~/.jitx/current/
+                        echo $PATH
                         ls -la ~/.jitx/0.11.5-rc.2/
                         ls -la ~/.jitx/
                         jitx check-install
