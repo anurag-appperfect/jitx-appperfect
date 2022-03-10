@@ -83,15 +83,23 @@ pipeline {
                         ls
                         #rm -r ~/.jitx/0.11.5-rc.2/
                         #rm ~/.jitx/current
+                        #wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
+                        #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        #bash install.sh jitx.zip
+                        
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
-                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        bash install.sh jitx.zip
+                        unzip -p jitx.zip jitpcb.release/jitx > jitx
+                        jitx install-from-zip jitx.zip
+                        export PATH=$PATH:~/.jitx/current/
+                        jitx version
+
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
                         cp user.params ~/.jitx/
                         echo $PATH
                         export PATH=$PATH:~/.jitx/current/
                         echo $PATH
+                        ls -la ~/.jitx/0.11.5-rc.2/
                         ls -la ~/.jitx/
                         jitx check-install
                         // chmod +x jitx.sh
