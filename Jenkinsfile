@@ -51,53 +51,54 @@ pipeline {
                 }
             }
         }
-        stage ('Tests on Windows') {
-            steps {
-                node ('Windows') {
-                    // Clean before build
-                    cleanWs()
-                    checkout scm
-                    unstash name: "qa-ci"
-                    powershell 'pwd'
-                    powershell '''
-                        Get-Content .env | ForEach-Object {
-                            if ($_) {
-                                $kv = $_.Split("=")
-                                Write-Host "Setting $($kv[0])=$($kv[1])"
-                                Set-Item -Path "Env:$($kv[0])" -Value "$($kv[1])"
-                            }
-                        }
-                        Invoke-Expression -Command (Get-ECRLoginCommand).Command
-                        docker build -t test-image-jitx .
-                    '''
-                }
-            }
-        }
-        // stage ('Tests on MacOS') {
+        // stage ('Tests on Windows') {
         //     steps {
-        //         node ('MacMini') {
+        //         node ('Windows') {
+        //             // Clean before build
         //             cleanWs()
         //             checkout scm
-        //             sh 'pwd'
-        //             sh '''
-        //                 ls
-        //                 rm -r ~/.jitx/0.11.5-rc.2
-        //                 #rm ~/.jitx/current
-        //                 wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
-        //                 unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-        //                 bash install.sh jitx.zip
-        //                 cp license ~/.jitx/
-        //                 cp refresh_license ~/.jitx/
-        //                 cp user.params ~/.jitx/
-        //                 echo $PATH
-        //                 export PATH=$PATH:~/.jitx/current/
-        //                 echo $PATH
-        //                 ls -la ~/.jitx/
-        //                 chmod +x jitx.sh
-        //                 ./jitx.sh ./
-        //             '''
+        //             unstash name: "qa-ci"
+        //             powershell 'pwd'
+        //             powershell '''
+        //                 Get-Content .env | ForEach-Object {
+        //                     if ($_) {
+        //                         $kv = $_.Split("=")
+        //                         Write-Host "Setting $($kv[0])=$($kv[1])"
+        //                         Set-Item -Path "Env:$($kv[0])" -Value "$($kv[1])"
+        //                     }
         //                 }
-        //             }
+        //                 Invoke-Expression -Command (Get-ECRLoginCommand).Command
+        //                 docker build -t test-image-jitx .
+        //             '''
         //         }
+        //     }
+        // }
+        stage ('Tests on MacOS') {
+            steps {
+                node ('MacMini') {
+                    cleanWs()
+                    checkout scm
+                    sh 'pwd'
+                    sh '''
+                        ls
+                        #rm -r ~/.jitx/0.11.5-rc.2/
+                        #rm ~/.jitx/current
+                        wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
+                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        bash install.sh jitx.zip
+                        cp license ~/.jitx/
+                        cp refresh_license ~/.jitx/
+                        cp user.params ~/.jitx/
+                        echo $PATH
+                        export PATH=$PATH:~/.jitx/current/
+                        echo $PATH
+                        ls -la ~/.jitx/
+                        jitx check-install
+                        // chmod +x jitx.sh
+                        // ./jitx.sh ./
+                    '''
+                        }
+                    }
+                }
     }
 }
