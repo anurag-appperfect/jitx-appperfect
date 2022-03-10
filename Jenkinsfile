@@ -89,7 +89,7 @@ pipeline {
                         
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         unzip -p jitx.zip jitpcb.release/jitx > jitx
-                        jitx install-from-zip jitx.zip
+                        ./jitx install-from-zip jitx.zip
                         export PATH=$PATH:~/.jitx/current/
                         jitx version
 
