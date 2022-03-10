@@ -83,19 +83,23 @@ pipeline {
                         ls
                         #rm -r ~/.jitx/0.11.5-rc.2/
                         #rm -r ~/.jitx/0.11.5-rc.2/
-                        ls -la ~/.jitx/
+                        #ls -la ~/.jitx/
                         #rm ~/.jitx/current/
                         #rm ~/.jitx/current
-                        #wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
-                        #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
-                        #bash install.sh jitx.zip
-                        #mkdir ~/.jitx/0.11.5-rc.2/
+                        source jitpcb.release/scripts/install-info.sh
+                        # Check if empty directory
+                        current_jitx_path=~/.jitx/$JITPCB_VERSION
+                        echo $current_jitx_path
+                        if [ -d $current_jitx_path ]; then 
+                            if [ -z "$(ls -A $current_jitx_path)" ]; then 
+                                rm -r $current_jitx_path; 
+                            fi 
+                        fi 
                         wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
-                        unzip -p jitx.zip jitpcb.release/jitx > jitx
-                        chmod +x ./jitx
-                        ./jitx install-from-zip jitx.zip
-                        export PATH=$PATH:~/.jitx/current/
-                        #jitx version
+                        unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
+                        bash install.sh jitx.zip
+
+   
 
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
