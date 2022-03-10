@@ -44,6 +44,7 @@ pipeline {
                     checkout scm
                     powershell 'pwd'
                     powershell '''
+                        Invoke-Expression -Command (Get-ECRLoginCommand).Command
                         docker build -t test-image-jitx .
                     '''
                 }
