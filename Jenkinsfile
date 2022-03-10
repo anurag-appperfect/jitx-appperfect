@@ -36,14 +36,37 @@ pipeline {
         //         }
         //     }
         // }
+        stage ('Load AWS credentials') {
+            steps {
+                node ('slave-node01||master') {
+                    cleanWs()
+                    sh '''
+                        echo "Write .env"
+                        echo > .env
+                        echo "AWS_ACCESS_KEY_ID=$(grep aws_access_key_id /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')"         >> .env
+                        echo "AWS_SECRET_ACCESS_KEY=$(grep aws_secret_access_key /home/jenkins/.aws/credentials | grep -oE '[^ =]+$')" >> .env
+                        echo "AWS_REGION=$(grep region /home/jenkins/.aws/config | grep -oE '[^ =]+$')" >> .env
+                    '''
+                    stash name: "qa-ci", useDefaultExcludes: false
+                }
+            }
+        }
         stage ('Tests on Windows') {
             steps {
                 node ('Windows') {
                     // Clean before build
                     cleanWs()
                     checkout scm
+                    unstash name: "qa-ci"
                     powershell 'pwd'
                     powershell '''
+                        Get-Content .env | ForEach-Object {
+                            if ($_) {
+                                $kv = $_.Split("=")
+                                Write-Host "Setting $($kv[0])=$($kv[1])"
+                                Set-Item -Path "Env:$($kv[0])" -Value "$($kv[1])"
+                            }
+                        }
                         Invoke-Expression -Command (Get-ECRLoginCommand).Command
                         docker build -t test-image-jitx .
                     '''
