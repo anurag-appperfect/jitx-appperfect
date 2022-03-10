@@ -82,6 +82,7 @@ pipeline {
                     sh '''
                         ls
                         rm -r ~/.jitx/0.11.5-rc.2/
+                        mkdir ~/.jitx/0.11.5-rc.2/
                         #rm -r ~/.jitx/0.11.5-rc.2/
                         #ls -la ~/.jitx/
                         #rm ~/.jitx/current/
