@@ -81,8 +81,9 @@ pipeline {
                     sh 'pwd'
                     sh '''
                         ls
-                        rm -r ~/.jitx/0.11.5-rc.2/
-                        ls
+                        #rm -r ~/.jitx/0.11.5-rc.2/
+                        ls ~/.jitx/0.11.5-rc.2/
+                        ls ~/.jitx/current/
                         #rm ~/.jitx/current
                         #wget https://jitx-staging.s3.amazonaws.com/public/macos-catalina/jitx.zip
                         #unzip -p jitx.zip jitpcb.release/scripts/install.sh > install.sh
@@ -98,9 +99,9 @@ pipeline {
                         cp license ~/.jitx/
                         cp refresh_license ~/.jitx/
                         cp user.params ~/.jitx/
-                        echo $PATH
-                        export PATH=$PATH:~/.jitx/current/
-                        echo $PATH
+                        #echo $PATH
+                        #export PATH=$PATH:~/.jitx/current/
+                        #echo $PATH
                         ls -la ~/.jitx/0.11.5-rc.2/
                         ls -la ~/.jitx/
                         jitx check-install
