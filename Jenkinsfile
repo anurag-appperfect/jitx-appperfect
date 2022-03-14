@@ -49,7 +49,7 @@ pipeline {
                             sh 'pwd'
                             sh '''
                                 ls
-                                docker build . --file ./ubuntu-bionic-image.dockerfile --tag setup-jitx-bionic
+                                docker build -t setup-jitx-bionic . --file ./ubuntu-bionic-image.dockerfile
                                 docker rm --force test-jitx-bionic
                                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-bionic setup-jitx-bionic
                                 docker exec --workdir /myvol3 test-jitx-bionic chmod +x jitx.sh
@@ -68,7 +68,7 @@ pipeline {
                             sh 'pwd'
                             sh '''
                                 ls
-                                docker build . --file ./ubuntu-xenial-image.dockerfile --tag setup-jitx-xenial
+                                docker build -t setup-jitx-xenial . --file ./ubuntu-xenial-image.dockerfile
                                 docker rm --force test-jitx-xenial
                                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-xenial setup-jitx-xenial
                                 docker exec --workdir /myvol3 test-jitx-xenial chmod +x jitx.sh
@@ -87,7 +87,7 @@ pipeline {
                             sh 'pwd'
                             sh '''
                                 ls
-                                docker build . --file ./centos-7-image.dockerfile --tag setup-jitx-centos
+                                docker build -t setup-jitx-centos . --file ./centos-7-image.dockerfile
                                 docker rm --force test-jitx-centos
                                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-centos setup-jitx-centos
                                 docker exec --workdir /myvol3 test-jitx-centos chmod +x jitx.sh
