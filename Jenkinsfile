@@ -49,13 +49,13 @@ pipeline {
                             sh 'pwd'
                             sh '''
                                 ls
+                                docker image rm --force setup-jitx-bionic
                                 docker build -t setup-jitx-bionic . --file ./ubuntu-bionic-image.dockerfile
                                 docker rm --force test-jitx-bionic
                                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-bionic setup-jitx-bionic
                                 docker exec --workdir /myvol3 test-jitx-bionic chmod +x jitx.sh
                                 docker exec --workdir /myvol3 test-jitx-bionic ./jitx.sh ./ 
                                 # docker exec --workdir /myvol3 test-jitx-bionic ./jitx.sh ./ JITX-QA
-                                docker image rm --force setup-jitx-bionic
                             '''
                         }
                     }
