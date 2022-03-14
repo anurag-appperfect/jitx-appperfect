@@ -49,57 +49,57 @@ pipeline {
                             sh 'pwd'
                             sh '''
                                 ls
-                                docker build -t setup-jitx-bionic . --file ./ubuntu-bionic-image.dockerfile
-                                docker run -dit -v $(pwd):/myvol3 --name test-jitx-bionic setup-jitx-bionic
-                                docker exec --workdir /myvol3 test-jitx-bionic chmod +x jitx.sh
-                                docker exec --workdir /myvol3 test-jitx-bionic ./jitx.sh ./ 
+                                #docker build -t setup-jitx-bionic . --file ./ubuntu-bionic-image.dockerfile
+                                #docker run -dit -v $(pwd):/myvol3 --name test-jitx-bionic setup-jitx-bionic
+                                #docker exec --workdir /myvol3 test-jitx-bionic chmod +x jitx.sh
+                                #docker exec --workdir /myvol3 test-jitx-bionic ./jitx.sh ./ 
                                 # docker exec --workdir /myvol3 test-jitx-bionic ./jitx.sh ./ JITX-QA
                                 docker rm --force test-jitx-bionic
-                                docker image rm --force setup-jitx-bionic
+                                #docker image rm --force setup-jitx-bionic
                             '''
                         }
                     }
                 }
-                stage ('Tests on Ubuntu xenial') {
-                    steps {
-                        node ('slave-node01||master') {
-                            // Clean before build
-                            cleanWs()
-                            checkout scm
-                            sh 'pwd'
-                            sh '''
-                                ls
-                                docker build -t setup-jitx-xenial . --file ./ubuntu-xenial-image.dockerfile
-                                docker run -dit -v $(pwd):/myvol3 --name test-jitx-xenial setup-jitx-xenial
-                                docker exec --workdir /myvol3 test-jitx-xenial chmod +x jitx.sh
-                                docker exec --workdir /myvol3 test-jitx-xenial ./jitx.sh ./ 
-                                # docker exec --workdir /myvol3 test-jitx-xenial ./jitx.sh ./ JITX-QA
-                                docker rm --force test-jitx-xenial
-                                docker image rm --force setup-jitx-xenial
-                            '''
-                        }
-                    }
-                }
-                stage ('Tests on CentOS 7') {
-                    steps {
-                        node ('slave-node01||master') {
-                            // Clean before build
-                            cleanWs()
-                            checkout scm
-                            sh 'pwd'
-                            sh '''
-                                ls
-                                docker build -t setup-jitx-centos . --file ./centos-7-image.dockerfile
-                                docker run -dit -v $(pwd):/myvol3 --name test-jitx-centos setup-jitx-centos
-                                docker exec --workdir /myvol3 test-jitx-centos chmod +x jitx.sh
-                                docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ 
-                                # docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ JITX-QA
-                                docker rm --force test-jitx-centos
-                                docker image rm --force setup-jitx-centos                       
-                            '''
-                        }
-                    }
-                }
+                // stage ('Tests on Ubuntu xenial') {
+                //     steps {
+                //         node ('slave-node01||master') {
+                //             // Clean before build
+                //             cleanWs()
+                //             checkout scm
+                //             sh 'pwd'
+                //             sh '''
+                //                 ls
+                //                 docker build -t setup-jitx-xenial . --file ./ubuntu-xenial-image.dockerfile
+                //                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-xenial setup-jitx-xenial
+                //                 docker exec --workdir /myvol3 test-jitx-xenial chmod +x jitx.sh
+                //                 docker exec --workdir /myvol3 test-jitx-xenial ./jitx.sh ./ 
+                //                 # docker exec --workdir /myvol3 test-jitx-xenial ./jitx.sh ./ JITX-QA
+                //                 docker rm --force test-jitx-xenial
+                //                 docker image rm --force setup-jitx-xenial
+                //             '''
+                //         }
+                //     }
+                // }
+                // stage ('Tests on CentOS 7') {
+                //     steps {
+                //         node ('slave-node01||master') {
+                //             // Clean before build
+                //             cleanWs()
+                //             checkout scm
+                //             sh 'pwd'
+                //             sh '''
+                //                 ls
+                //                 docker build -t setup-jitx-centos . --file ./centos-7-image.dockerfile
+                //                 docker run -dit -v $(pwd):/myvol3 --name test-jitx-centos setup-jitx-centos
+                //                 docker exec --workdir /myvol3 test-jitx-centos chmod +x jitx.sh
+                //                 docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ 
+                //                 # docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ JITX-QA
+                //                 docker rm --force test-jitx-centos
+                //                 docker image rm --force setup-jitx-centos                       
+                //             '''
+                //         }
+                //     }
+                // }
             }
         }
     }
