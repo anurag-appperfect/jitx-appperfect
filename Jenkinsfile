@@ -78,6 +78,25 @@ pipeline {
                         }
                     }
                 }
+                stage ('Tests on CentOS 7') {
+                    steps {
+                        node ('slave-node01||master') {
+                            // Clean before build
+                            cleanWs()
+                            checkout scm
+                            sh 'pwd'
+                            sh '''
+                                ls
+                                docker build . --file ./centos-7-image.dockerfile --tag setup-jitx-centos
+                                docker rm --force test-jitx-centos
+                                docker run -dit -v $(pwd):/myvol3 --name test-jitx-centos setup-jitx-centos
+                                docker exec --workdir /myvol3 test-jitx-centos chmod +x jitx.sh
+                                docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ 
+                                # docker exec --workdir /myvol3 test-jitx-centos ./jitx.sh ./ JITX-QA
+                            '''
+                        }
+                    }
+                }
             }
         }
     }
